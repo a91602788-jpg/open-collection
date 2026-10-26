@@ -1,0 +1,39 @@
+name: Suggest a resource
+about: Propose a project, component, tool or directory
+labels: [suggestion]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: Canonical project name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Original source URL
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Primary category
+      placeholder: e.g. 06-ai-and-machine-learning
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What does it do, and why should it be included?
+      description: Use a factual, original description. Mention important restrictions if known.
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Submission checklist
+      options:
+        - label: I searched for duplicates and did not include referral links or credentials.
+          required: true

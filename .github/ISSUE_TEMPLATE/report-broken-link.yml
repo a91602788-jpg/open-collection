@@ -1,0 +1,23 @@
+name: Report broken or incorrect link
+about: Help fix outdated or misleading catalog entries
+labels: [maintenance]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Catalog entry or file URL
+      placeholder: https://github.com/a91602788-jpg/open-collection/blob/main/catalog/...
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Current upstream URL (if known)
+      placeholder: https://github.com/owner/project
+  - type: textarea
+    id: details
+    attributes:
+      label: What's wrong?
+      description: No credentials, private data or exploitation details.
+    validations:
+      required: true
