@@ -77,4 +77,4 @@ These are **editorial decisions**, not CI verdicts. Automated checks may catch f
 - [GitHub content design principles](https://docs.github.com/en/contributing/writing-for-github-docs/content-design-principles) — user-centered, clear and evidence-driven documentation.
 - [Editorial policy](EDITORIAL_POLICY.md) and [Contribution guide](CONTRIBUTING.md) — existing catalog schema, rights and submission workflow.
 
-**Status:** proposed review standards; publication to main and any enforcement changes require maintainer approval. None of the linked third-party programs was installed or audited for this document.
+**Status:** published editorial standards, introduced through maintainer review. Automatic checks validate catalog structure and consistency; editorial outcomes still require review. None of the linked third-party programs was installed or audited for this document.

@@ -26,3 +26,9 @@ After editing the source catalog, regenerate its small navigation files with `py
 The GitHub workflow runs `python3 scripts/check_catalog.py` and `python3 -m unittest discover -s scripts -p 'test_*.py'`. They check the catalog structure, duplicate IDs/names, URL format, license placeholders, category counts, Markdown coverage and local links. Run the manually dispatched “Repository links” workflow for read-only live checks. No dependencies need to be installed.
 
 Small descriptive corrections are welcome. Larger restructures should explain the user-facing problem before changing the schema. Maintainers review all additions; no automatic merge is configured.
+
+## Quality and discovery
+
+Use [QUALITY_STANDARDS.md](QUALITY_STANDARDS.md) for concrete, evidence-based review. Linters and repository popularity do not establish design quality, factual correctness or production readiness. The [quality guide](guides/design-quality-and-anti-slop.md) links to reference methods rather than imposing a single aesthetic.
+
+The [topic index](research/topics.json) holds a separate, uncounted discovery queue. Raw candidate descriptions are attributed search metadata and need original RU/EN editing before inclusion. Candidates use one primary topic and cross-topic labels; stable IDs may not duplicate catalog IDs. When promoting one, remove it from the queue and update counts, byte sizes and SHA-256. `python3 scripts/check_research.py` checks separation, counts and hashes. New search snapshots need dated query URLs and explicit review status. Do not create empty catalog sections just to match the proposed topic map.

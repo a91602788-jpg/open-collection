@@ -24,6 +24,10 @@ For a CRM question, load the index and the CRM shard. Add ERP only if enterprise
 | [AGENTS.md](AGENTS.md) | Instructions for changing the collection. |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Submit a change and regenerate navigation. |
 | [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md) | Understand evidence levels and inclusion policy. |
+| [QUALITY_STANDARDS.md](QUALITY_STANDARDS.md) | Apply editorial quality gates without treating linters as product certification. |
+| [guides/design-quality-and-anti-slop.md](guides/design-quality-and-anti-slop.md) | Follow references across design, writing and engineering. |
+| [research/topics.json](research/topics.json) | Explore a topic's uncounted discovery candidates; read only for research tasks. |
+| [research/README.md](research/README.md) | Understand search coverage, exclusions and pending review. |
 | [SOURCES.md](SOURCES.md) | Understand source attribution. |
 | [VALIDATION.md](VALIDATION.md) | Launch-check evidence; current results are in Actions. |
 | [data/catalog.json](data/catalog.json) | Full export and authoritative editing source; exhaustive tasks. |
@@ -71,6 +75,7 @@ Both views represent the same records; select one format rather than fetching bo
 | 34 | Наука и инженерия / Science & engineering | 12 | [Markdown](34-science-and-engineering/README.md) | [JSON](data/categories/34-science-and-engineering.json) |
 | 35 | Открытые данные и civic tech / Open data & civic tech | 10 | [Markdown](35-open-data-and-civic-tech/README.md) | [JSON](data/categories/35-open-data-and-civic-tech.json) |
 | 36 | Поиск и базы знаний / Search & knowledge | 10 | [Markdown](36-search-and-knowledge/README.md) | [JSON](data/categories/36-search-and-knowledge.json) |
+| 37 | Качество дизайна, anti-slop и инженерные стандарты / Design Quality, Anti-AI-Slop & Engineering Standards | 38 | [Markdown](37-design-quality-and-engineering-standards/README.md) | [JSON](data/categories/37-design-quality-and-engineering-standards.json) |
 
 ## Повторное чтение / Repeat visits
 

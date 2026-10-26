@@ -8,11 +8,13 @@
 
 Публичный каталог GitHub-проектов: шаблоны SaaS, компоненты, AI, CRM, ERP, дизайн, инструменты и учебные материалы. Без отдельного сайта.
 
-**1,120 уникальных репозиториев · 36 направлений · снимок метаданных 2026-10-27**
+**1,158 уникальных репозиториев · 37 направлений · снимок метаданных 2026-10-27**
 
 Начните с [подборки по задачам](guides/start-here.md), откройте нужный раздел ниже или скачайте [JSON-каталог](data/catalog.json). В каждом разделе можно искать через `Ctrl+F` / `⌘F`.
 
 В обновлении v0.2 добавлены 120 записей с собственными описаниями RU/EN и новые подкатегории. [Изменения схемы данных](data/SCHEMA.md).
+
+[Новое направление качества](37-design-quality-and-engineering-standards/README.md) включает 38 ресурсов с собственными описаниями RU/EN. [Поиск по 70 темам](research/README.md) дал 2 035 кандидатов: они ожидают проверки и не входят в основной счётчик.
 
 ## Для AI-ассистентов
 
@@ -20,7 +22,7 @@
 
 ## Быстрые маршруты
 
-[SaaS](01-saas-and-starters/README.md) · [UI](04-web-components/README.md) · [AI / MCP](06-artificial-intelligence/README.md) · [CRM](08-crm-and-sales/README.md) · [ERP](09-erp-and-enterprise/README.md) · [E-commerce](11-ecommerce/README.md) · [Self-hosted](12-self-hosted/README.md)
+[SaaS](01-saas-and-starters/README.md) · [UI](04-web-components/README.md) · [AI / MCP](06-artificial-intelligence/README.md) · [CRM](08-crm-and-sales/README.md) · [ERP](09-erp-and-enterprise/README.md) · [E-commerce](11-ecommerce/README.md) · [Self-hosted](12-self-hosted/README.md) · [Quality](37-design-quality-and-engineering-standards/README.md)
 
 ## Каталог
 
@@ -62,6 +64,7 @@
 | 34 | [Наука и инженерия](34-science-and-engineering/README.md) | 12 |
 | 35 | [Открытые данные и civic tech](35-open-data-and-civic-tech/README.md) | 10 |
 | 36 | [Поиск и базы знаний](36-search-and-knowledge/README.md) | 10 |
+| 37 | [Качество дизайна, anti-slop и инженерные стандарты](37-design-quality-and-engineering-standards/README.md) | 38 |
 
 ## Что здесь проверено
 
@@ -73,7 +76,7 @@
 
 ## Участие и сопровождение
 
-[Contribution guide](CONTRIBUTING.md) · [Editorial policy](EDITORIAL_POLICY.md) · [Sources](SOURCES.md) · [Choosing a project](guides/choosing-a-project.md) · [Security](SECURITY.md) · [Changelog](CHANGELOG.md)
+[Contribution guide](CONTRIBUTING.md) · [Editorial policy](EDITORIAL_POLICY.md) · [Quality standards](QUALITY_STANDARDS.md) · [Sources](SOURCES.md) · [Choosing a project](guides/choosing-a-project.md) · [Security](SECURITY.md) · [Changelog](CHANGELOG.md)
 
 Предлагайте проекты через [Issue](https://github.com/a91602788-jpg/open-collection/issues/new/choose) или Pull Request. Автопроверки проверяют структуру, дубли и внутренние ссылки; еженедельный запуск перепроверяет публичные репозитории. Изменения включаются только после рассмотрения сопровождающим.
 

@@ -29,3 +29,5 @@ jobs:
         run: python3 -m unittest discover -s scripts -p 'test_*.py'
       - name: AI index, sitemap and category shards are current
         run: python3 scripts/render_ai_navigation.py --check
+      - name: Discovery queue is uncounted, deduplicated and traceable
+        run: python3 scripts/check_research.py

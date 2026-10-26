@@ -8,11 +8,13 @@
 
 A public directory of GitHub projects: SaaS starters, UI components, AI, CRM, ERP, design, tools and learning resources. Browse everything here on GitHub.
 
-**1,120 unique repositories · 36 categories · metadata snapshot 2026-10-27**
+**1,158 unique repositories · 37 categories · metadata snapshot 2026-10-27**
 
 Start with the [task guide](guides/start-here.md), browse a category below or use the [JSON catalog](data/catalog.json). Search within any category with `Ctrl+F` / `⌘F`.
 
 The v0.2 update adds 120 original RU/EN descriptions and new subcategories. See the [data schema changes](data/SCHEMA.md).
+
+[The quality category](37-design-quality-and-engineering-standards/README.md) adds 38 resources with original RU/EN descriptions. [Discovery across 70 topics](research/README.md) found 2,035 uncounted candidates awaiting editorial review.
 
 ## For AI assistants
 
@@ -20,7 +22,7 @@ Start with [llms.txt](llms.txt) or the [compact JSON index](ai/index.json), then
 
 ## Quick routes
 
-[SaaS](01-saas-and-starters/README.md) · [UI](04-web-components/README.md) · [AI / MCP](06-artificial-intelligence/README.md) · [CRM](08-crm-and-sales/README.md) · [ERP](09-erp-and-enterprise/README.md) · [E-commerce](11-ecommerce/README.md) · [Self-hosted](12-self-hosted/README.md)
+[SaaS](01-saas-and-starters/README.md) · [UI](04-web-components/README.md) · [AI / MCP](06-artificial-intelligence/README.md) · [CRM](08-crm-and-sales/README.md) · [ERP](09-erp-and-enterprise/README.md) · [E-commerce](11-ecommerce/README.md) · [Self-hosted](12-self-hosted/README.md) · [Quality](37-design-quality-and-engineering-standards/README.md)
 
 ## Catalog
 
@@ -62,6 +64,7 @@ Start with [llms.txt](llms.txt) or the [compact JSON index](ai/index.json), then
 | 34 | [Science & engineering](34-science-and-engineering/README.md) | 12 |
 | 35 | [Open data & civic tech](35-open-data-and-civic-tech/README.md) | 10 |
 | 36 | [Search & knowledge](36-search-and-knowledge/README.md) | 10 |
+| 37 | [Design quality, anti-slop & engineering standards](37-design-quality-and-engineering-standards/README.md) | 38 |
 
 ## What has been checked
 
@@ -73,7 +76,7 @@ Selected starting points have original RU/EN summaries. Other descriptions are a
 
 ## Contributing & maintenance
 
-[Contribution guide](CONTRIBUTING.md) · [Editorial policy](EDITORIAL_POLICY.md) · [Sources](SOURCES.md) · [Choosing a project](guides/choosing-a-project.md) · [Security](SECURITY.md) · [Changelog](CHANGELOG.md)
+[Contribution guide](CONTRIBUTING.md) · [Editorial policy](EDITORIAL_POLICY.md) · [Quality standards](QUALITY_STANDARDS.md) · [Sources](SOURCES.md) · [Choosing a project](guides/choosing-a-project.md) · [Security](SECURITY.md) · [Changelog](CHANGELOG.md)
 
 Suggest projects through an [issue](https://github.com/a91602788-jpg/open-collection/issues/new/choose) or pull request. Checks validate structure, duplicates and local links; a weekly run rechecks public repositories. Additions require maintainer review.
 

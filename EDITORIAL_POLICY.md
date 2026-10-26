@@ -2,6 +2,9 @@
 
 ## Scope
 
+Apply the [quality standards](QUALITY_STANDARDS.md) to new entries and revisions. The [discovery queue](research/README.md) holds uncounted candidates; search-result metadata is not editorial acceptance. Proposed research topics do not become catalog categories until populated and reviewed.
+
+
 Useful public GitHub repositories for building, operating, learning and creating: starters, libraries, applications, tools and resource collections. CRM and ERP have separate lanes; HR and inventory tools may be grouped under enterprise software without being labeled complete ERPs.
 
 ## Evidence levels
