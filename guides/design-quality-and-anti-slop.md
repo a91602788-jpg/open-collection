@@ -2,9 +2,9 @@
 
 [Home / Главная](../README.md) · [Quality standards / Стандарты](../QUALITY_STANDARDS.md) · [Editorial policy](../EDITORIAL_POLICY.md)
 
-**Research reference list, not part of the canonical resource count.** These are publicly resolvable repositories and primary guides identified for future catalog consideration. Before adding any as a counted entry to `data/catalog.json`, check its stable GitHub ID, existing entries, exact purpose, license signals and current metadata; then regenerate all derived files according to [AGENTS.md](../AGENTS.md).
+**Cross-category reference guide.** Selected sources are now indexed once in [section 37](../37-design-quality-and-engineering-standards/README.md). Existing accessibility tools remain in [section 33](../33-accessibility-and-localization/README.md). This guide adds no separate counted entries.
 
-**Список для изучения, не дополнительная статистика каталога.** Здесь собраны референсы дизайна, UX, текстов и инженерного качества. Наличие ссылки не означает, что проект запущен, проверен на безопасность или пригоден для коммерческого использования.
+**Навигационная подборка, без повторного учёта.** Раздел качества охватывает приложения, типографику, UX, тексты, архитектуру и инженерные практики. Включение означает проверку сведений о репозитории и редактуру описания, а не запуск инструмента или подтверждение качества продукта.
 
 ## 1. Anti-slop and intentional design / Против шаблонного AI-дизайна
 
@@ -68,7 +68,22 @@ Editing AI-assisted text is not license to fabricate authorship, endorsements or
 
 Do not run any listed third-party code in the catalog's CI or grant it repository secrets. For deeper evaluation, isolate execution and report exact versions, scope, evidence, dependencies and known gaps.
 
-## 6. Applying this collection / Как использовать
+## 6. Native interfaces and font engineering / Приложения и шрифты
+
+- [Android Compose samples](https://github.com/android/compose-samples) — official application UI examples; examples are learning material, not a usability audit.
+- [Apple Food Truck](https://github.com/apple/sample-food-truck) — SwiftUI application sample, useful for comparing platform-specific flows.
+- [FontBakery](https://github.com/fonttools/fontbakery) — font-file quality checks; automated technical results do not decide whether typography suits a product.
+- [fontTools](https://github.com/fonttools/fonttools) — font analysis and transformation tools.
+- [WCAG2ICT](https://github.com/w3c/wcag2ict) — guidance for applying WCAG principles to non-web documents and software.
+
+## 7. Architecture and decisions / Архитектура и решения
+
+- [Microsoft API guidelines](https://github.com/microsoft/api-guidelines) and [Zalando REST API guidelines](https://github.com/zalando/restful-api-guidelines) — service-contract references; select conventions appropriate to the system.
+- [DDD starter modelling process](https://github.com/ddd-crew/ddd-starter-modelling-process) — structured domain-modeling guidance.
+- [Architecture decision records](https://github.com/architecture-decision-record/architecture-decision-record) and [MADR](https://github.com/adr/madr) — decision context, alternatives and consequences.
+- [Vale](https://github.com/vale-cli/vale) — prose linting for chosen editorial rules; factual accuracy still needs review.
+
+## 8. Applying this collection / Как использовать
 
 1. Start from the actual product or user problem; choose a **reference**, not a template to copy.
 2. Write a one-paragraph design direction: audience, use case, content hierarchy, visual tone and interaction density.
@@ -80,4 +95,4 @@ Do not run any listed third-party code in the catalog's CI or grant it repositor
 
 Cross-category starting points: [Design](../02-design-and-creative/README.md) · [Components](../04-web-components/README.md) · [AppSec](../14-cybersecurity/README.md) · [Learning](../23-learning-and-research/README.md) · [Collections](../24-awesome-collections/README.md).
 
-**Provenance:** source repositories and official accessibility/documentation references were inspected or metadata-checked on 2026-10-27. Their status can change. This document does not claim functional verification or that these resources have already been added to the counted index.
+**Provenance:** repository metadata and selected upstream READMEs were reviewed on 2026-10-27. Canonical IDs, license signals and original RU/EN descriptions are recorded in section 37; cross-category links are counted once. Their status can change. This document does not claim functional or security verification.

@@ -1,6 +1,6 @@
 # Open Collection
 
-> A public GitHub directory of 1,120 repositories in 36 categories. Read by task, not by recursively loading the repository. RU / EN. Metadata snapshot: 2026-10-27.
+> A public GitHub directory of 1,158 repositories in 37 categories. Read by task, not by recursively loading the repository. RU / EN. Metadata snapshot: 2026-10-27.
 
 For a lookup: read the compact index, select the relevant category by its Russian/English title, then fetch that category's JSON or Markdown. Start with one category and expand only when the task needs it. For a known repository, search its owner/name within the selected file. Cite the original project's URL.
 
@@ -22,4 +22,6 @@ Resolve relative links against the URL of this file to keep the same branch or c
 
 - [Editorial policy](EDITORIAL_POLICY.md): scope, evidence limits and licensing distinctions.
 - [Contribution guide](CONTRIBUTING.md): change and regeneration process.
-- [Full catalog export](data/catalog.json): 1,196,623 bytes; use for exhaustive searches, complete exports or source edits.
+- [Quality standards](QUALITY_STANDARDS.md): editorial gates for descriptions, design and engineering claims; not a product certification.
+- [Uncounted discovery queue](research/topics.json): 70 searched topics, per-topic paths and pending editorial candidates; load for discovery tasks only.
+- [Full catalog export](data/catalog.json): 1,254,638 bytes; use for exhaustive searches, complete exports or source edits.

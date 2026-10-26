@@ -82,6 +82,8 @@ Resolve relative links against the URL of this file to keep the same branch or c
 
 - [Editorial policy]({RAW}EDITORIAL_POLICY.md): scope, evidence limits and licensing distinctions.
 - [Contribution guide]({RAW}CONTRIBUTING.md): change and regeneration process.
+- [Quality standards]({RAW}QUALITY_STANDARDS.md): editorial gates for descriptions, design and engineering claims; not a product certification.
+- [Uncounted discovery queue]({RAW}research/topics.json): 70 searched topics, per-topic paths and pending editorial candidates; load for discovery tasks only.
 - [Full catalog export]({RAW}data/catalog.json): {len(catalog_bytes):,} bytes; use for exhaustive searches, complete exports or source edits.
 '''
     output['llms.txt'] = llms.encode('utf-8')
@@ -112,6 +114,10 @@ For a CRM question, load the index and the CRM shard. Add ERP only if enterprise
 | [AGENTS.md](AGENTS.md) | Instructions for changing the collection. |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Submit a change and regenerate navigation. |
 | [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md) | Understand evidence levels and inclusion policy. |
+| [QUALITY_STANDARDS.md](QUALITY_STANDARDS.md) | Apply editorial quality gates without treating linters as product certification. |
+| [guides/design-quality-and-anti-slop.md](guides/design-quality-and-anti-slop.md) | Follow references across design, writing and engineering. |
+| [research/topics.json](research/topics.json) | Explore a topic's uncounted discovery candidates; read only for research tasks. |
+| [research/README.md](research/README.md) | Understand search coverage, exclusions and pending review. |
 | [SOURCES.md](SOURCES.md) | Understand source attribution. |
 | [VALIDATION.md](VALIDATION.md) | Launch-check evidence; current results are in Actions. |
 | [data/catalog.json](data/catalog.json) | Full export and authoritative editing source; exhaustive tasks. |

@@ -3,15 +3,15 @@
   "name": "Open Collection AI navigation",
   "repository": "https://github.com/a91602788-jpg/open-collection",
   "snapshot_date": "2026-10-27",
-  "total_entries": 1120,
+  "total_entries": 1158,
   "routing": "Select categories by bilingual titles; fetch only their data_path or markdown_path.",
   "url_resolution": "Resolve raw_url relative to this index URL. data_path and markdown_path are relative to the repository root. Keep the same branch or commit.",
   "cache": "Reuse files when sha256 is unchanged. Hashes describe exact UTF-8 file bytes. On mismatch, refresh this index before retrying.",
   "verification": "GitHub API metadata only; no installation, security audit or license legal review.",
   "source": {
     "path": "data/catalog.json",
-    "bytes": 1196623,
-    "sha256": "6fda978f1e1cb0a5521f62ccd5505eb97449502dbdc3dd8514d0e6257a25c461",
+    "bytes": 1254638,
+    "sha256": "e22d6d1f7cb62c5312a7591b85d288c0b63c7962fa4ac3f4b90607749738134f",
     "usage": "Full export and editing source; load for exhaustive tasks only."
   },
   "categories": [
@@ -718,6 +718,67 @@
       "raw_url": "../data/categories/36-search-and-knowledge.json",
       "bytes": 11064,
       "sha256": "3b1106e5a47bcd52c89af6d54586457d6a60793ed20c91b329fdeb71e879b500"
+    },
+    {
+      "id": "37-design-quality-and-engineering-standards",
+      "title_ru": "Качество дизайна, anti-slop и инженерные стандарты",
+      "title_en": "Design Quality, Anti-AI-Slop & Engineering Standards",
+      "count": 38,
+      "subcategories": [
+        {
+          "id": "design-critique",
+          "title_ru": "Дизайн-критика и anti-slop",
+          "title_en": "Design critique & anti-slop",
+          "count": 7
+        },
+        {
+          "id": "design-systems",
+          "title_ru": "Дизайн-системы и референсы",
+          "title_en": "Design systems & references",
+          "count": 8
+        },
+        {
+          "id": "ux-accessibility",
+          "title_ru": "UX и доступность",
+          "title_en": "UX & accessibility",
+          "count": 5
+        },
+        {
+          "id": "writing-documentation",
+          "title_ru": "Тексты и документация",
+          "title_en": "Writing & documentation",
+          "count": 4
+        },
+        {
+          "id": "engineering-standards",
+          "title_ru": "Качество кода",
+          "title_en": "Code quality",
+          "count": 3
+        },
+        {
+          "id": "security-quality",
+          "title_ru": "Безопасность и сопровождение",
+          "title_en": "Security & maintenance",
+          "count": 2
+        },
+        {
+          "id": "architecture",
+          "title_ru": "Архитектура и API",
+          "title_en": "Architecture & APIs",
+          "count": 5
+        },
+        {
+          "id": "typography-native",
+          "title_ru": "Шрифты и нативные интерфейсы",
+          "title_en": "Fonts & native interfaces",
+          "count": 4
+        }
+      ],
+      "markdown_path": "37-design-quality-and-engineering-standards/README.md",
+      "data_path": "data/categories/37-design-quality-and-engineering-standards.json",
+      "raw_url": "../data/categories/37-design-quality-and-engineering-standards.json",
+      "bytes": 48518,
+      "sha256": "ad795f8fd3ee568f4b983bc3891fa845213cd6fb21b7402ddf06c6c1161d4e40"
     }
   ]
 }
