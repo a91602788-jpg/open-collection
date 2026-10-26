@@ -1,0 +1,352 @@
+[
+  {
+    "category": "starters",
+    "query": "boilerplate stars:>200 archived:false fork:false",
+    "url": "https://github.com/search?q=boilerplate+stars%3A%3E200+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "starters",
+    "query": "starter template stars:>200 archived:false fork:false",
+    "url": "https://github.com/search?q=starter+template+stars%3A%3E200+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "web",
+    "query": "topic:ui-components stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aui-components+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "web",
+    "query": "topic:web-framework stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aweb-framework+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 74
+  },
+  {
+    "category": "mobile",
+    "query": "topic:flutter stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aflutter+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "mobile",
+    "query": "topic:react-native stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Areact-native+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "ai",
+    "query": "topic:llm stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Allm+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "ai",
+    "query": "topic:ai-agents stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aai-agents+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "data",
+    "query": "topic:database stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Adatabase+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "data",
+    "query": "topic:data-engineering stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Adata-engineering+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 78
+  },
+  {
+    "category": "business",
+    "query": "topic:ecommerce stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aecommerce+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "business",
+    "query": "topic:crm stars:>200 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Acrm+stars%3A%3E200+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 95
+  },
+  {
+    "category": "self-hosted",
+    "query": "topic:self-hosted stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "self-hosted",
+    "query": "topic:productivity stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aproductivity+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "devops",
+    "query": "topic:devops stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Adevops+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "devops",
+    "query": "topic:monitoring stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Amonitoring+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "security",
+    "query": "topic:authentication stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aauthentication+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "security",
+    "query": "topic:security stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Asecurity+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "design",
+    "query": "topic:icons stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aicons+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "design",
+    "query": "topic:design-system stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Adesign-system+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "learning",
+    "query": "topic:learn-to-code stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Alearn-to-code+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 51
+  },
+  {
+    "category": "learning",
+    "query": "topic:project-based-learning stars:>200 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aproject-based-learning+stars%3A%3E200+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 9
+  },
+  {
+    "category": "hardware-games",
+    "query": "topic:game-engine stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Agame-engine+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "hardware-games",
+    "query": "topic:iot stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aiot+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "collections",
+    "query": "awesome in:name stars:>10000 archived:false fork:false",
+    "url": "https://github.com/search?q=awesome+in%3Aname+stars%3A%3E10000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "collections",
+    "query": "awesome in:name stars:>2000 topic:awesome-list archived:false fork:false",
+    "url": "https://github.com/search?q=awesome+in%3Aname+stars%3A%3E2000+topic%3Aawesome-list+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "01-saas-and-starters",
+    "query": "starter boilerplate in:name stars:>200 archived:false fork:false",
+    "url": "https://github.com/search?q=starter+boilerplate+in%3Aname+stars%3A%3E200+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 1
+  },
+  {
+    "category": "02-design-and-creative",
+    "query": "topic:icons stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aicons+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "03-web-development",
+    "query": "topic:web-framework stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aweb-framework+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 74
+  },
+  {
+    "category": "04-web-components",
+    "query": "topic:ui-components stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aui-components+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "05-mobile-applications",
+    "query": "topic:react-native stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Areact-native+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "06-artificial-intelligence",
+    "query": "topic:ai-agents stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aai-agents+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "07-databases-and-storage",
+    "query": "topic:database stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Adatabase+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "08-crm-and-sales",
+    "query": "crm in:name stars:>100 archived:false fork:false",
+    "url": "https://github.com/search?q=crm+in%3Aname+stars%3A%3E100+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "09-erp-and-enterprise",
+    "query": "erp in:name stars:>100 archived:false fork:false",
+    "url": "https://github.com/search?q=erp+in%3Aname+stars%3A%3E100+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 80
+  },
+  {
+    "category": "10-finance-and-payments",
+    "query": "topic:accounting stars:>100 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aaccounting+stars%3A%3E100+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 96
+  },
+  {
+    "category": "11-ecommerce",
+    "query": "topic:ecommerce stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aecommerce+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "12-self-hosted",
+    "query": "topic:self-hosted stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "13-devops-and-cloud",
+    "query": "topic:devops stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Adevops+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "14-cybersecurity",
+    "query": "topic:security stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Asecurity+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "15-apis-and-sdks",
+    "query": "topic:api-gateway stars:>200 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aapi-gateway+stars%3A%3E200+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "16-automation-and-nocode",
+    "query": "topic:workflow-automation stars:>200 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aworkflow-automation+stars%3A%3E200+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "17-data-and-analytics",
+    "query": "topic:data-engineering stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Adata-engineering+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 78
+  },
+  {
+    "category": "18-content-and-marketing",
+    "query": "topic:cms stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Acms+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "19-collaboration",
+    "query": "topic:collaboration stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Acollaboration+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "20-desktop-and-utilities",
+    "query": "topic:productivity stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aproductivity+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "21-hardware-and-iot",
+    "query": "topic:iot stars:>1000 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aiot+stars%3A%3E1000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "22-gaming-and-media",
+    "query": "topic:game-engine stars:>500 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Agame-engine+stars%3A%3E500+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  },
+  {
+    "category": "23-learning-and-research",
+    "query": "topic:project-based-learning stars:>200 archived:false fork:false",
+    "url": "https://github.com/search?q=topic%3Aproject-based-learning+stars%3A%3E200+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 9
+  },
+  {
+    "category": "24-awesome-collections",
+    "query": "awesome in:name stars:>5000 archived:false fork:false",
+    "url": "https://github.com/search?q=awesome+in%3Aname+stars%3A%3E5000+archived%3Afalse+fork%3Afalse&type=repositories",
+    "checked_at": "2026-10-27",
+    "returned": 100
+  }
+]

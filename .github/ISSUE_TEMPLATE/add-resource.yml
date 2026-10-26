@@ -1,0 +1,35 @@
+name: Suggest a repository / Предложить проект
+description: Suggest a useful public GitHub project.
+title: "[Add] "
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Canonical GitHub URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category / Раздел
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Which task does it solve? / Какую задачу решает?
+    validations:
+      required: true
+  - type: textarea
+    id: license
+    attributes:
+      label: License file and relevant limitations / Лицензия и ограничения
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: Your affiliation / Ваша связь с проектом
+    validations:
+      required: true

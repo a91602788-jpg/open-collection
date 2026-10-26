@@ -1,0 +1,15 @@
+name: Fix catalog information / Исправить сведения
+description: Report a broken link, duplicate or misleading description.
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Repository or catalog entry
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is wrong, and what is the primary-source evidence?
+    validations:
+      required: true
