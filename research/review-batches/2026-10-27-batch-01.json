@@ -1,0 +1,1799 @@
+{
+  "batch_id": "2026-10-27-batch-01",
+  "checked_at": "2026-10-27",
+  "base_commit": "1a1f0af31fba2bf3f2a1099a4fde62978f09d130",
+  "scope": "Proposed metadata-only editorial batch prepared by Codex; maintainer approval required before merge. Remaining candidates are not all reviewed.",
+  "before": {
+    "catalog_entries": 1158,
+    "catalog_categories": 37,
+    "active_candidates": 2035
+  },
+  "after": {
+    "catalog_entries": 1307,
+    "catalog_categories": 63,
+    "active_candidates": 1879
+  },
+  "decision_counts": {
+    "proposed-for-inclusion": 149,
+    "removed-from-active-queue": 7,
+    "topic-reclassified": 42,
+    "retained-for-later-topic-batch": 1
+  },
+  "decisions": [
+    {
+      "id": 1061953414,
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "decision": "proposed-for-inclusion",
+      "category": "38-ai-agent-skills-and-rules",
+      "resource_type": "learning",
+      "evidence": "https://github.com/anthropics/skills/blob/main/README.md"
+    },
+    {
+      "id": 1117639997,
+      "repo": "agentskills/agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "decision": "proposed-for-inclusion",
+      "category": "38-ai-agent-skills-and-rules",
+      "resource_type": "specification",
+      "evidence": "https://github.com/agentskills/agentskills/blob/main/README.md"
+    },
+    {
+      "id": 1073224795,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "decision": "proposed-for-inclusion",
+      "category": "38-ai-agent-skills-and-rules",
+      "resource_type": "learning",
+      "evidence": "https://github.com/obra/superpowers/blob/main/README.md"
+    },
+    {
+      "id": 1000362065,
+      "repo": "github/awesome-copilot",
+      "url": "https://github.com/github/awesome-copilot",
+      "decision": "proposed-for-inclusion",
+      "category": "38-ai-agent-skills-and-rules",
+      "resource_type": "learning",
+      "evidence": "https://github.com/github/awesome-copilot/blob/main/README.md"
+    },
+    {
+      "id": 957658915,
+      "repo": "humanlayer/12-factor-agents",
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "decision": "proposed-for-inclusion",
+      "category": "38-ai-agent-skills-and-rules",
+      "resource_type": "learning",
+      "evidence": "https://github.com/humanlayer/12-factor-agents/blob/main/README.md"
+    },
+    {
+      "id": 1127110039,
+      "repo": "OthmanAdi/planning-with-files",
+      "url": "https://github.com/OthmanAdi/planning-with-files",
+      "decision": "proposed-for-inclusion",
+      "category": "38-ai-agent-skills-and-rules",
+      "resource_type": "learning",
+      "evidence": "https://github.com/OthmanAdi/planning-with-files/blob/master/README.md"
+    },
+    {
+      "id": 372240402,
+      "repo": "alan2207/bulletproof-react",
+      "url": "https://github.com/alan2207/bulletproof-react",
+      "decision": "proposed-for-inclusion",
+      "category": "39-software-architecture",
+      "resource_type": "learning",
+      "evidence": "https://github.com/alan2207/bulletproof-react/blob/master/README.md"
+    },
+    {
+      "id": 192632000,
+      "repo": "dapr/dapr",
+      "url": "https://github.com/dapr/dapr",
+      "decision": "proposed-for-inclusion",
+      "category": "39-software-architecture",
+      "resource_type": "application",
+      "evidence": "https://github.com/dapr/dapr/blob/master/README.md"
+    },
+    {
+      "id": 165041732,
+      "repo": "go-kratos/kratos",
+      "url": "https://github.com/go-kratos/kratos",
+      "decision": "proposed-for-inclusion",
+      "category": "39-software-architecture",
+      "resource_type": "library",
+      "evidence": "https://github.com/go-kratos/kratos/blob/main/README.md"
+    },
+    {
+      "id": 13753636,
+      "repo": "jhipster/generator-jhipster",
+      "url": "https://github.com/jhipster/generator-jhipster",
+      "decision": "proposed-for-inclusion",
+      "category": "39-software-architecture",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/jhipster/generator-jhipster/blob/main/README.md"
+    },
+    {
+      "id": 492487995,
+      "repo": "meysamhadeli/booking-modular-monolith",
+      "url": "https://github.com/meysamhadeli/booking-modular-monolith",
+      "decision": "proposed-for-inclusion",
+      "category": "39-software-architecture",
+      "resource_type": "learning",
+      "evidence": "https://github.com/meysamhadeli/booking-modular-monolith/blob/main/README.md"
+    },
+    {
+      "id": 138547797,
+      "repo": "FiloSottile/mkcert",
+      "url": "https://github.com/FiloSottile/mkcert",
+      "decision": "proposed-for-inclusion",
+      "category": "40-developer-tools-and-dx",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/FiloSottile/mkcert/blob/master/README.md"
+    },
+    {
+      "id": 53631945,
+      "repo": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "decision": "proposed-for-inclusion",
+      "category": "40-developer-tools-and-dx",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/BurntSushi/ripgrep/blob/master/README.md"
+    },
+    {
+      "id": 90793418,
+      "repo": "sharkdp/fd",
+      "url": "https://github.com/sharkdp/fd",
+      "decision": "proposed-for-inclusion",
+      "category": "40-developer-tools-and-dx",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/sharkdp/fd/blob/master/README.md"
+    },
+    {
+      "id": 36502,
+      "repo": "git/git",
+      "url": "https://github.com/git/git",
+      "decision": "proposed-for-inclusion",
+      "category": "40-developer-tools-and-dx",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/git/git/blob/master/README.md"
+    },
+    {
+      "id": 221981891,
+      "repo": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "decision": "proposed-for-inclusion",
+      "category": "41-testing-and-quality-assurance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/microsoft/playwright/blob/main/README.md"
+    },
+    {
+      "id": 31629751,
+      "repo": "cypress-io/cypress",
+      "url": "https://github.com/cypress-io/cypress",
+      "decision": "proposed-for-inclusion",
+      "category": "41-testing-and-quality-assurance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/cypress-io/cypress/blob/develop/README.md"
+    },
+    {
+      "id": 7613257,
+      "repo": "SeleniumHQ/selenium",
+      "url": "https://github.com/SeleniumHQ/selenium",
+      "decision": "proposed-for-inclusion",
+      "category": "41-testing-and-quality-assurance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/SeleniumHQ/selenium/blob/trunk/README.md"
+    },
+    {
+      "id": 90796663,
+      "repo": "puppeteer/puppeteer",
+      "url": "https://github.com/puppeteer/puppeteer",
+      "decision": "proposed-for-inclusion",
+      "category": "41-testing-and-quality-assurance",
+      "resource_type": "library",
+      "evidence": "https://github.com/puppeteer/puppeteer/blob/main/README.md"
+    },
+    {
+      "id": 15062869,
+      "repo": "jestjs/jest",
+      "url": "https://github.com/jestjs/jest",
+      "decision": "proposed-for-inclusion",
+      "category": "41-testing-and-quality-assurance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/jestjs/jest/blob/main/README.md"
+    },
+    {
+      "id": 1377867,
+      "repo": "locustio/locust",
+      "url": "https://github.com/locustio/locust",
+      "decision": "proposed-for-inclusion",
+      "category": "41-testing-and-quality-assurance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/locustio/locust/blob/master/README.md"
+    },
+    {
+      "id": 54400687,
+      "repo": "grafana/k6",
+      "url": "https://github.com/grafana/k6",
+      "decision": "proposed-for-inclusion",
+      "category": "41-testing-and-quality-assurance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/grafana/k6/blob/master/README.md"
+    },
+    {
+      "id": 12080551,
+      "repo": "tsenart/vegeta",
+      "url": "https://github.com/tsenart/vegeta",
+      "decision": "proposed-for-inclusion",
+      "category": "41-testing-and-quality-assurance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/tsenart/vegeta/blob/master/README.md"
+    },
+    {
+      "id": 6247705,
+      "repo": "stretchr/testify",
+      "url": "https://github.com/stretchr/testify",
+      "decision": "proposed-for-inclusion",
+      "category": "41-testing-and-quality-assurance",
+      "resource_type": "library",
+      "evidence": "https://github.com/stretchr/testify/blob/master/README.md"
+    },
+    {
+      "id": 86149,
+      "repo": "unclebob/fitnesse",
+      "url": "https://github.com/unclebob/fitnesse",
+      "decision": "proposed-for-inclusion",
+      "category": "41-testing-and-quality-assurance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/unclebob/fitnesse/blob/master/README.md"
+    },
+    {
+      "id": 94911145,
+      "repo": "facebook/docusaurus",
+      "url": "https://github.com/facebook/docusaurus",
+      "decision": "proposed-for-inclusion",
+      "category": "42-documentation-and-technical-writing",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/facebook/docusaurus/blob/main/README.md"
+    },
+    {
+      "id": 74260508,
+      "repo": "docsifyjs/docsify",
+      "url": "https://github.com/docsifyjs/docsify",
+      "decision": "proposed-for-inclusion",
+      "category": "42-documentation-and-technical-writing",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/docsifyjs/docsify/blob/develop/README.md"
+    },
+    {
+      "id": 15830664,
+      "repo": "mkdocs/mkdocs",
+      "url": "https://github.com/mkdocs/mkdocs",
+      "decision": "proposed-for-inclusion",
+      "category": "42-documentation-and-technical-writing",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/mkdocs/mkdocs/blob/master/README.md"
+    },
+    {
+      "id": 50617428,
+      "repo": "squidfunk/mkdocs-material",
+      "url": "https://github.com/squidfunk/mkdocs-material",
+      "decision": "proposed-for-inclusion",
+      "category": "42-documentation-and-technical-writing",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/squidfunk/mkdocs-material/blob/master/README.md"
+    },
+    {
+      "id": 15019962,
+      "repo": "tldr-pages/tldr",
+      "url": "https://github.com/tldr-pages/tldr",
+      "decision": "proposed-for-inclusion",
+      "category": "42-documentation-and-technical-writing",
+      "resource_type": "learning",
+      "evidence": "https://github.com/tldr-pages/tldr/blob/main/README.md"
+    },
+    {
+      "id": 90563585,
+      "repo": "chubin/cheat.sh",
+      "url": "https://github.com/chubin/cheat.sh",
+      "decision": "proposed-for-inclusion",
+      "category": "42-documentation-and-technical-writing",
+      "resource_type": "application",
+      "evidence": "https://github.com/chubin/cheat.sh/blob/master/README.md"
+    },
+    {
+      "id": 35955666,
+      "repo": "jlevy/the-art-of-command-line",
+      "url": "https://github.com/jlevy/the-art-of-command-line",
+      "decision": "proposed-for-inclusion",
+      "category": "42-documentation-and-technical-writing",
+      "resource_type": "learning",
+      "evidence": "https://github.com/jlevy/the-art-of-command-line/blob/master/README.md"
+    },
+    {
+      "id": 237791077,
+      "repo": "mingrammer/diagrams",
+      "url": "https://github.com/mingrammer/diagrams",
+      "decision": "proposed-for-inclusion",
+      "category": "42-documentation-and-technical-writing",
+      "resource_type": "library",
+      "evidence": "https://github.com/mingrammer/diagrams/blob/master/README.md"
+    },
+    {
+      "id": 65848095,
+      "repo": "requarks/wiki",
+      "url": "https://github.com/requarks/wiki",
+      "decision": "proposed-for-inclusion",
+      "category": "42-documentation-and-technical-writing",
+      "resource_type": "application",
+      "evidence": "https://github.com/requarks/wiki/blob/scarlett/README.md"
+    },
+    {
+      "id": 674295265,
+      "repo": "docmost/docmost",
+      "url": "https://github.com/docmost/docmost",
+      "decision": "proposed-for-inclusion",
+      "category": "42-documentation-and-technical-writing",
+      "resource_type": "application",
+      "evidence": "https://github.com/docmost/docmost/blob/main/README.md"
+    },
+    {
+      "id": 75821432,
+      "repo": "llvm/llvm-project",
+      "url": "https://github.com/llvm/llvm-project",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/llvm/llvm-project/blob/main/README.md"
+    },
+    {
+      "id": 20929025,
+      "repo": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/microsoft/TypeScript/blob/main/README.md"
+    },
+    {
+      "id": 1903522,
+      "repo": "php/php-src",
+      "url": "https://github.com/php/php-src",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/php/php-src/blob/master/README.md"
+    },
+    {
+      "id": 724712,
+      "repo": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/rust-lang/rust/blob/main/README.md"
+    },
+    {
+      "id": 24420506,
+      "repo": "v8/v8",
+      "url": "https://github.com/v8/v8",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/v8/v8/blob/main/README.md"
+    },
+    {
+      "id": 1357796,
+      "repo": "emscripten-core/emscripten",
+      "url": "https://github.com/emscripten-core/emscripten",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/emscripten-core/emscripten/blob/main/README.md"
+    },
+    {
+      "id": 105138356,
+      "repo": "AssemblyScript/assemblyscript",
+      "url": "https://github.com/AssemblyScript/assemblyscript",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/AssemblyScript/assemblyscript/blob/main/README.md"
+    },
+    {
+      "id": 136505169,
+      "repo": "tinygo-org/tinygo",
+      "url": "https://github.com/tinygo-org/tinygo",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/tinygo-org/tinygo/blob/dev/README.md"
+    },
+    {
+      "id": 135201145,
+      "repo": "RustPython/RustPython",
+      "url": "https://github.com/RustPython/RustPython",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/RustPython/RustPython/blob/main/README.md"
+    },
+    {
+      "id": 6887813,
+      "repo": "crystal-lang/crystal",
+      "url": "https://github.com/crystal-lang/crystal",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/crystal-lang/crystal/blob/master/README.md"
+    },
+    {
+      "id": 62341543,
+      "repo": "gleam-lang/gleam",
+      "url": "https://github.com/gleam-lang/gleam",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/gleam-lang/gleam/blob/main/README.md"
+    },
+    {
+      "id": 29078997,
+      "repo": "dotnet/roslyn",
+      "url": "https://github.com/dotnet/roslyn",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/dotnet/roslyn/blob/main/README.md"
+    },
+    {
+      "id": 410989014,
+      "repo": "exaloop/codon",
+      "url": "https://github.com/exaloop/codon",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/exaloop/codon/blob/develop/README.md"
+    },
+    {
+      "id": 9626741,
+      "repo": "Nuitka/Nuitka",
+      "url": "https://github.com/Nuitka/Nuitka",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/Nuitka/Nuitka/blob/develop/README.rst"
+    },
+    {
+      "id": 115039706,
+      "repo": "rust-lang/rust-analyzer",
+      "url": "https://github.com/rust-lang/rust-analyzer",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/rust-lang/rust-analyzer/blob/master/README.md"
+    },
+    {
+      "id": 115110181,
+      "repo": "swc-project/swc",
+      "url": "https://github.com/swc-project/swc",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/swc-project/swc/blob/main/README.md"
+    },
+    {
+      "id": 599431918,
+      "repo": "oxc-project/oxc",
+      "url": "https://github.com/oxc-project/oxc",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/oxc-project/oxc/blob/main/README.md"
+    },
+    {
+      "id": 4414698,
+      "repo": "compiler-explorer/compiler-explorer",
+      "url": "https://github.com/compiler-explorer/compiler-explorer",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "application",
+      "evidence": "https://github.com/compiler-explorer/compiler-explorer/blob/main/README.md"
+    },
+    {
+      "id": 23496542,
+      "repo": "triton-lang/triton",
+      "url": "https://github.com/triton-lang/triton",
+      "decision": "proposed-for-inclusion",
+      "category": "43-programming-languages-and-compilers",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/triton-lang/triton/blob/main/README.md"
+    },
+    {
+      "id": 62712899,
+      "repo": "AdguardTeam/AdGuardHome",
+      "url": "https://github.com/AdguardTeam/AdGuardHome",
+      "decision": "proposed-for-inclusion",
+      "category": "44-networking-and-connectivity",
+      "resource_type": "application",
+      "evidence": "https://github.com/AdguardTeam/AdGuardHome/blob/master/README.md"
+    },
+    {
+      "id": 1064563,
+      "repo": "netty/netty",
+      "url": "https://github.com/netty/netty",
+      "decision": "proposed-for-inclusion",
+      "category": "44-networking-and-connectivity",
+      "resource_type": "library",
+      "evidence": "https://github.com/netty/netty/blob/4.2/README.md"
+    },
+    {
+      "id": 636853988,
+      "repo": "cloudflare/pingora",
+      "url": "https://github.com/cloudflare/pingora",
+      "decision": "proposed-for-inclusion",
+      "category": "44-networking-and-connectivity",
+      "resource_type": "library",
+      "evidence": "https://github.com/cloudflare/pingora/blob/main/README.md"
+    },
+    {
+      "id": 14812739,
+      "repo": "libuv/libuv",
+      "url": "https://github.com/libuv/libuv",
+      "decision": "proposed-for-inclusion",
+      "category": "44-networking-and-connectivity",
+      "resource_type": "library",
+      "evidence": "https://github.com/libuv/libuv/blob/v1.x/README.md"
+    },
+    {
+      "id": 22458259,
+      "repo": "Alamofire/Alamofire",
+      "url": "https://github.com/Alamofire/Alamofire",
+      "decision": "proposed-for-inclusion",
+      "category": "44-networking-and-connectivity",
+      "resource_type": "library",
+      "evidence": "https://github.com/Alamofire/Alamofire/blob/master/README.md"
+    },
+    {
+      "id": 222172014,
+      "repo": "slackhq/nebula",
+      "url": "https://github.com/slackhq/nebula",
+      "decision": "proposed-for-inclusion",
+      "category": "44-networking-and-connectivity",
+      "resource_type": "application",
+      "evidence": "https://github.com/slackhq/nebula/blob/master/README.md"
+    },
+    {
+      "id": 9647856,
+      "repo": "zerotier/ZeroTierOne",
+      "url": "https://github.com/zerotier/ZeroTierOne",
+      "decision": "proposed-for-inclusion",
+      "category": "44-networking-and-connectivity",
+      "resource_type": "application",
+      "evidence": "https://github.com/zerotier/ZeroTierOne/blob/dev/README.md"
+    },
+    {
+      "id": 698328708,
+      "repo": "EasyTier/EasyTier",
+      "url": "https://github.com/EasyTier/EasyTier",
+      "decision": "proposed-for-inclusion",
+      "category": "44-networking-and-connectivity",
+      "resource_type": "application",
+      "evidence": "https://github.com/EasyTier/EasyTier/blob/main/README.md"
+    },
+    {
+      "id": 76222419,
+      "repo": "Tencent/mars",
+      "url": "https://github.com/Tencent/mars",
+      "decision": "proposed-for-inclusion",
+      "category": "44-networking-and-connectivity",
+      "resource_type": "library",
+      "evidence": "https://github.com/Tencent/mars/blob/master/README.md"
+    },
+    {
+      "id": 160083795,
+      "repo": "SerenityOS/serenity",
+      "url": "https://github.com/SerenityOS/serenity",
+      "decision": "proposed-for-inclusion",
+      "category": "45-operating-systems-and-virtualization",
+      "resource_type": "application",
+      "evidence": "https://github.com/SerenityOS/serenity/blob/master/README.md"
+    },
+    {
+      "id": 181042062,
+      "repo": "utmapp/UTM",
+      "url": "https://github.com/utmapp/UTM",
+      "decision": "proposed-for-inclusion",
+      "category": "45-operating-systems-and-virtualization",
+      "resource_type": "application",
+      "evidence": "https://github.com/utmapp/UTM/blob/main/README.md"
+    },
+    {
+      "id": 743140652,
+      "repo": "dockur/windows",
+      "url": "https://github.com/dockur/windows",
+      "decision": "proposed-for-inclusion",
+      "category": "45-operating-systems-and-virtualization",
+      "resource_type": "application",
+      "evidence": "https://github.com/dockur/windows/blob/master/readme.md"
+    },
+    {
+      "id": 49609581,
+      "repo": "PowerShell/PowerShell",
+      "url": "https://github.com/PowerShell/PowerShell",
+      "decision": "proposed-for-inclusion",
+      "category": "45-operating-systems-and-virtualization",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/PowerShell/PowerShell/blob/master/README.md"
+    },
+    {
+      "id": 107505869,
+      "repo": "firecracker-microvm/firecracker",
+      "url": "https://github.com/firecracker-microvm/firecracker",
+      "decision": "proposed-for-inclusion",
+      "category": "45-operating-systems-and-virtualization",
+      "resource_type": "application",
+      "evidence": "https://github.com/firecracker-microvm/firecracker/blob/main/README.md"
+    },
+    {
+      "id": 367284699,
+      "repo": "lima-vm/lima",
+      "url": "https://github.com/lima-vm/lima",
+      "decision": "proposed-for-inclusion",
+      "category": "45-operating-systems-and-virtualization",
+      "resource_type": "application",
+      "evidence": "https://github.com/lima-vm/lima/blob/master/README.md"
+    },
+    {
+      "id": 993475914,
+      "repo": "apple/container",
+      "url": "https://github.com/apple/container",
+      "decision": "proposed-for-inclusion",
+      "category": "45-operating-systems-and-virtualization",
+      "resource_type": "application",
+      "evidence": "https://github.com/apple/container/blob/main/README.md"
+    },
+    {
+      "id": 2211243,
+      "repo": "apache/kafka",
+      "url": "https://github.com/apache/kafka",
+      "decision": "proposed-for-inclusion",
+      "category": "46-distributed-systems-and-messaging",
+      "resource_type": "application",
+      "evidence": "https://github.com/apache/kafka/blob/trunk/README.md"
+    },
+    {
+      "id": 75164823,
+      "repo": "apache/rocketmq",
+      "url": "https://github.com/apache/rocketmq",
+      "decision": "proposed-for-inclusion",
+      "category": "46-distributed-systems-and-messaging",
+      "resource_type": "application",
+      "evidence": "https://github.com/apache/rocketmq/blob/develop/README.md"
+    },
+    {
+      "id": 184460,
+      "repo": "celery/celery",
+      "url": "https://github.com/celery/celery",
+      "decision": "proposed-for-inclusion",
+      "category": "46-distributed-systems-and-messaging",
+      "resource_type": "library",
+      "evidence": "https://github.com/celery/celery/blob/main/README.rst"
+    },
+    {
+      "id": 6443435,
+      "repo": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "decision": "proposed-for-inclusion",
+      "category": "46-distributed-systems-and-messaging",
+      "resource_type": "application",
+      "evidence": "https://github.com/nats-io/nats-server/blob/main/README.md"
+    },
+    {
+      "id": 4307108,
+      "repo": "nsqio/nsq",
+      "url": "https://github.com/nsqio/nsq",
+      "decision": "proposed-for-inclusion",
+      "category": "46-distributed-systems-and-messaging",
+      "resource_type": "application",
+      "evidence": "https://github.com/nsqio/nsq/blob/master/README.md"
+    },
+    {
+      "id": 14125254,
+      "repo": "hashicorp/consul",
+      "url": "https://github.com/hashicorp/consul",
+      "decision": "proposed-for-inclusion",
+      "category": "46-distributed-systems-and-messaging",
+      "resource_type": "application",
+      "evidence": "https://github.com/hashicorp/consul/blob/main/README.md"
+    },
+    {
+      "id": 47023603,
+      "repo": "xuxueli/xxl-job",
+      "url": "https://github.com/xuxueli/xxl-job",
+      "decision": "proposed-for-inclusion",
+      "category": "46-distributed-systems-and-messaging",
+      "resource_type": "application",
+      "evidence": "https://github.com/xuxueli/xxl-job/blob/master/README.md"
+    },
+    {
+      "id": 163387337,
+      "repo": "apache/incubator-seata",
+      "url": "https://github.com/apache/incubator-seata",
+      "decision": "proposed-for-inclusion",
+      "category": "46-distributed-systems-and-messaging",
+      "resource_type": "application",
+      "evidence": "https://github.com/apache/incubator-seata/blob/2.x/README.md"
+    },
+    {
+      "id": 5901900,
+      "repo": "LMAX-Exchange/disruptor",
+      "url": "https://github.com/LMAX-Exchange/disruptor",
+      "decision": "proposed-for-inclusion",
+      "category": "46-distributed-systems-and-messaging",
+      "resource_type": "library",
+      "evidence": "https://github.com/LMAX-Exchange/disruptor/blob/master/README.adoc"
+    },
+    {
+      "id": 519859998,
+      "repo": "toeverything/AFFiNE",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "decision": "proposed-for-inclusion",
+      "category": "19-collaboration",
+      "resource_type": "application",
+      "evidence": "https://github.com/toeverything/AFFiNE/blob/canary/README.md"
+    },
+    {
+      "id": 192416575,
+      "repo": "minthcm/minthcm",
+      "url": "https://github.com/minthcm/minthcm",
+      "decision": "proposed-for-inclusion",
+      "category": "48-hr-and-workforce-management",
+      "resource_type": "application",
+      "evidence": "https://github.com/minthcm/minthcm/blob/master/README.md"
+    },
+    {
+      "id": 254005,
+      "repo": "opencats/OpenCATS",
+      "url": "https://github.com/opencats/OpenCATS",
+      "decision": "proposed-for-inclusion",
+      "category": "48-hr-and-workforce-management",
+      "resource_type": "application",
+      "evidence": "https://github.com/opencats/OpenCATS/blob/master/README.md"
+    },
+    {
+      "id": 45705046,
+      "repo": "timeoff-management/timeoff-management-application",
+      "url": "https://github.com/timeoff-management/timeoff-management-application",
+      "decision": "proposed-for-inclusion",
+      "category": "48-hr-and-workforce-management",
+      "resource_type": "application",
+      "evidence": "https://github.com/timeoff-management/timeoff-management-application/blob/master/README.md"
+    },
+    {
+      "id": 202291859,
+      "repo": "chatwoot/chatwoot",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "decision": "proposed-for-inclusion",
+      "category": "49-customer-support-and-helpdesk",
+      "resource_type": "application",
+      "evidence": "https://github.com/chatwoot/chatwoot/blob/develop/README.md"
+    },
+    {
+      "id": 155852027,
+      "repo": "uvdesk/community-skeleton",
+      "url": "https://github.com/uvdesk/community-skeleton",
+      "decision": "proposed-for-inclusion",
+      "category": "49-customer-support-and-helpdesk",
+      "resource_type": "application",
+      "evidence": "https://github.com/uvdesk/community-skeleton/blob/master/README.md"
+    },
+    {
+      "id": 39182755,
+      "repo": "glpi-project/glpi",
+      "url": "https://github.com/glpi-project/glpi",
+      "decision": "proposed-for-inclusion",
+      "category": "50-itsm-and-asset-management",
+      "resource_type": "application",
+      "evidence": "https://github.com/glpi-project/glpi/blob/12.0/bugfixes/README.md"
+    },
+    {
+      "id": 52796596,
+      "repo": "netbox-community/netbox",
+      "url": "https://github.com/netbox-community/netbox",
+      "decision": "proposed-for-inclusion",
+      "category": "50-itsm-and-asset-management",
+      "resource_type": "application",
+      "evidence": "https://github.com/netbox-community/netbox/blob/main/README.md"
+    },
+    {
+      "id": 4712548,
+      "repo": "leihs/leihs",
+      "url": "https://github.com/leihs/leihs",
+      "decision": "proposed-for-inclusion",
+      "category": "51-procurement-tenders-and-auctions",
+      "resource_type": "application",
+      "evidence": "https://github.com/leihs/leihs/blob/master/README.md"
+    },
+    {
+      "id": 25218679,
+      "repo": "openprocurement/openprocurement.api",
+      "url": "https://github.com/openprocurement/openprocurement.api",
+      "decision": "proposed-for-inclusion",
+      "category": "51-procurement-tenders-and-auctions",
+      "resource_type": "library",
+      "evidence": "https://github.com/openprocurement/openprocurement.api/blob/master/README.rst"
+    },
+    {
+      "id": 211923984,
+      "repo": "hmellor/auction-website",
+      "url": "https://github.com/hmellor/auction-website",
+      "decision": "proposed-for-inclusion",
+      "category": "51-procurement-tenders-and-auctions",
+      "resource_type": "application",
+      "evidence": "https://github.com/hmellor/auction-website/blob/main/README.md"
+    },
+    {
+      "id": 88511474,
+      "repo": "prebid/prebid-server",
+      "url": "https://github.com/prebid/prebid-server",
+      "decision": "proposed-for-inclusion",
+      "category": "51-procurement-tenders-and-auctions",
+      "resource_type": "application",
+      "evidence": "https://github.com/prebid/prebid-server/blob/master/README.md"
+    },
+    {
+      "id": 605492830,
+      "repo": "enatega/food-delivery-multivendor",
+      "url": "https://github.com/enatega/food-delivery-multivendor",
+      "decision": "proposed-for-inclusion",
+      "category": "53-marketplaces-and-on-demand",
+      "resource_type": "application",
+      "evidence": "https://github.com/enatega/food-delivery-multivendor/blob/main/README.md"
+    },
+    {
+      "id": 6257856,
+      "repo": "openfoodfoundation/openfoodnetwork",
+      "url": "https://github.com/openfoodfoundation/openfoodnetwork",
+      "decision": "proposed-for-inclusion",
+      "category": "53-marketplaces-and-on-demand",
+      "resource_type": "application",
+      "evidence": "https://github.com/openfoodfoundation/openfoodnetwork/blob/master/README.md"
+    },
+    {
+      "id": 720852629,
+      "repo": "joschan21/digitalhippo",
+      "url": "https://github.com/joschan21/digitalhippo",
+      "decision": "proposed-for-inclusion",
+      "category": "53-marketplaces-and-on-demand",
+      "resource_type": "learning",
+      "evidence": "https://github.com/joschan21/digitalhippo/blob/master/README.md"
+    },
+    {
+      "id": 52837350,
+      "repo": "cloud-custodian/cloud-custodian",
+      "url": "https://github.com/cloud-custodian/cloud-custodian",
+      "decision": "proposed-for-inclusion",
+      "category": "54-compliance-risk-and-governance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/cloud-custodian/cloud-custodian/blob/main/README.md"
+    },
+    {
+      "id": 278200746,
+      "repo": "Checkmarx/kics",
+      "url": "https://github.com/Checkmarx/kics",
+      "decision": "proposed-for-inclusion",
+      "category": "54-compliance-risk-and-governance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/Checkmarx/kics/blob/master/README.md"
+    },
+    {
+      "id": 694266896,
+      "repo": "intuitem/ciso-assistant-community",
+      "url": "https://github.com/intuitem/ciso-assistant-community",
+      "decision": "proposed-for-inclusion",
+      "category": "54-compliance-risk-and-governance",
+      "resource_type": "application",
+      "evidence": "https://github.com/intuitem/ciso-assistant-community/blob/main/README.md"
+    },
+    {
+      "id": 66474729,
+      "repo": "prowler-cloud/prowler",
+      "url": "https://github.com/prowler-cloud/prowler",
+      "decision": "proposed-for-inclusion",
+      "category": "54-compliance-risk-and-governance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/prowler-cloud/prowler/blob/master/README.md"
+    },
+    {
+      "id": 48714685,
+      "repo": "open-policy-agent/opa",
+      "url": "https://github.com/open-policy-agent/opa",
+      "decision": "proposed-for-inclusion",
+      "category": "54-compliance-risk-and-governance",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/open-policy-agent/opa/blob/main/README.md"
+    },
+    {
+      "id": 174708928,
+      "repo": "frangoteam/FUXA",
+      "url": "https://github.com/frangoteam/FUXA",
+      "decision": "proposed-for-inclusion",
+      "category": "55-manufacturing-and-industry",
+      "resource_type": "application",
+      "evidence": "https://github.com/frangoteam/FUXA/blob/master/README.md"
+    },
+    {
+      "id": 62729823,
+      "repo": "SCADA-LTS/Scada-LTS",
+      "url": "https://github.com/SCADA-LTS/Scada-LTS",
+      "decision": "proposed-for-inclusion",
+      "category": "55-manufacturing-and-industry",
+      "resource_type": "application",
+      "evidence": "https://github.com/SCADA-LTS/Scada-LTS/blob/develop/README.md"
+    },
+    {
+      "id": 27077841,
+      "repo": "RapidScada/scada",
+      "url": "https://github.com/RapidScada/scada",
+      "decision": "proposed-for-inclusion",
+      "category": "55-manufacturing-and-industry",
+      "resource_type": "application",
+      "evidence": "https://github.com/RapidScada/scada/blob/master/README.md"
+    },
+    {
+      "id": 40473201,
+      "repo": "IfcOpenShell/IfcOpenShell",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell",
+      "decision": "proposed-for-inclusion",
+      "category": "56-construction-and-bim",
+      "resource_type": "library",
+      "evidence": "https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.9.0/README.md"
+    },
+    {
+      "id": 9938754,
+      "repo": "opensourceBIM/BIMserver",
+      "url": "https://github.com/opensourceBIM/BIMserver",
+      "decision": "proposed-for-inclusion",
+      "category": "56-construction-and-bim",
+      "resource_type": "application",
+      "evidence": "https://github.com/opensourceBIM/BIMserver/blob/master/README.md"
+    },
+    {
+      "id": 27769728,
+      "repo": "xBimTeam/XbimEssentials",
+      "url": "https://github.com/xBimTeam/XbimEssentials",
+      "decision": "proposed-for-inclusion",
+      "category": "56-construction-and-bim",
+      "resource_type": "library",
+      "evidence": "https://github.com/xBimTeam/XbimEssentials/blob/master/README.md"
+    },
+    {
+      "id": 6233804,
+      "repo": "emoncms/emoncms",
+      "url": "https://github.com/emoncms/emoncms",
+      "decision": "proposed-for-inclusion",
+      "category": "58-energy-and-climate",
+      "resource_type": "application",
+      "evidence": "https://github.com/emoncms/emoncms/blob/master/readme.md"
+    },
+    {
+      "id": 71057302,
+      "repo": "OpenEMS/openems",
+      "url": "https://github.com/OpenEMS/openems",
+      "decision": "proposed-for-inclusion",
+      "category": "58-energy-and-climate",
+      "resource_type": "application",
+      "evidence": "https://github.com/OpenEMS/openems/blob/develop/README.md"
+    },
+    {
+      "id": 30895522,
+      "repo": "pvlib/pvlib-python",
+      "url": "https://github.com/pvlib/pvlib-python",
+      "decision": "proposed-for-inclusion",
+      "category": "58-energy-and-climate",
+      "resource_type": "library",
+      "evidence": "https://github.com/pvlib/pvlib-python/blob/main/README.md"
+    },
+    {
+      "id": 49414256,
+      "repo": "PyPSA/PyPSA",
+      "url": "https://github.com/PyPSA/PyPSA",
+      "decision": "proposed-for-inclusion",
+      "category": "58-energy-and-climate",
+      "resource_type": "library",
+      "evidence": "https://github.com/PyPSA/PyPSA/blob/master/README.md"
+    },
+    {
+      "id": 74627617,
+      "repo": "commaai/openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "decision": "proposed-for-inclusion",
+      "category": "59-automotive-and-ev",
+      "resource_type": "application",
+      "evidence": "https://github.com/commaai/openpilot/blob/master/README.md"
+    },
+    {
+      "id": 226368338,
+      "repo": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "decision": "proposed-for-inclusion",
+      "category": "59-automotive-and-ev",
+      "resource_type": "application",
+      "evidence": "https://github.com/evcc-io/evcc/blob/master/README.md"
+    },
+    {
+      "id": 31285942,
+      "repo": "ros2/ros2",
+      "url": "https://github.com/ros2/ros2",
+      "decision": "proposed-for-inclusion",
+      "category": "60-robotics-and-drones",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/ros2/ros2/blob/rolling/README.md"
+    },
+    {
+      "id": 5298790,
+      "repo": "PX4/PX4-Autopilot",
+      "url": "https://github.com/PX4/PX4-Autopilot",
+      "decision": "proposed-for-inclusion",
+      "category": "60-robotics-and-drones",
+      "resource_type": "application",
+      "evidence": "https://github.com/PX4/PX4-Autopilot/blob/main/README.md"
+    },
+    {
+      "id": 7512484,
+      "repo": "ArduPilot/ardupilot",
+      "url": "https://github.com/ArduPilot/ardupilot",
+      "decision": "proposed-for-inclusion",
+      "category": "60-robotics-and-drones",
+      "resource_type": "application",
+      "evidence": "https://github.com/ArduPilot/ardupilot/blob/master/README.md"
+    },
+    {
+      "id": 567038244,
+      "repo": "isaac-sim/IsaacLab",
+      "url": "https://github.com/isaac-sim/IsaacLab",
+      "decision": "proposed-for-inclusion",
+      "category": "60-robotics-and-drones",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/isaac-sim/IsaacLab/blob/main/README.md"
+    },
+    {
+      "id": 748713144,
+      "repo": "huggingface/lerobot",
+      "url": "https://github.com/huggingface/lerobot",
+      "decision": "proposed-for-inclusion",
+      "category": "60-robotics-and-drones",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/huggingface/lerobot/blob/main/README.md"
+    },
+    {
+      "id": 151541,
+      "repo": "biopython/biopython",
+      "url": "https://github.com/biopython/biopython",
+      "decision": "proposed-for-inclusion",
+      "category": "63-bioinformatics-and-life-sciences",
+      "resource_type": "library",
+      "evidence": "https://github.com/biopython/biopython/blob/master/README.rst"
+    },
+    {
+      "id": 80342493,
+      "repo": "scverse/scanpy",
+      "url": "https://github.com/scverse/scanpy",
+      "decision": "proposed-for-inclusion",
+      "category": "63-bioinformatics-and-life-sciences",
+      "resource_type": "library",
+      "evidence": "https://github.com/scverse/scanpy/blob/main/README.md"
+    },
+    {
+      "id": 387617756,
+      "repo": "sokrypton/ColabFold",
+      "url": "https://github.com/sokrypton/ColabFold",
+      "decision": "proposed-for-inclusion",
+      "category": "63-bioinformatics-and-life-sciences",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/sokrypton/ColabFold/blob/main/README.md"
+    },
+    {
+      "id": 9052236,
+      "repo": "nextflow-io/nextflow",
+      "url": "https://github.com/nextflow-io/nextflow",
+      "decision": "proposed-for-inclusion",
+      "category": "63-bioinformatics-and-life-sciences",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/nextflow-io/nextflow/blob/master/README.md"
+    },
+    {
+      "id": 52281283,
+      "repo": "mastodon/mastodon",
+      "url": "https://github.com/mastodon/mastodon",
+      "decision": "proposed-for-inclusion",
+      "category": "64-social-platforms-and-communities",
+      "resource_type": "application",
+      "evidence": "https://github.com/mastodon/mastodon/blob/main/README.md"
+    },
+    {
+      "id": 7569578,
+      "repo": "discourse/discourse",
+      "url": "https://github.com/discourse/discourse",
+      "decision": "proposed-for-inclusion",
+      "category": "64-social-platforms-and-communities",
+      "resource_type": "application",
+      "evidence": "https://github.com/discourse/discourse/blob/main/README.md"
+    },
+    {
+      "id": 28628034,
+      "repo": "flarum/flarum",
+      "url": "https://github.com/flarum/flarum",
+      "decision": "proposed-for-inclusion",
+      "category": "64-social-platforms-and-communities",
+      "resource_type": "application",
+      "evidence": "https://github.com/flarum/flarum/blob/2.x/README.md"
+    },
+    {
+      "id": 501027541,
+      "repo": "bluesky-social/social-app",
+      "url": "https://github.com/bluesky-social/social-app",
+      "decision": "proposed-for-inclusion",
+      "category": "64-social-platforms-and-communities",
+      "resource_type": "application",
+      "evidence": "https://github.com/bluesky-social/social-app/blob/main/README.md"
+    },
+    {
+      "id": 911765,
+      "repo": "diaspora/diaspora",
+      "url": "https://github.com/diaspora/diaspora",
+      "decision": "proposed-for-inclusion",
+      "category": "64-social-platforms-and-communities",
+      "resource_type": "application",
+      "evidence": "https://github.com/diaspora/diaspora/blob/develop/README.md"
+    },
+    {
+      "id": 45213667,
+      "repo": "Chocobozzz/PeerTube",
+      "url": "https://github.com/Chocobozzz/PeerTube",
+      "decision": "proposed-for-inclusion",
+      "category": "64-social-platforms-and-communities",
+      "resource_type": "application",
+      "evidence": "https://github.com/Chocobozzz/PeerTube/blob/develop/README.md"
+    },
+    {
+      "id": 871781831,
+      "repo": "readest/readest",
+      "url": "https://github.com/readest/readest",
+      "decision": "proposed-for-inclusion",
+      "category": "67-publishing-and-digital-archives",
+      "resource_type": "application",
+      "evidence": "https://github.com/readest/readest/blob/main/README.md"
+    },
+    {
+      "id": 8986217,
+      "repo": "koreader/koreader",
+      "url": "https://github.com/koreader/koreader",
+      "decision": "proposed-for-inclusion",
+      "category": "67-publishing-and-digital-archives",
+      "resource_type": "application",
+      "evidence": "https://github.com/koreader/koreader/blob/master/README.md"
+    },
+    {
+      "id": 403368935,
+      "repo": "tubearchivist/tubearchivist",
+      "url": "https://github.com/tubearchivist/tubearchivist",
+      "decision": "proposed-for-inclusion",
+      "category": "67-publishing-and-digital-archives",
+      "resource_type": "application",
+      "evidence": "https://github.com/tubearchivist/tubearchivist/blob/develop/README.md"
+    },
+    {
+      "id": 15452919,
+      "repo": "ethereum/go-ethereum",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "decision": "proposed-for-inclusion",
+      "category": "68-blockchain-and-decentralization",
+      "resource_type": "application",
+      "evidence": "https://github.com/ethereum/go-ethereum/blob/master/README.md"
+    },
+    {
+      "id": 66573241,
+      "repo": "hyperledger/fabric",
+      "url": "https://github.com/hyperledger/fabric",
+      "decision": "proposed-for-inclusion",
+      "category": "68-blockchain-and-decentralization",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/hyperledger/fabric/blob/main/README.md"
+    },
+    {
+      "id": 404320053,
+      "repo": "foundry-rs/foundry",
+      "url": "https://github.com/foundry-rs/foundry",
+      "decision": "proposed-for-inclusion",
+      "category": "68-blockchain-and-decentralization",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/foundry-rs/foundry/blob/master/README.md"
+    },
+    {
+      "id": 129558668,
+      "repo": "NomicFoundation/hardhat",
+      "url": "https://github.com/NomicFoundation/hardhat",
+      "decision": "proposed-for-inclusion",
+      "category": "68-blockchain-and-decentralization",
+      "resource_type": "toolkit",
+      "evidence": "https://github.com/NomicFoundation/hardhat/blob/main/README.md"
+    },
+    {
+      "id": 63465664,
+      "repo": "ethers-io/ethers.js",
+      "url": "https://github.com/ethers-io/ethers.js",
+      "decision": "proposed-for-inclusion",
+      "category": "68-blockchain-and-decentralization",
+      "resource_type": "library",
+      "evidence": "https://github.com/ethers-io/ethers.js/blob/main/README.md"
+    },
+    {
+      "id": 48617634,
+      "repo": "orbitdb/orbitdb",
+      "url": "https://github.com/orbitdb/orbitdb",
+      "decision": "proposed-for-inclusion",
+      "category": "68-blockchain-and-decentralization",
+      "resource_type": "library",
+      "evidence": "https://github.com/orbitdb/orbitdb/blob/main/README.md"
+    },
+    {
+      "id": 8495499,
+      "repo": "civicrm/civicrm-core",
+      "url": "https://github.com/civicrm/civicrm-core",
+      "decision": "proposed-for-inclusion",
+      "category": "69-nonprofits-and-civic-organizations",
+      "resource_type": "application",
+      "evidence": "https://github.com/civicrm/civicrm-core/blob/master/README.md"
+    },
+    {
+      "id": 125925927,
+      "repo": "houdiniproject/houdini",
+      "url": "https://github.com/houdiniproject/houdini",
+      "decision": "proposed-for-inclusion",
+      "category": "69-nonprofits-and-civic-organizations",
+      "resource_type": "application",
+      "evidence": "https://github.com/houdiniproject/houdini/blob/main/README.md"
+    },
+    {
+      "id": 30856851,
+      "repo": "ChurchCRM/CRM",
+      "url": "https://github.com/ChurchCRM/CRM",
+      "decision": "proposed-for-inclusion",
+      "category": "69-nonprofits-and-civic-organizations",
+      "resource_type": "application",
+      "evidence": "https://github.com/ChurchCRM/CRM/blob/master/README.md"
+    },
+    {
+      "id": 47057732,
+      "repo": "liberapay/liberapay.org",
+      "url": "https://github.com/liberapay/liberapay.org",
+      "decision": "proposed-for-inclusion",
+      "category": "69-nonprofits-and-civic-organizations",
+      "resource_type": "application",
+      "evidence": "https://github.com/liberapay/liberapay.org/blob/master/README.md"
+    },
+    {
+      "id": 248407953,
+      "repo": "rubyforgood/casa",
+      "url": "https://github.com/rubyforgood/casa",
+      "decision": "proposed-for-inclusion",
+      "category": "69-nonprofits-and-civic-organizations",
+      "resource_type": "application",
+      "evidence": "https://github.com/rubyforgood/casa/blob/main/README.md"
+    },
+    {
+      "id": 183676279,
+      "repo": "voluntarily/vly2",
+      "url": "https://github.com/voluntarily/vly2",
+      "decision": "proposed-for-inclusion",
+      "category": "69-nonprofits-and-civic-organizations",
+      "resource_type": "application",
+      "evidence": "https://github.com/voluntarily/vly2/blob/master/README.md"
+    },
+    {
+      "id": 7705569,
+      "repo": "wger-project/wger",
+      "url": "https://github.com/wger-project/wger",
+      "decision": "proposed-for-inclusion",
+      "category": "70-sports-and-fitness",
+      "resource_type": "application",
+      "evidence": "https://github.com/wger-project/wger/blob/master/README.md"
+    },
+    {
+      "id": 710526044,
+      "repo": "endurain-project/endurain",
+      "url": "https://github.com/endurain-project/endurain",
+      "decision": "proposed-for-inclusion",
+      "category": "70-sports-and-fitness",
+      "resource_type": "application",
+      "evidence": "https://github.com/endurain-project/endurain/blob/master/README.md"
+    },
+    {
+      "id": 1000235209,
+      "repo": "Snouzy/workout-cool",
+      "url": "https://github.com/Snouzy/workout-cool",
+      "decision": "proposed-for-inclusion",
+      "category": "70-sports-and-fitness",
+      "resource_type": "application",
+      "evidence": "https://github.com/Snouzy/workout-cool/blob/main/README.md"
+    },
+    {
+      "id": 286016244,
+      "repo": "timfraedrich/OutRun",
+      "url": "https://github.com/timfraedrich/OutRun",
+      "decision": "proposed-for-inclusion",
+      "category": "70-sports-and-fitness",
+      "resource_type": "application",
+      "evidence": "https://github.com/timfraedrich/OutRun/blob/main/README.md"
+    },
+    {
+      "id": 1006104934,
+      "repo": "CodeWithCJ/SparkyFitness",
+      "url": "https://github.com/CodeWithCJ/SparkyFitness",
+      "decision": "proposed-for-inclusion",
+      "category": "70-sports-and-fitness",
+      "resource_type": "application",
+      "evidence": "https://github.com/CodeWithCJ/SparkyFitness/blob/main/README.md"
+    },
+    {
+      "id": 294918218,
+      "repo": "wger-project/flutter",
+      "url": "https://github.com/wger-project/flutter",
+      "decision": "proposed-for-inclusion",
+      "category": "70-sports-and-fitness",
+      "resource_type": "application",
+      "evidence": "https://github.com/wger-project/flutter/blob/master/README.md"
+    },
+    {
+      "id": 51181537,
+      "repo": "benitolopez/hotel-datepicker",
+      "url": "https://github.com/benitolopez/hotel-datepicker",
+      "decision": "proposed-for-inclusion",
+      "category": "29-travel-and-hospitality",
+      "resource_type": "library",
+      "evidence": "https://github.com/benitolopez/hotel-datepicker/blob/main/README.md"
+    },
+    {
+      "id": 95573967,
+      "repo": "ZestfulNation/vue-hotel-datepicker",
+      "url": "https://github.com/ZestfulNation/vue-hotel-datepicker",
+      "decision": "proposed-for-inclusion",
+      "category": "29-travel-and-hospitality",
+      "resource_type": "library",
+      "evidence": "https://github.com/ZestfulNation/vue-hotel-datepicker/blob/main/README.md"
+    },
+    {
+      "id": 942867788,
+      "repo": "elder-plinius/CL4R1T4S",
+      "url": "https://github.com/elder-plinius/CL4R1T4S",
+      "decision": "removed-from-active-queue",
+      "reason": "Self-described leaked proprietary prompts; excluded under the collection policy."
+    },
+    {
+      "id": 87638072,
+      "repo": "x0rz/EQGRP",
+      "url": "https://github.com/x0rz/EQGRP",
+      "decision": "removed-from-active-queue",
+      "reason": "Self-described decrypted leaked archive; excluded from this collection."
+    },
+    {
+      "id": 233472199,
+      "repo": "massgravel/Microsoft-Activation-Scripts",
+      "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+      "decision": "removed-from-active-queue",
+      "reason": "Activation-bypass tooling is outside the supported editorial scope of this batch."
+    },
+    {
+      "id": 135050219,
+      "repo": "TGSAN/CMWTAT_Digital_Edition",
+      "url": "https://github.com/TGSAN/CMWTAT_Digital_Edition",
+      "decision": "removed-from-active-queue",
+      "reason": "Activation-bypass tooling is outside the supported editorial scope of this batch."
+    },
+    {
+      "id": 83364371,
+      "repo": "Staffjoy/v2",
+      "url": "https://github.com/Staffjoy/v2",
+      "decision": "removed-from-active-queue",
+      "reason": "Upstream README marks this repository deprecated; not promoted as a current workforce application."
+    },
+    {
+      "id": 4447023,
+      "repo": "sharetribe/sharetribe",
+      "url": "https://github.com/sharetribe/sharetribe",
+      "decision": "removed-from-active-queue",
+      "reason": "Upstream README says Sharetribe Go is no longer actively maintained."
+    },
+    {
+      "id": 181561553,
+      "repo": "aws-samples/aws-serverless-airline-booking",
+      "url": "https://github.com/aws-samples/aws-serverless-airline-booking",
+      "decision": "removed-from-active-queue",
+      "reason": "Upstream README describes a historical reference and says work has stopped."
+    },
+    {
+      "id": 515647260,
+      "repo": "1Panel-dev/1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "13-devops-and-cloud",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 137451403,
+      "repo": "alibaba/nacos",
+      "url": "https://github.com/alibaba/nacos",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "46-distributed-systems-and-messaging",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 53127403,
+      "repo": "apolloconfig/apollo",
+      "url": "https://github.com/apolloconfig/apollo",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "46-distributed-systems-and-messaging",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 1002125012,
+      "repo": "BloopAI/vibe-kanban",
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "40-developer-tools-and-dx",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 156084530,
+      "repo": "ehang-io/nps",
+      "url": "https://github.com/ehang-io/nps",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "44-networking-and-connectivity",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 942837343,
+      "repo": "eyaltoledano/claude-task-master",
+      "url": "https://github.com/eyaltoledano/claude-task-master",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "40-developer-tools-and-dx",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 273546408,
+      "repo": "foambubble/foam",
+      "url": "https://github.com/foambubble/foam",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "19-collaboration",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 16607898,
+      "repo": "harness/harness",
+      "url": "https://github.com/harness/harness",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "13-devops-and-cloud",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 31288958,
+      "repo": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "14-cybersecurity",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 45363955,
+      "repo": "lionsoul2014/ip2region",
+      "url": "https://github.com/lionsoul2014/ip2region",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "26-maps-and-geospatial",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 32215970,
+      "repo": "mobxjs/mobx",
+      "url": "https://github.com/mobxjs/mobx",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "04-web-components",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 1120349776,
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "38-ai-agent-skills-and-rules",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 286867459,
+      "repo": "pmndrs/jotai",
+      "url": "https://github.com/pmndrs/jotai",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "04-web-components",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 180328715,
+      "repo": "pmndrs/zustand",
+      "url": "https://github.com/pmndrs/zustand",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "04-web-components",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 5625464,
+      "repo": "pyenv/pyenv",
+      "url": "https://github.com/pyenv/pyenv",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "40-developer-tools-and-dx",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 123303402,
+      "repo": "python-poetry/poetry",
+      "url": "https://github.com/python-poetry/poetry",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "40-developer-tools-and-dx",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 26337322,
+      "repo": "rancher/rancher",
+      "url": "https://github.com/rancher/rancher",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "13-devops-and-cloud",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 70908208,
+      "repo": "RasaHQ/rasa",
+      "url": "https://github.com/RasaHQ/rasa",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "06-artificial-intelligence",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 36535156,
+      "repo": "reduxjs/redux",
+      "url": "https://github.com/reduxjs/redux",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "04-web-components",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 24063576,
+      "repo": "semantic-release/semantic-release",
+      "url": "https://github.com/semantic-release/semantic-release",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "13-devops-and-cloud",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 5888353,
+      "repo": "spotify/luigi",
+      "url": "https://github.com/spotify/luigi",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "17-data-and-analytics",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 1223029,
+      "repo": "tj/n",
+      "url": "https://github.com/tj/n",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "40-developer-tools-and-dx",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 39176269,
+      "repo": "vuejs/vuex",
+      "url": "https://github.com/vuejs/vuex",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "04-web-components",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 347404990,
+      "repo": "whyour/qinglong",
+      "url": "https://github.com/whyour/qinglong",
+      "decision": "topic-reclassified",
+      "from": "28-real-estate-and-property",
+      "to": "16-automation-and-nocode",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 44489109,
+      "repo": "atesgoral/hrm-solutions",
+      "url": "https://github.com/atesgoral/hrm-solutions",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "22-gaming-and-media",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 81667483,
+      "repo": "hrbrmstr/hrbrthemes",
+      "url": "https://github.com/hrbrmstr/hrbrthemes",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "17-data-and-analytics",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 204839594,
+      "repo": "HRNet/HigherHRNet-Human-Pose-Estimation",
+      "url": "https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "06-artificial-intelligence",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 395259107,
+      "repo": "HRNet/HRFormer",
+      "url": "https://github.com/HRNet/HRFormer",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "06-artificial-intelligence",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 180372680,
+      "repo": "HRNet/HRNet-Facial-Landmark-Detection",
+      "url": "https://github.com/HRNet/HRNet-Facial-Landmark-Detection",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "06-artificial-intelligence",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 180518813,
+      "repo": "HRNet/HRNet-Image-Classification",
+      "url": "https://github.com/HRNet/HRNet-Image-Classification",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "06-artificial-intelligence",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 180372347,
+      "repo": "HRNet/HRNet-Semantic-Segmentation",
+      "url": "https://github.com/HRNet/HRNet-Semantic-Segmentation",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "06-artificial-intelligence",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 351306516,
+      "repo": "HRNet/Lite-HRNet",
+      "url": "https://github.com/HRNet/Lite-HRNet",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "06-artificial-intelligence",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 16707319,
+      "repo": "LuRsT/hr",
+      "url": "https://github.com/LuRsT/hr",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "40-developer-tools-and-dx",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 507220350,
+      "repo": "sangyun884/HR-VITON",
+      "url": "https://github.com/sangyun884/HR-VITON",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "06-artificial-intelligence",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 185399952,
+      "repo": "stefanopini/simple-HRNet",
+      "url": "https://github.com/stefanopini/simple-HRNet",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "06-artificial-intelligence",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 247739749,
+      "repo": "WenjiaWang0312/TextZoom",
+      "url": "https://github.com/WenjiaWang0312/TextZoom",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "06-artificial-intelligence",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 837149190,
+      "repo": "KasperskyLab/hrtng",
+      "url": "https://github.com/KasperskyLab/hrtng",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "14-cybersecurity",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 188281972,
+      "repo": "patois/HRDevHelper",
+      "url": "https://github.com/patois/HRDevHelper",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "14-cybersecurity",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 531377529,
+      "repo": "szdyg/HRSword",
+      "url": "https://github.com/szdyg/HRSword",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "14-cybersecurity",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 122707902,
+      "repo": "zelon88/HRConvert2",
+      "url": "https://github.com/zelon88/HRConvert2",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "20-desktop-and-utilities",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 43407651,
+      "repo": "otoolep/hraftd",
+      "url": "https://github.com/otoolep/hraftd",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "46-distributed-systems-and-messaging",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 88885097,
+      "repo": "mburakerman/hrjs",
+      "url": "https://github.com/mburakerman/hrjs",
+      "decision": "topic-reclassified",
+      "from": "48-hr-and-workforce-management",
+      "to": "04-web-components",
+      "reason": "Resource purpose differs from the broad OR-query match; original search provenance is preserved."
+    },
+    {
+      "id": 16508135,
+      "repo": "farmOS/farmOS",
+      "url": "https://github.com/farmOS/farmOS",
+      "decision": "retained-for-later-topic-batch",
+      "reason": "A valid agriculture application; keep the topic proposed until a coherent sector batch is ready."
+    }
+  ]
+}

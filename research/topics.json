@@ -3,9 +3,9 @@
   "checked_at": "2026-10-27",
   "scope": "Uncounted research candidates; not editorial acceptance or runtime testing.",
   "searched_topics": 70,
-  "unique_candidates": 2035,
-  "catalog_entries": 1158,
-  "catalog_categories": 37,
+  "unique_candidates": 1879,
+  "catalog_entries": 1307,
+  "catalog_categories": 63,
   "method": "First 50 star-sorted GitHub search results per query; one query per topic; not exhaustive or a quality ranking.",
   "url_resolution": "data_path is relative to the repository root at the same branch or commit.",
   "topics": [
@@ -20,8 +20,8 @@
       "returned_observations": 50,
       "candidate_count": 34,
       "data_path": "research/candidates/01-saas-and-starters.json",
-      "bytes": 29264,
-      "sha256": "bc03a3af05680df1f4c0717fee28b260cfa6174bedb9489dbe1b70c99521d375"
+      "bytes": 41206,
+      "sha256": "b770aacf8352b5f8190c7c9f982d80fc07ec5cd938aa39b4232acd6f78431616"
     },
     {
       "id": "02-design-and-creative",
@@ -32,10 +32,10 @@
       "search_url": "https://github.com/search?q=design-system+OR+typography+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 39,
+      "candidate_count": 38,
       "data_path": "research/candidates/02-design-and-creative.json",
-      "bytes": 27417,
-      "sha256": "12ee21ff2e63d12adfcfd6cb05d6027acedf9da0c4125fdcbc7255a39b1c2c0c"
+      "bytes": 41507,
+      "sha256": "5a0f7b5c47761b39dc2da8ed955853a5f7e6e637b78f3cfa435c334052e29363"
     },
     {
       "id": "03-web-development",
@@ -46,10 +46,10 @@
       "search_url": "https://github.com/search?q=web+OR+framework+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 22,
+      "candidate_count": 19,
       "data_path": "research/candidates/03-web-development.json",
-      "bytes": 15534,
-      "sha256": "2e45d8cf39db1d4dccdb685d4c11a7166fdc1323feff11ce890f2a336cbe7525"
+      "bytes": 25254,
+      "sha256": "453751ab4c85516587629bebfe86ac7cce5d6347364319e35354c0c3f0f8b3fa"
     },
     {
       "id": "04-web-components",
@@ -60,10 +60,10 @@
       "search_url": "https://github.com/search?q=ui+OR+components+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 25,
+      "candidate_count": 31,
       "data_path": "research/candidates/04-web-components.json",
-      "bytes": 17445,
-      "sha256": "207fefd22879527c3335455eab15c4936d39d524eeb400422b5a70dc753b6d9e"
+      "bytes": 37340,
+      "sha256": "c842ca098163013664c85e5805bac3b1eefa8bc05c9c24753ba23eef6e41aca1"
     },
     {
       "id": "05-mobile-applications",
@@ -76,8 +76,8 @@
       "returned_observations": 50,
       "candidate_count": 19,
       "data_path": "research/candidates/05-mobile-applications.json",
-      "bytes": 13954,
-      "sha256": "5fc5dd095e4fc1937f4395b9326ab962c87ff3fc11cc5b22072ca24ea23efdd9"
+      "bytes": 24873,
+      "sha256": "e7c73114e1997262d3dd1914c3b54797003309885f62b1f5ae686a97766b4f2d"
     },
     {
       "id": "06-artificial-intelligence",
@@ -88,10 +88,10 @@
       "search_url": "https://github.com/search?q=llm+OR+agents+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 22,
+      "candidate_count": 31,
       "data_path": "research/candidates/06-artificial-intelligence.json",
-      "bytes": 16762,
-      "sha256": "3e5b70455580a2950b5753e434e91812953039cb0285c8cbd13edd2a069fdcd5"
+      "bytes": 42132,
+      "sha256": "fc0330ddccaa6bbc164cc92707152d19d52f54d2eb67ccea6648f1c2e922cb70"
     },
     {
       "id": "07-databases-and-storage",
@@ -104,8 +104,8 @@
       "returned_observations": 50,
       "candidate_count": 23,
       "data_path": "research/candidates/07-databases-and-storage.json",
-      "bytes": 17582,
-      "sha256": "d6d3b8e93045a4fb4bcd0f4c6afe170546ef3b69a89f0ec0168b36117057af8d"
+      "bytes": 32877,
+      "sha256": "f16d74ce5c5f14f81df60ab7dd43c2987afb6200b2f2ff390c55b9203e9bd548"
     },
     {
       "id": "08-crm-and-sales",
@@ -118,8 +118,8 @@
       "returned_observations": 50,
       "candidate_count": 28,
       "data_path": "research/candidates/08-crm-and-sales.json",
-      "bytes": 21617,
-      "sha256": "a2d527dbbd95263850463dd9c85d9b0357a87689ae96b26f4f59e0c12241b66d"
+      "bytes": 30868,
+      "sha256": "512476870d224f8d464cbfc011734413c32585627d16b53326a6fd31f3a694e2"
     },
     {
       "id": "09-erp-and-enterprise",
@@ -132,8 +132,8 @@
       "returned_observations": 50,
       "candidate_count": 30,
       "data_path": "research/candidates/09-erp-and-enterprise.json",
-      "bytes": 21400,
-      "sha256": "778150d8cf28a40081a876836582b420fdbd63e09221de18a0fb4ce1d06ff7dd"
+      "bytes": 29076,
+      "sha256": "37d9771ff31c71e56af6ab508e50bea2f1ce5a937918629d8daac65716affccb"
     },
     {
       "id": "10-finance-and-payments",
@@ -146,8 +146,8 @@
       "returned_observations": 50,
       "candidate_count": 37,
       "data_path": "research/candidates/10-finance-and-payments.json",
-      "bytes": 26356,
-      "sha256": "85b267364ee7524e57ff4c63687be5c429a954b6997f106195f230956f40e03e"
+      "bytes": 37016,
+      "sha256": "2d22ae227c6df35c65d1b930a075bcf3ff419211cf709713fe93cfa3eb978dc4"
     },
     {
       "id": "11-ecommerce",
@@ -160,8 +160,8 @@
       "returned_observations": 50,
       "candidate_count": 23,
       "data_path": "research/candidates/11-ecommerce.json",
-      "bytes": 15702,
-      "sha256": "88a1b7c00012019f716a9af5a7e153c7778c2e496e33e13d6abffa9282e5f1a2"
+      "bytes": 21264,
+      "sha256": "0930e64c769a6cb5337d1555b31724245e02173f8d044fcd92a05df1c4198a83"
     },
     {
       "id": "12-self-hosted",
@@ -172,10 +172,10 @@
       "search_url": "https://github.com/search?q=self-hosted+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 8,
+      "candidate_count": 7,
       "data_path": "research/candidates/12-self-hosted.json",
-      "bytes": 5466,
-      "sha256": "ebe58f2f9b53f249e23795070e75942868c185f9ad58f52d3a8ab6c43517f92f"
+      "bytes": 7337,
+      "sha256": "ab28c41c97e4ba663b9d97cef758500eab694f810f0e8f2cb8bbfc1273304a8d"
     },
     {
       "id": "13-devops-and-cloud",
@@ -186,10 +186,10 @@
       "search_url": "https://github.com/search?q=devops+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 29,
+      "candidate_count": 33,
       "data_path": "research/candidates/13-devops-and-cloud.json",
-      "bytes": 19110,
-      "sha256": "d9d3e6b24dd49bcbbf3c40a7571ab84601a51d32dea14230bdd65b1dee28b3d0"
+      "bytes": 34577,
+      "sha256": "9957fab9bed8814f0cf6664b2b27992aef1db7b2fbec18edc964416bdb655c64"
     },
     {
       "id": "14-cybersecurity",
@@ -200,10 +200,10 @@
       "search_url": "https://github.com/search?q=security+OR+authentication+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 30,
+      "candidate_count": 34,
       "data_path": "research/candidates/14-cybersecurity.json",
-      "bytes": 20668,
-      "sha256": "a41e67af0c39baf99c0e2e7f74582cc3bad32d3c2a78b7bb1471b098695f2322"
+      "bytes": 38536,
+      "sha256": "92ef416f4125df24eadefbc19c94f50358dcbbe7eb78b48e553dd7f02a441db1"
     },
     {
       "id": "15-apis-and-sdks",
@@ -216,8 +216,8 @@
       "returned_observations": 50,
       "candidate_count": 19,
       "data_path": "research/candidates/15-apis-and-sdks.json",
-      "bytes": 18708,
-      "sha256": "2ef52fcceb6e92588d4f5f6e7aa016bd0ca2b8666298250f185f6eb9d8fdbe47"
+      "bytes": 27097,
+      "sha256": "f3b5eb5bf023279498873224b6764520be354c542fed1fa86c49c2396c95a138"
     },
     {
       "id": "16-automation-and-nocode",
@@ -230,8 +230,8 @@
       "returned_observations": 50,
       "candidate_count": 17,
       "data_path": "research/candidates/16-automation-and-nocode.json",
-      "bytes": 11732,
-      "sha256": "392e47fd8e4be9e4e67a641aed51ac6673be48ff5382be17dc5e77b74dc4eda0"
+      "bytes": 18394,
+      "sha256": "6883dbc04e380b8514c5097cd2d4d91a4599b73d83fdce1487a100830a0ddbce"
     },
     {
       "id": "17-data-and-analytics",
@@ -242,10 +242,10 @@
       "search_url": "https://github.com/search?q=data+OR+analytics+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 21,
+      "candidate_count": 23,
       "data_path": "research/candidates/17-data-and-analytics.json",
-      "bytes": 14997,
-      "sha256": "f6dbb0dced7a73c5a12832a365970bd81e2733bbe98d0024ba5f54a8839c8db0"
+      "bytes": 26429,
+      "sha256": "d15a00d9d2bc47d638f52fecb91f9dc58ee572337a67e6cd5429be0cf16cacfd"
     },
     {
       "id": "18-content-and-marketing",
@@ -258,8 +258,8 @@
       "returned_observations": 50,
       "candidate_count": 27,
       "data_path": "research/candidates/18-content-and-marketing.json",
-      "bytes": 19557,
-      "sha256": "be42a1fefab2db7c25606815aacd1e3bab9790c527c0fece437a65d444e36895"
+      "bytes": 26986,
+      "sha256": "17de2dbfa6a80ecd3d7229514ff5cc1032dbc671b081f9184f393ea1c3d4037b"
     },
     {
       "id": "19-collaboration",
@@ -272,8 +272,8 @@
       "returned_observations": 50,
       "candidate_count": 24,
       "data_path": "research/candidates/19-collaboration.json",
-      "bytes": 16735,
-      "sha256": "c9453c0ddf9ab77ecb1a3bf545e3c0e43ac8041e5c4654241cceb605c7c9b603"
+      "bytes": 25346,
+      "sha256": "789c71659c58de6e4eb0dfe416b49648c497cdd00726ebfbb876fcdefdf7710d"
     },
     {
       "id": "20-desktop-and-utilities",
@@ -284,10 +284,10 @@
       "search_url": "https://github.com/search?q=desktop+OR+utility+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 24,
+      "candidate_count": 25,
       "data_path": "research/candidates/20-desktop-and-utilities.json",
-      "bytes": 15664,
-      "sha256": "3f4769b07c3b719e07581927e392087a30290e624c19e4ce09288be07ba7c77d"
+      "bytes": 23734,
+      "sha256": "954cb2b46610650fdacbe11450ac04b53efed82d8302bf96134d2176aae6ffed"
     },
     {
       "id": "21-hardware-and-iot",
@@ -300,8 +300,8 @@
       "returned_observations": 50,
       "candidate_count": 29,
       "data_path": "research/candidates/21-hardware-and-iot.json",
-      "bytes": 19891,
-      "sha256": "40957e922d4d10cdcdbe1006077b1acd9e02d4210f97bbd25fb6807c48655a4b"
+      "bytes": 27360,
+      "sha256": "7e3a69e407cccd8c6693d31d0fff9984db9dfe46b128c620d282e38956f5b5aa"
     },
     {
       "id": "22-gaming-and-media",
@@ -312,10 +312,10 @@
       "search_url": "https://github.com/search?q=game+OR+engine+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 19,
+      "candidate_count": 20,
       "data_path": "research/candidates/22-gaming-and-media.json",
-      "bytes": 13349,
-      "sha256": "310b40efe1ef1351019af7e010bc2dc024d53506064abaf581174836dd288ee8"
+      "bytes": 23692,
+      "sha256": "96711b72ed69c95240d84813ca24e44bcd5b751b0cb3faecaac75719a480691d"
     },
     {
       "id": "23-learning-and-research",
@@ -328,8 +328,8 @@
       "returned_observations": 50,
       "candidate_count": 26,
       "data_path": "research/candidates/23-learning-and-research.json",
-      "bytes": 18307,
-      "sha256": "12401ed0298ddc7e07d1f14f0c87104496cd20fe9d6cf9a19f4d4a01e2abc9a2"
+      "bytes": 30631,
+      "sha256": "abf791aa998e322a963065420a7aa84e6930d422f3a296d93bec1047d5dce79a"
     },
     {
       "id": "24-awesome-collections",
@@ -340,10 +340,10 @@
       "search_url": "https://github.com/search?q=awesome+in%3Aname+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 13,
+      "candidate_count": 12,
       "data_path": "research/candidates/24-awesome-collections.json",
-      "bytes": 9500,
-      "sha256": "1a19c94a555ddce3a6eabaf714e006014f17e494d1d44a780f20e514137d3111"
+      "bytes": 12629,
+      "sha256": "6b7297883075c1702db759c2b213c36f60af0f04360a7f1178f06b708e7d36b9"
     },
     {
       "id": "25-communications-and-realtime",
@@ -356,8 +356,8 @@
       "returned_observations": 50,
       "candidate_count": 38,
       "data_path": "research/candidates/25-communications-and-realtime.json",
-      "bytes": 25932,
-      "sha256": "6886a9c4f6a900223fc373e51be8075d41533af2d06284e9be42e42b4134b60d"
+      "bytes": 35308,
+      "sha256": "b4c7c9a46ca1daddef1facf73f43191769bdde41846707e67c97670867785a74"
     },
     {
       "id": "26-maps-and-geospatial",
@@ -368,10 +368,10 @@
       "search_url": "https://github.com/search?q=geospatial+OR+gis+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 43,
+      "candidate_count": 44,
       "data_path": "research/candidates/26-maps-and-geospatial.json",
-      "bytes": 27834,
-      "sha256": "bc14456a1291314768c9a2445376f61a49fbd31e6609f866c85f689fbaeb59ee"
+      "bytes": 40009,
+      "sha256": "7887b0b728ae1f28cbba081285b5b5d4bf9cc27deeee1d7b30e1c7c692c87729"
     },
     {
       "id": "27-logistics-and-transportation",
@@ -384,8 +384,8 @@
       "returned_observations": 50,
       "candidate_count": 42,
       "data_path": "research/candidates/27-logistics-and-transportation.json",
-      "bytes": 30026,
-      "sha256": "86421b5c44fa69234c800a5397d552ff94c3ea665b62c11a41bd54876029c1b4"
+      "bytes": 41876,
+      "sha256": "320c2a6f15f68e7396796596cd15517736b8e53c615e07f34f59218804130643"
     },
     {
       "id": "28-real-estate-and-property",
@@ -396,10 +396,10 @@
       "search_url": "https://github.com/search?q=property+OR+management+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 24,
+      "candidate_count": 0,
       "data_path": "research/candidates/28-real-estate-and-property.json",
-      "bytes": 17647,
-      "sha256": "489785bd3beeae15bfd0e67b60ad08db4589b34da29edf9273b74edc403a356f"
+      "bytes": 484,
+      "sha256": "8d3525fc8905124904b9d943ca6a2c5f6afa44b7b71a67c3325a6048a83b3464"
     },
     {
       "id": "29-travel-and-hospitality",
@@ -410,10 +410,10 @@
       "search_url": "https://github.com/search?q=hotel+OR+booking+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 49,
+      "candidate_count": 45,
       "data_path": "research/candidates/29-travel-and-hospitality.json",
-      "bytes": 34263,
-      "sha256": "3b8bc13f050f50bd49ff90e918a83e0cebaef628aac99439f7b4fa79dc92c896"
+      "bytes": 42204,
+      "sha256": "926b7ca6c77b70e492330429387645b8e3a3992c528c80ed31f6a1dbc945001e"
     },
     {
       "id": "30-documents-and-legal-tech",
@@ -424,10 +424,10 @@
       "search_url": "https://github.com/search?q=document+OR+pdf+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 25,
+      "candidate_count": 23,
       "data_path": "research/candidates/30-documents-and-legal-tech.json",
-      "bytes": 18407,
-      "sha256": "deaaea2e1fbfbbdc6a3678034ca24723e7c6ea91be94a987a154069e54a67c0c"
+      "bytes": 24995,
+      "sha256": "7c59246d2460b823b72539913a10ff89d951889bc1e9c32dd10fdd27ce5c8767"
     },
     {
       "id": "31-healthcare-and-medical",
@@ -440,8 +440,8 @@
       "returned_observations": 50,
       "candidate_count": 43,
       "data_path": "research/candidates/31-healthcare-and-medical.json",
-      "bytes": 28856,
-      "sha256": "afe29a5c77bffc7d1c5d48c497fa4264666d40a598f32c4e7fd172592ae730f5"
+      "bytes": 40040,
+      "sha256": "bc1714d3b273f05c22cc674469dc3833b963bafa54bdb59d9f5a3d2f853a4e7a"
     },
     {
       "id": "32-education-and-lms",
@@ -452,10 +452,10 @@
       "search_url": "https://github.com/search?q=lms+OR+learning+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 24,
+      "candidate_count": 23,
       "data_path": "research/candidates/32-education-and-lms.json",
-      "bytes": 16919,
-      "sha256": "10ccc05a1c51d0f9f44102c26dce8ab71269e22892cb21a219ac4b032c444c4e"
+      "bytes": 23020,
+      "sha256": "cd364f3b95599489f48081b54c49f1904246629373d5f562658b08e7c6a64c4b"
     },
     {
       "id": "33-accessibility-and-localization",
@@ -468,8 +468,8 @@
       "returned_observations": 50,
       "candidate_count": 30,
       "data_path": "research/candidates/33-accessibility-and-localization.json",
-      "bytes": 21302,
-      "sha256": "9a6bc950b86bd4daf13a7f69afc1e4db11e351d780184665096fec721eb94b79"
+      "bytes": 29992,
+      "sha256": "6fcb5c05c4bb8beba07a975f0471e808c76eef8e1e8c00317140c8fba99eb9ed"
     },
     {
       "id": "34-science-and-engineering",
@@ -480,10 +480,10 @@
       "search_url": "https://github.com/search?q=scientific+OR+computing+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 42,
+      "candidate_count": 41,
       "data_path": "research/candidates/34-science-and-engineering.json",
-      "bytes": 28849,
-      "sha256": "c26e07c0a3032d0f7ff387e422b07b65eb761c0c4a52f6a806eba29283156ad0"
+      "bytes": 39435,
+      "sha256": "1a73694142612802d8e842e873a9e36e264e0a2037782fb493eed34862c4ed41"
     },
     {
       "id": "35-open-data-and-civic-tech",
@@ -494,10 +494,10 @@
       "search_url": "https://github.com/search?q=open+OR+data+OR+civic+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 8,
+      "candidate_count": 7,
       "data_path": "research/candidates/35-open-data-and-civic-tech.json",
-      "bytes": 5658,
-      "sha256": "4390d0b32475c3ac05b5c7805a91e4fbfd4f01184f9f2538b549c3ae8ec19a29"
+      "bytes": 6930,
+      "sha256": "e4b32b9a96bf7039585684f5d6b864cb4dcaf276cb3bb196d329408ddb70d16c"
     },
     {
       "id": "36-search-and-knowledge",
@@ -508,10 +508,10 @@
       "search_url": "https://github.com/search?q=search+OR+engine+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 6,
+      "candidate_count": 4,
       "data_path": "research/candidates/36-search-and-knowledge.json",
-      "bytes": 4217,
-      "sha256": "7d873adbc7e8786418766cae82d79087eea3af75660930f3a94af996926fead1"
+      "bytes": 3936,
+      "sha256": "75d53b24bf948427d6203236b3156f6b515c109d2db1e640f2c2625777fe6426"
     },
     {
       "id": "37-design-quality-and-engineering-standards",
@@ -522,136 +522,136 @@
       "search_url": "https://github.com/search?q=design+OR+quality+OR+anti+OR+slop+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 15,
+      "candidate_count": 14,
       "data_path": "research/candidates/37-design-quality-and-engineering-standards.json",
-      "bytes": 10993,
-      "sha256": "3373aa0ceae137ceae74a0457187bfc0e316c295990a26c374497e4762dbbdbd"
+      "bytes": 15078,
+      "sha256": "63b584769e21008eec3347f0a96c76543bd10d52825c9bc5914ec8d4b4cdb9b7"
     },
     {
       "id": "38-ai-agent-skills-and-rules",
       "title_ru": "Навыки и правила AI-агентов",
       "title_en": "AI Agent Skills & Rules",
-      "status": "proposed",
+      "status": "catalog",
       "query": "agent OR skills OR rules stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=agent+OR+skills+OR+rules+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 3,
+      "candidate_count": 4,
       "data_path": "research/candidates/38-ai-agent-skills-and-rules.json",
-      "bytes": 2666,
-      "sha256": "e849ece2bfbecde667e65ec071ce06de8a6d43d87b9de1acb13c021c884aa802"
+      "bytes": 4844,
+      "sha256": "ac2cd15fbef0fb93f7ead4bd47b4e1195669fcb35aedd0d28ff37a202f26b30a"
     },
     {
       "id": "39-software-architecture",
       "title_ru": "Архитектура ПО",
       "title_en": "Software Architecture",
-      "status": "proposed",
+      "status": "catalog",
       "query": "software OR architecture stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=software+OR+architecture+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 19,
+      "candidate_count": 12,
       "data_path": "research/candidates/39-software-architecture.json",
-      "bytes": 13481,
-      "sha256": "367e7f1db05ffbbd09009f09a085c7bc3811f71ca386c5bade9298997eb22576"
+      "bytes": 13631,
+      "sha256": "1fbc3b40a8d6ad5d3a650668ddc0cb5a56893563dc35aedd005b9905b0540ee0"
     },
     {
       "id": "40-developer-tools-and-dx",
       "title_ru": "Инструменты разработчика и DX",
       "title_en": "Developer Tools & DX",
-      "status": "proposed",
+      "status": "catalog",
       "query": "developer OR tools stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=developer+OR+tools+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 15,
+      "candidate_count": 18,
       "data_path": "research/candidates/40-developer-tools-and-dx.json",
-      "bytes": 10428,
-      "sha256": "41b3f9c9c4eae0b4d9bc629a196273954c34af737afb5b41faa8e830c4a179ef"
+      "bytes": 19428,
+      "sha256": "d5d71f2bf0ff796e455c1a38b0eb62909e3c04a830602a5887934e525e98c334"
     },
     {
       "id": "41-testing-and-quality-assurance",
       "title_ru": "Тестирование и QA",
       "title_en": "Testing & Quality Assurance",
-      "status": "proposed",
+      "status": "catalog",
       "query": "testing OR quality OR assurance stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=testing+OR+quality+OR+assurance+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 30,
+      "candidate_count": 24,
       "data_path": "research/candidates/41-testing-and-quality-assurance.json",
-      "bytes": 20642,
-      "sha256": "5f868c7bcff126fbaf4db66d086a4bacd267285af99e612c058c54da8b792fe7"
+      "bytes": 24061,
+      "sha256": "bfaa9c159f0a52b62d0e3ae2d18ab61d5ed4d2d1a1a70d2e6f2cb1f2beec9a4c"
     },
     {
       "id": "42-documentation-and-technical-writing",
       "title_ru": "Документация и технические тексты",
       "title_en": "Documentation & Technical Writing",
-      "status": "proposed",
+      "status": "catalog",
       "query": "documentation OR technical OR writing stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=documentation+OR+technical+OR+writing+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 32,
+      "candidate_count": 21,
       "data_path": "research/candidates/42-documentation-and-technical-writing.json",
-      "bytes": 21601,
-      "sha256": "980d1aafa63643c769e3b76a721263bd268e75044edbd399300eeab841af0952"
+      "bytes": 21501,
+      "sha256": "f34e2ad7638745df16939631da060938fb89b59da5991acd505e68d2405fcf1d"
     },
     {
       "id": "43-programming-languages-and-compilers",
       "title_ru": "Языки и компиляторы",
       "title_en": "Programming Languages & Compilers",
-      "status": "proposed",
+      "status": "catalog",
       "query": "compiler OR interpreter stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=compiler+OR+interpreter+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 37,
+      "candidate_count": 19,
       "data_path": "research/candidates/43-programming-languages-and-compilers.json",
-      "bytes": 24946,
-      "sha256": "7a685e4335639c717882ae885b66260d90f95bf17e651871179b8f868c79d270"
+      "bytes": 19385,
+      "sha256": "65cb00ab1442d2e3c138d8c8ad874c12f62ffc63e3073c2e23473aa729115dd0"
     },
     {
       "id": "44-networking-and-connectivity",
       "title_ru": "Сети и связность",
       "title_en": "Networking & Connectivity",
-      "status": "proposed",
+      "status": "catalog",
       "query": "networking OR connectivity stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=networking+OR+connectivity+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 30,
+      "candidate_count": 22,
       "data_path": "research/candidates/44-networking-and-connectivity.json",
-      "bytes": 19942,
-      "sha256": "ce213318738318e31f200483a60ce0610f4d3609fac2b4bbbd78f3c53b4e25fb"
+      "bytes": 22128,
+      "sha256": "e5a873dfa0398758f0f600bb6def5570852fb3811fccb7c4bccc6086b4a347a5"
     },
     {
       "id": "45-operating-systems-and-virtualization",
       "title_ru": "Операционные системы и виртуализация",
       "title_en": "Operating Systems & Virtualization",
-      "status": "proposed",
+      "status": "catalog",
       "query": "operating OR system OR virtualization stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=operating+OR+system+OR+virtualization+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 13,
+      "candidate_count": 8,
       "data_path": "research/candidates/45-operating-systems-and-virtualization.json",
-      "bytes": 9427,
-      "sha256": "c50c0e62091776d65b65c07190fabba04aa1dcbbdec8c7758e488aac8f98eceb"
+      "bytes": 9312,
+      "sha256": "45c76381c31a1b1debdf5736399c919d51a0bf8370de463f1ccfffde62042821"
     },
     {
       "id": "46-distributed-systems-and-messaging",
       "title_ru": "Распределённые системы и сообщения",
       "title_en": "Distributed Systems & Messaging",
-      "status": "proposed",
+      "status": "catalog",
       "query": "distributed OR messaging stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=distributed+OR+messaging+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 22,
+      "candidate_count": 16,
       "data_path": "research/candidates/46-distributed-systems-and-messaging.json",
-      "bytes": 15575,
-      "sha256": "1a4efc91f0f280fbba080b4f559dc9921b9dedd37a9eb039229d33a0c98f8caa"
+      "bytes": 17420,
+      "sha256": "64ffdddce07d6920eeb2697d5e18aa3e776cfeb3d673252dbb515ddb7fc3d3fe"
     },
     {
       "id": "47-product-management",
@@ -664,64 +664,64 @@
       "returned_observations": 50,
       "candidate_count": 1,
       "data_path": "research/candidates/47-product-management.json",
-      "bytes": 1058,
-      "sha256": "e4f7a230e52af9c3b01539694132d3b5ccaf0d6f637ebe89248255f8c9851ada"
+      "bytes": 1305,
+      "sha256": "ebe74085dfeec7c6c1a4f5aa742d39ca5aca1e0974b1f70a42b5da01623f3f1c"
     },
     {
       "id": "48-hr-and-workforce-management",
       "title_ru": "HR и управление персоналом",
       "title_en": "HR & Workforce Management",
-      "status": "proposed",
+      "status": "catalog",
       "query": "hr OR workforce stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=hr+OR+workforce+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 42,
+      "candidate_count": 20,
       "data_path": "research/candidates/48-hr-and-workforce-management.json",
-      "bytes": 28955,
-      "sha256": "741a273d19b9aca0d85de3ed97e53dc68779b7e26f2a61c548a556982bdd1f0e"
+      "bytes": 19109,
+      "sha256": "19d198787500a0427c648861eff910a0b687d11cafceeebb9a5f03dceaaf4027"
     },
     {
       "id": "49-customer-support-and-helpdesk",
       "title_ru": "Поддержка и helpdesk",
       "title_en": "Customer Support & Helpdesk",
-      "status": "proposed",
+      "status": "catalog",
       "query": "helpdesk OR customer OR support stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=helpdesk+OR+customer+OR+support+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
       "candidate_count": 13,
       "data_path": "research/candidates/49-customer-support-and-helpdesk.json",
-      "bytes": 9420,
-      "sha256": "21203d0602502398c4a409f0823c038a0c8e4e938e6e847520d312b46d873e08"
+      "bytes": 13488,
+      "sha256": "9ae034449583ae7aeefc669e960fb2aeffcfc5d2669af21bc3368aee9a76ecef"
     },
     {
       "id": "50-itsm-and-asset-management",
       "title_ru": "ITSM и управление активами",
       "title_en": "ITSM & Asset Management",
-      "status": "proposed",
+      "status": "catalog",
       "query": "itsm OR asset OR management stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=itsm+OR+asset+OR+management+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
       "candidate_count": 1,
       "data_path": "research/candidates/50-itsm-and-asset-management.json",
-      "bytes": 1235,
-      "sha256": "a0d746dae8edac8c9fc2e013a3a84c9af30f39e441d01d2e43c7d5183e5236b1"
+      "bytes": 1500,
+      "sha256": "cee3a191bc670514bb91338a22407cffbab2b3cbac5ad97c0fc3795b79b1e261"
     },
     {
       "id": "51-procurement-tenders-and-auctions",
       "title_ru": "Закупки, тендеры и аукционы",
       "title_en": "Procurement, Tenders & Auctions",
-      "status": "proposed",
+      "status": "catalog",
       "query": "procurement OR auction stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=procurement+OR+auction+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 49,
+      "candidate_count": 44,
       "data_path": "research/candidates/51-procurement-tenders-and-auctions.json",
-      "bytes": 34016,
-      "sha256": "3a7fcfe21b81af2ca9954a4f69f569522670176a24dea49cec6d5f75ac17ed5a"
+      "bytes": 42664,
+      "sha256": "9b9b8eca59a1ca8cc0fe01acb4f7974722c4da9ef2880a9edd7872727f1dc0ef"
     },
     {
       "id": "52-retail-pos-and-kiosks",
@@ -734,64 +734,64 @@
       "returned_observations": 50,
       "candidate_count": 44,
       "data_path": "research/candidates/52-retail-pos-and-kiosks.json",
-      "bytes": 29474,
-      "sha256": "52773f993d8f94a8d23effdf556993e0cf603311fa2a1c60b4b38e515b7f188c"
+      "bytes": 40023,
+      "sha256": "f7df950d18cf26f4c0179a999abc39ba75434ee225a23e3b8cb0c216626d3419"
     },
     {
       "id": "53-marketplaces-and-on-demand",
       "title_ru": "Маркетплейсы и услуги по запросу",
       "title_en": "Marketplaces & On-Demand",
-      "status": "proposed",
+      "status": "catalog",
       "query": "marketplace stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=marketplace+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 34,
+      "candidate_count": 30,
       "data_path": "research/candidates/53-marketplaces-and-on-demand.json",
-      "bytes": 24568,
-      "sha256": "105106602cdf6770d0cd5edda7601fbfe57dc96b0e32f90fcc1c84c572931137"
+      "bytes": 28692,
+      "sha256": "1a4d3dbe74a09074ce760a7f4b899f3a0324b7b35f5a9e4ff2f983350191df67"
     },
     {
       "id": "54-compliance-risk-and-governance",
       "title_ru": "Комплаенс, риски и управление",
       "title_en": "Compliance, Risk & Governance",
-      "status": "proposed",
+      "status": "catalog",
       "query": "compliance OR governance OR risk stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=compliance+OR+governance+OR+risk+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 43,
+      "candidate_count": 38,
       "data_path": "research/candidates/54-compliance-risk-and-governance.json",
-      "bytes": 30848,
-      "sha256": "3a9934b908f6b3476a3c56c0a56451e6224d76ec8e67f457cb6f9509cb3425fd"
+      "bytes": 37866,
+      "sha256": "84b06cfe3417b425f7de664062ee31b47fdfda650f1872671d23ef532c627269"
     },
     {
       "id": "55-manufacturing-and-industry",
       "title_ru": "Производство и промышленность",
       "title_en": "Manufacturing & Industry 4.0",
-      "status": "proposed",
+      "status": "catalog",
       "query": "manufacturing OR scada stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=manufacturing+OR+scada+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 41,
+      "candidate_count": 38,
       "data_path": "research/candidates/55-manufacturing-and-industry.json",
-      "bytes": 27685,
-      "sha256": "ca733113ef08ae8782b9992d0718537d0001036b461df924727a5db898ff83c5"
+      "bytes": 35750,
+      "sha256": "8df116d7cbf745182ed952043e6bb83278f8d9864f2db622f99cdab19940f8ae"
     },
     {
       "id": "56-construction-and-bim",
       "title_ru": "Строительство и BIM",
       "title_en": "Construction & BIM",
-      "status": "proposed",
+      "status": "catalog",
       "query": "bim OR ifc stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=bim+OR+ifc+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 47,
+      "candidate_count": 44,
       "data_path": "research/candidates/56-construction-and-bim.json",
-      "bytes": 31076,
-      "sha256": "a6937b4e6bd464670cfdf8e1529a024574944e4bf848659d52020d6fb6eebde6"
+      "bytes": 39197,
+      "sha256": "4671e05f363bec9e821a97dcae5bd27f5aaf1561f0fecd8a07f6640eee4a4492"
     },
     {
       "id": "57-agriculture-and-foodtech",
@@ -804,50 +804,50 @@
       "returned_observations": 50,
       "candidate_count": 49,
       "data_path": "research/candidates/57-agriculture-and-foodtech.json",
-      "bytes": 34303,
-      "sha256": "67641900305afe9b1b1af9b3b3b98e2196007aa6d128bafe8204667544d6ff02"
+      "bytes": 46798,
+      "sha256": "600ac4b9be3a7d006ff432397545ef1d64dacabcb490c98dd4be816354a688b4"
     },
     {
       "id": "58-energy-and-climate",
       "title_ru": "Энергетика и климат",
       "title_en": "Energy & Climate",
-      "status": "proposed",
+      "status": "catalog",
       "query": "energy OR climate stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=energy+OR+climate+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 49,
+      "candidate_count": 45,
       "data_path": "research/candidates/58-energy-and-climate.json",
-      "bytes": 32819,
-      "sha256": "675471f53f7b702bdcf8981deceae688303e67444e8aa6372a877d9d01aea0e2"
+      "bytes": 41133,
+      "sha256": "2a9ae6889115d7f9f767040eb9a238dcaa36232d7c4e638a3bfaa5d38584b3b0"
     },
     {
       "id": "59-automotive-and-ev",
       "title_ru": "Автомобили и электротранспорт",
       "title_en": "Automotive & EV",
-      "status": "proposed",
+      "status": "catalog",
       "query": "automotive OR ev stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=automotive+OR+ev+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 43,
+      "candidate_count": 42,
       "data_path": "research/candidates/59-automotive-and-ev.json",
-      "bytes": 28061,
-      "sha256": "e9a501d463309c4e808d79aae2f4d2d495c38117abe6c9b7d9ba6f90913a0fd1"
+      "bytes": 38088,
+      "sha256": "148518114510e5f33bf5fd05e88faba4e4fa8cd0f3b4373bdfa421bd7b6417d5"
     },
     {
       "id": "60-robotics-and-drones",
       "title_ru": "Роботы и дроны",
       "title_en": "Robotics & Drones",
-      "status": "proposed",
+      "status": "catalog",
       "query": "robotics OR drones stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=robotics+OR+drones+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 37,
+      "candidate_count": 33,
       "data_path": "research/candidates/60-robotics-and-drones.json",
-      "bytes": 24397,
-      "sha256": "0153422b1c97cd3b47bef108409edd49730913f50f4bd9d5d6124cbc2c4ce4d9"
+      "bytes": 30648,
+      "sha256": "486c57783dc9c5f7e659a93a0a1dd4ed95ff47dcacb6984a5bcf833e0efad8ab"
     },
     {
       "id": "61-smart-cities-and-infrastructure",
@@ -860,8 +860,8 @@
       "returned_observations": 50,
       "candidate_count": 36,
       "data_path": "research/candidates/61-smart-cities-and-infrastructure.json",
-      "bytes": 26527,
-      "sha256": "428b033611af383cc9c293dda83796008e6acb435050331edbaba61844c92a66"
+      "bytes": 36796,
+      "sha256": "b10675a7ffefdad344dda3e23a77107166ff2c80155495a48865689ebab77dea"
     },
     {
       "id": "62-events-and-ticketing",
@@ -872,38 +872,38 @@
       "search_url": "https://github.com/search?q=events+OR+ticketing+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 32,
+      "candidate_count": 31,
       "data_path": "research/candidates/62-events-and-ticketing.json",
-      "bytes": 21617,
-      "sha256": "1cbc6d3c7de1048666aacb2da9a0bd596d81e50b790b7b675484931c302e72e9"
+      "bytes": 28776,
+      "sha256": "f310421b87cabbd19f650567c307972188413de247d99e7858fb15d6ef531d11"
     },
     {
       "id": "63-bioinformatics-and-life-sciences",
       "title_ru": "Биоинформатика и науки о жизни",
       "title_en": "Bioinformatics & Life Sciences",
-      "status": "proposed",
+      "status": "catalog",
       "query": "bioinformatics OR genomics stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=bioinformatics+OR+genomics+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 47,
+      "candidate_count": 43,
       "data_path": "research/candidates/63-bioinformatics-and-life-sciences.json",
-      "bytes": 31722,
-      "sha256": "82a12ee07e18ca03c3b64ab407a44f527144856f65382e8052b78d65518b1e94"
+      "bytes": 40825,
+      "sha256": "d8fc8a7b5e93677e4f79bda5544c2d9c49e9430fba2c85be061138dcd460d89a"
     },
     {
       "id": "64-social-platforms-and-communities",
       "title_ru": "Социальные платформы и сообщества",
       "title_en": "Social Platforms & Communities",
-      "status": "proposed",
+      "status": "catalog",
       "query": "social OR community OR forum stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=social+OR+community+OR+forum+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 25,
+      "candidate_count": 22,
       "data_path": "research/candidates/64-social-platforms-and-communities.json",
-      "bytes": 17508,
-      "sha256": "83159652d8fff3f24b0bbec56bd5aaa55b94a3948deb05e6646aa29e5415c491"
+      "bytes": 21914,
+      "sha256": "b9d5a8547d5d6f8858c90194e0d3d7a048832ee7ccdb4c85795b8a55f8df4ff1"
     },
     {
       "id": "65-personal-and-family-tools",
@@ -916,8 +916,8 @@
       "returned_observations": 50,
       "candidate_count": 23,
       "data_path": "research/candidates/65-personal-and-family-tools.json",
-      "bytes": 15564,
-      "sha256": "644efe8a8801eb28f29ce8a94852026089808bfaacd71baaad4bca70424427f6"
+      "bytes": 21866,
+      "sha256": "a62f3e5587356b53bd12a17ed8c1d1bdd2e06ca227d723394c5e40eb0fb742ef"
     },
     {
       "id": "66-ar-vr-xr-and-spatial",
@@ -928,66 +928,67 @@
       "search_url": "https://github.com/search?q=virtual+OR+reality+OR+xr+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 35,
+      "candidate_count": 34,
       "data_path": "research/candidates/66-ar-vr-xr-and-spatial.json",
-      "bytes": 23424,
-      "sha256": "6a7bb574244ccc6dfe2e0e767e5c65a6002b6355976ab5851fd5eace233b6d5e"
+      "bytes": 31745,
+      "sha256": "7443e953a7432f84b8be5929bb6af5c8163ae70bbacc800bc7c7b8b6fb475e55"
     },
     {
       "id": "67-publishing-and-digital-archives",
       "title_ru": "Издательские системы и цифровые архивы",
       "title_en": "Publishing & Digital Archives",
-      "status": "proposed",
+      "status": "catalog",
       "query": "digital OR archive OR publishing stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=digital+OR+archive+OR+publishing+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 34,
+      "candidate_count": 32,
       "data_path": "research/candidates/67-publishing-and-digital-archives.json",
-      "bytes": 24055,
-      "sha256": "1caf40cf3c77cf69127a70bc0e319ebc1acecaef82c87a1fca475eff4217ce61"
+      "bytes": 31648,
+      "sha256": "f4cb938bf89dee7b34dd6c8859064137a96de44451aa71e8cde55b73986d9048"
     },
     {
       "id": "68-blockchain-and-decentralization",
       "title_ru": "Блокчейн и децентрализация",
       "title_en": "Blockchain & Decentralization",
-      "status": "proposed",
+      "status": "catalog",
       "query": "blockchain OR decentralized stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=blockchain+OR+decentralized+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 35,
+      "candidate_count": 26,
       "data_path": "research/candidates/68-blockchain-and-decentralization.json",
-      "bytes": 23719,
-      "sha256": "d024419ce7d51d76fbe5c936d2c0e1b7df9f1f69c852f16698b42fae007efd4b"
+      "bytes": 24851,
+      "sha256": "9bad30a55120536ba85a5060f80ab430d2819cd54f70044928d52a685414db1b"
     },
     {
       "id": "69-nonprofits-and-civic-organizations",
       "title_ru": "НКО и общественные организации",
       "title_en": "Nonprofits & Civic Organizations",
-      "status": "proposed",
+      "status": "catalog",
       "query": "nonprofit OR volunteering stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=nonprofit+OR+volunteering+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 48,
+      "candidate_count": 41,
       "data_path": "research/candidates/69-nonprofits-and-civic-organizations.json",
-      "bytes": 34339,
-      "sha256": "abf1c2b6679d7524b9ec372e5a7caa68211ac4536049347f3a2e32ef4a18abc4"
+      "bytes": 40756,
+      "sha256": "7b3bba4ee9c79a7886b6e8a620cf8a2841b8b4ed00f6177437a20c6bb03857f2"
     },
     {
       "id": "70-sports-and-fitness",
       "title_ru": "Спорт и фитнес",
       "title_en": "Sports & Fitness",
-      "status": "proposed",
+      "status": "catalog",
       "query": "sports OR fitness stars:>50 archived:false fork:false",
       "search_url": "https://github.com/search?q=sports+OR+fitness+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 49,
+      "candidate_count": 42,
       "data_path": "research/candidates/70-sports-and-fitness.json",
-      "bytes": 32095,
-      "sha256": "262e805a5d5405457213bc5d536db572df45d58fed91214ce1baebf0d45f02e3"
+      "bytes": 37677,
+      "sha256": "31ba07fda25063b5a8e751847896e2f4c6f55f3dd3ccd496d9ed030d8faf6830"
     }
-  ]
+  ],
+  "latest_editorial_batch": "research/review-batches/2026-10-27-batch-01.json"
 }
