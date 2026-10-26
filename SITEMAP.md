@@ -59,6 +59,18 @@ Both views represent the same records; select one format rather than fetching bo
 | 22 | Игры, звук и видео / Gaming & media | 30 | [Markdown](22-gaming-and-media/README.md) | [JSON](data/categories/22-gaming-and-media.json) |
 | 23 | Обучение, практика и исследования / Learning & research | 50 | [Markdown](23-learning-and-research/README.md) | [JSON](data/categories/23-learning-and-research.json) |
 | 24 | Каталоги и тематические коллекции / Awesome & collections | 50 | [Markdown](24-awesome-collections/README.md) | [JSON](data/categories/24-awesome-collections.json) |
+| 25 | Связь и realtime / Communications & realtime | 12 | [Markdown](25-communications-and-realtime/README.md) | [JSON](data/categories/25-communications-and-realtime.json) |
+| 26 | Карты и геопространственные данные / Maps & geospatial | 12 | [Markdown](26-maps-and-geospatial/README.md) | [JSON](data/categories/26-maps-and-geospatial.json) |
+| 27 | Логистика и транспорт / Logistics & transportation | 10 | [Markdown](27-logistics-and-transportation/README.md) | [JSON](data/categories/27-logistics-and-transportation.json) |
+| 28 | Недвижимость и управление объектами / Real estate & property | 4 | [Markdown](28-real-estate-and-property/README.md) | [JSON](data/categories/28-real-estate-and-property.json) |
+| 29 | Туризм, бронирование и рестораны / Travel & hospitality | 6 | [Markdown](29-travel-and-hospitality/README.md) | [JSON](data/categories/29-travel-and-hospitality.json) |
+| 30 | Документы и legal tech / Documents & legal tech | 12 | [Markdown](30-documents-and-legal-tech/README.md) | [JSON](data/categories/30-documents-and-legal-tech.json) |
+| 31 | Медицина и медицинские данные / Healthcare & medical | 10 | [Markdown](31-healthcare-and-medical/README.md) | [JSON](data/categories/31-healthcare-and-medical.json) |
+| 32 | Образовательные платформы и LMS / Education & LMS | 10 | [Markdown](32-education-and-lms/README.md) | [JSON](data/categories/32-education-and-lms.json) |
+| 33 | Доступность и локализация / Accessibility & localization | 12 | [Markdown](33-accessibility-and-localization/README.md) | [JSON](data/categories/33-accessibility-and-localization.json) |
+| 34 | Наука и инженерия / Science & engineering | 12 | [Markdown](34-science-and-engineering/README.md) | [JSON](data/categories/34-science-and-engineering.json) |
+| 35 | Открытые данные и civic tech / Open data & civic tech | 10 | [Markdown](35-open-data-and-civic-tech/README.md) | [JSON](data/categories/35-open-data-and-civic-tech.json) |
+| 36 | Поиск и базы знаний / Search & knowledge | 10 | [Markdown](36-search-and-knowledge/README.md) | [JSON](data/categories/36-search-and-knowledge.json) |
 
 ## Повторное чтение / Repeat visits
 
