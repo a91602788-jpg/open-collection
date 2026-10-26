@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from urllib.parse import urljoin
 
 from render_ai_navigation import encode_json, generate, generated_errors
 
@@ -47,6 +48,13 @@ class ProgressiveReadingContracts(unittest.TestCase):
         path = 'data/categories/08-crm-and-sales.json'
         self.assertEqual(before[path], after[path])
         self.assertNotEqual(before['ai/index.json'], after['ai/index.json'])
+
+    def test_category_links_stay_on_the_readers_branch(self):
+        result = generate(encode_json(self.catalog))
+        category = json.loads(result['ai/index.json'])['categories'][0]
+        base = 'https://raw.githubusercontent.com/a91602788-jpg/open-collection/catalog/v0.2-expanded-domains/'
+        resolved = urljoin(base+'ai/index.json', category['raw_url'])
+        self.assertEqual(resolved, base+category['data_path'])
 
     def test_missing_stale_and_removed_category_files_are_detected(self):
         result = generate(encode_json(self.catalog))

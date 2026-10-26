@@ -8,9 +8,11 @@
 
 A public directory of GitHub projects: SaaS starters, UI components, AI, CRM, ERP, design, tools and learning resources. Browse everything here on GitHub.
 
-**1,000 unique repositories · 24 categories · metadata snapshot 2026-10-27**
+**1,120 unique repositories · 36 categories · metadata snapshot 2026-10-27**
 
 Start with the [task guide](guides/start-here.md), browse a category below or use the [JSON catalog](data/catalog.json). Search within any category with `Ctrl+F` / `⌘F`.
+
+The v0.2 draft adds 120 original RU/EN descriptions and new subcategories. See the [data schema changes](data/SCHEMA.md).
 
 ## For AI assistants
 
@@ -48,12 +50,24 @@ Start with [llms.txt](llms.txt) or the [compact JSON index](ai/index.json), then
 | 22 | [Gaming & media](22-gaming-and-media/README.md) | 30 |
 | 23 | [Learning & research](23-learning-and-research/README.md) | 50 |
 | 24 | [Awesome & collections](24-awesome-collections/README.md) | 50 |
+| 25 | [Communications & realtime](25-communications-and-realtime/README.md) | 12 |
+| 26 | [Maps & geospatial](26-maps-and-geospatial/README.md) | 12 |
+| 27 | [Logistics & transportation](27-logistics-and-transportation/README.md) | 10 |
+| 28 | [Real estate & property](28-real-estate-and-property/README.md) | 4 |
+| 29 | [Travel & hospitality](29-travel-and-hospitality/README.md) | 6 |
+| 30 | [Documents & legal tech](30-documents-and-legal-tech/README.md) | 12 |
+| 31 | [Healthcare & medical](31-healthcare-and-medical/README.md) | 10 |
+| 32 | [Education & LMS](32-education-and-lms/README.md) | 10 |
+| 33 | [Accessibility & localization](33-accessibility-and-localization/README.md) | 12 |
+| 34 | [Science & engineering](34-science-and-engineering/README.md) | 12 |
+| 35 | [Open data & civic tech](35-open-data-and-civic-tech/README.md) | 10 |
+| 36 | [Search & knowledge](36-search-and-knowledge/README.md) | 10 |
 
 ## What has been checked
 
 Every entry links to its author and includes a description, primary language, GitHub-detected license and push date. `metadata-checked` means the public repository existed and these fields were retrieved at the snapshot date. It **does not mean installation testing, security auditing or commercial-license approval**.
 
-`starter` marks project foundations, `collection` marks resource lists, `learning` marks educational material and `software` covers other software projects. Some entries have custom terms, so the entire catalog is not labeled open source. `CHECK-LICENSE` requires manual review.
+`starter` marks project foundations, `collection` marks resource lists, `learning` marks educational material, `reference` marks specifications and datasets, and `software` covers other software projects. `resource_type` refines the class of new resources. Some entries have custom terms, so the entire catalog is not labeled open source. `CHECK-LICENSE` requires manual review.
 
 Selected starting points have original RU/EN summaries. Other descriptions are attributed upstream GitHub metadata, shortened to at most 24 words and kept in their original language. Full stacks, current pricing and deployment options have not been reviewed across the index. A push date is not proof of active maintenance.
 

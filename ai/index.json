@@ -3,14 +3,15 @@
   "name": "Open Collection AI navigation",
   "repository": "https://github.com/a91602788-jpg/open-collection",
   "snapshot_date": "2026-10-27",
-  "total_entries": 1000,
+  "total_entries": 1120,
   "routing": "Select categories by bilingual titles; fetch only their data_path or markdown_path.",
+  "url_resolution": "Resolve raw_url relative to this index URL. data_path and markdown_path are relative to the repository root. Keep the same branch or commit.",
   "cache": "Reuse files when sha256 is unchanged. Hashes describe exact UTF-8 file bytes. On mismatch, refresh this index before retrying.",
   "verification": "GitHub API metadata only; no installation, security audit or license legal review.",
   "source": {
     "path": "data/catalog.json",
-    "bytes": 1028410,
-    "sha256": "8e23e43c9ef4afb23a18fe7b4e0d10fd0cf787e51b0568c0a1cc52b0b429230f",
+    "bytes": 1196623,
+    "sha256": "6fda978f1e1cb0a5521f62ccd5505eb97449502dbdc3dd8514d0e6257a25c461",
     "usage": "Full export and editing source; load for exhaustive tasks only."
   },
   "categories": [
@@ -21,9 +22,9 @@
       "count": 60,
       "markdown_path": "01-saas-and-starters/README.md",
       "data_path": "data/categories/01-saas-and-starters.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/01-saas-and-starters.json",
+      "raw_url": "../data/categories/01-saas-and-starters.json",
       "bytes": 52431,
-      "sha256": "0a611dde228e3b3e424b83a12367a640c2067a4247f67f676135c904df586c2b"
+      "sha256": "ef23b9878dbceda39003c9f1303dabdb5b701f614ed2e90c1f2980ad12f0b841"
     },
     {
       "id": "02-design-and-creative",
@@ -32,9 +33,9 @@
       "count": 40,
       "markdown_path": "02-design-and-creative/README.md",
       "data_path": "data/categories/02-design-and-creative.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/02-design-and-creative.json",
+      "raw_url": "../data/categories/02-design-and-creative.json",
       "bytes": 32397,
-      "sha256": "d6ae0c516423bbd33647e68971c2ad68e4cb1ed6697ce01e25a8e963ff407b50"
+      "sha256": "2ce009ed3ec835464e8bac8078c132c87499c37789d5592a19deba1e94830561"
     },
     {
       "id": "03-web-development",
@@ -43,9 +44,9 @@
       "count": 50,
       "markdown_path": "03-web-development/README.md",
       "data_path": "data/categories/03-web-development.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/03-web-development.json",
+      "raw_url": "../data/categories/03-web-development.json",
       "bytes": 38267,
-      "sha256": "5ac0f00f5d4f9b16540533da403d2269f5908c78728f953b32d945f6524d7a43"
+      "sha256": "ac1407a152d7bb72cc454c4f7f81f28c408fb0bfe08924b0366fc6705d91b092"
     },
     {
       "id": "04-web-components",
@@ -54,9 +55,9 @@
       "count": 70,
       "markdown_path": "04-web-components/README.md",
       "data_path": "data/categories/04-web-components.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/04-web-components.json",
+      "raw_url": "../data/categories/04-web-components.json",
       "bytes": 55783,
-      "sha256": "473384b6732b05dc54ac340cefe90484d707b46d7a4cff58e001b9eed6219e00"
+      "sha256": "4f388a6bccc8be23d0d2f0744ffa9b0f43258d22e3453cd2d79c44056080b9ba"
     },
     {
       "id": "05-mobile-applications",
@@ -65,20 +66,58 @@
       "count": 45,
       "markdown_path": "05-mobile-applications/README.md",
       "data_path": "data/categories/05-mobile-applications.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/05-mobile-applications.json",
+      "raw_url": "../data/categories/05-mobile-applications.json",
       "bytes": 37682,
-      "sha256": "75ae529559a07286a35f979876149f172fb6308c6ec4dd4a5c444dbe2b0d78db"
+      "sha256": "73f642566a76dcb9499edae5deff44be872c88e017027c0f0a30c4721cca77f1"
     },
     {
       "id": "06-artificial-intelligence",
       "title_ru": "AI, агенты, MCP и RAG",
       "title_en": "AI & machine learning",
       "count": 80,
+      "subcategories": [
+        {
+          "id": "models-and-inference",
+          "title_ru": "Модели и инференс",
+          "title_en": "Models & inference",
+          "count": 8
+        },
+        {
+          "id": "agents-and-orchestration",
+          "title_ru": "Агенты и оркестрация",
+          "title_en": "Agents & orchestration",
+          "count": 42
+        },
+        {
+          "id": "rag-and-retrieval",
+          "title_ru": "RAG и поиск",
+          "title_en": "RAG & retrieval",
+          "count": 6
+        },
+        {
+          "id": "mcp-and-integrations",
+          "title_ru": "MCP и интеграции",
+          "title_en": "MCP & integrations",
+          "count": 6
+        },
+        {
+          "id": "apps-and-workflows",
+          "title_ru": "Приложения и рабочие процессы",
+          "title_en": "Apps & workflows",
+          "count": 10
+        },
+        {
+          "id": "learning-and-evaluation",
+          "title_ru": "Обучение и оценка",
+          "title_en": "Learning & evaluation",
+          "count": 8
+        }
+      ],
       "markdown_path": "06-artificial-intelligence/README.md",
       "data_path": "data/categories/06-artificial-intelligence.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/06-artificial-intelligence.json",
-      "bytes": 67544,
-      "sha256": "d9f8a22b44cad2d874760cd65ea926897d9b342a6f1f82e0a9893e5a2947379a"
+      "raw_url": "../data/categories/06-artificial-intelligence.json",
+      "bytes": 71399,
+      "sha256": "3b73dbb44a3f3cc5476ce330e1956f942589eedb8851f2675c3dfccc3bf91dbc"
     },
     {
       "id": "07-databases-and-storage",
@@ -87,9 +126,9 @@
       "count": 50,
       "markdown_path": "07-databases-and-storage/README.md",
       "data_path": "data/categories/07-databases-and-storage.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/07-databases-and-storage.json",
+      "raw_url": "../data/categories/07-databases-and-storage.json",
       "bytes": 40109,
-      "sha256": "03fdbab4dc3395f41e1a83e78f9bbf1c76389fe3ab21483cfac306bea26aaf95"
+      "sha256": "c55083a805d0388dc0f3524a1ef03bf5c1603bd3a84e15d2af4f0fafd9bdafb0"
     },
     {
       "id": "08-crm-and-sales",
@@ -98,9 +137,9 @@
       "count": 25,
       "markdown_path": "08-crm-and-sales/README.md",
       "data_path": "data/categories/08-crm-and-sales.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/08-crm-and-sales.json",
+      "raw_url": "../data/categories/08-crm-and-sales.json",
       "bytes": 20340,
-      "sha256": "5f49bc02cc6da6cbc4cece72bb69f8ce5cdf4291e8e2cbfd02dbc3c4fed2233d"
+      "sha256": "2add0b2cb55d4ebaf06b0c01ce3460160cd033e8b28c5451473a603b492c4b5b"
     },
     {
       "id": "09-erp-and-enterprise",
@@ -109,9 +148,9 @@
       "count": 20,
       "markdown_path": "09-erp-and-enterprise/README.md",
       "data_path": "data/categories/09-erp-and-enterprise.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/09-erp-and-enterprise.json",
+      "raw_url": "../data/categories/09-erp-and-enterprise.json",
       "bytes": 16327,
-      "sha256": "2b54caea5170102d9f45284018c1dc06c03499c959ddbb5752e65a3f0d8864af"
+      "sha256": "a2d051d1f327500a92ecc567f7b81f732062425bac49e2018ddd818659c0e79f"
     },
     {
       "id": "10-finance-and-payments",
@@ -120,9 +159,9 @@
       "count": 25,
       "markdown_path": "10-finance-and-payments/README.md",
       "data_path": "data/categories/10-finance-and-payments.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/10-finance-and-payments.json",
+      "raw_url": "../data/categories/10-finance-and-payments.json",
       "bytes": 20103,
-      "sha256": "b1372efd227df2516dce0924b555360bc094dc4382b5efe8df2c0542c449fbb7"
+      "sha256": "2e19d2f7dec5eb1fd899570ff80a3c437b1e29c90e7c7f6264b500be9daad5e0"
     },
     {
       "id": "11-ecommerce",
@@ -131,9 +170,9 @@
       "count": 35,
       "markdown_path": "11-ecommerce/README.md",
       "data_path": "data/categories/11-ecommerce.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/11-ecommerce.json",
+      "raw_url": "../data/categories/11-ecommerce.json",
       "bytes": 28832,
-      "sha256": "b2685cf53e22cb857e10ddacda25ab8b59b85323eb9644dd84a01c859826fd5d"
+      "sha256": "db1c0b7d4f411a76b054eef8cdeb410e5d8fcbb5def3aea1f18b86916d0e1fb9"
     },
     {
       "id": "12-self-hosted",
@@ -142,9 +181,9 @@
       "count": 50,
       "markdown_path": "12-self-hosted/README.md",
       "data_path": "data/categories/12-self-hosted.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/12-self-hosted.json",
+      "raw_url": "../data/categories/12-self-hosted.json",
       "bytes": 40248,
-      "sha256": "47e724b6894a8c42ece76cefe204966e0c1b1a8f869d2b01cea07cec79d8be8a"
+      "sha256": "f3519e2674beec6cabc70e48924f5cc4f6b31abdf3dee856624303f57ec6a402"
     },
     {
       "id": "13-devops-and-cloud",
@@ -153,9 +192,9 @@
       "count": 60,
       "markdown_path": "13-devops-and-cloud/README.md",
       "data_path": "data/categories/13-devops-and-cloud.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/13-devops-and-cloud.json",
+      "raw_url": "../data/categories/13-devops-and-cloud.json",
       "bytes": 48842,
-      "sha256": "1449bb0e7f1521066a6c1407109030c674f7e758f6e91b7d8f015c58c2ba3b13"
+      "sha256": "9d1ec8e16529b8289ed2a3dc8187afe6127bf83471ba75fab0672acff115d85c"
     },
     {
       "id": "14-cybersecurity",
@@ -164,9 +203,9 @@
       "count": 45,
       "markdown_path": "14-cybersecurity/README.md",
       "data_path": "data/categories/14-cybersecurity.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/14-cybersecurity.json",
+      "raw_url": "../data/categories/14-cybersecurity.json",
       "bytes": 36721,
-      "sha256": "438cd5abe031dc7b79f0490f81961872042bebe50fca4701a0d4b9907dfe42ec"
+      "sha256": "b0e10a02eb970c7131968597a89c173f48486b7bee799bc6380091c5191d824e"
     },
     {
       "id": "15-apis-and-sdks",
@@ -175,9 +214,9 @@
       "count": 30,
       "markdown_path": "15-apis-and-sdks/README.md",
       "data_path": "data/categories/15-apis-and-sdks.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/15-apis-and-sdks.json",
+      "raw_url": "../data/categories/15-apis-and-sdks.json",
       "bytes": 23900,
-      "sha256": "275bbbf9bc594e9b91b77552570257a1652f4f9f19959583f6cf6f5bc7f7b099"
+      "sha256": "db75b19dd0f376514863fbef632d1d767054bec186678b1dce77e3fc9300f943"
     },
     {
       "id": "16-automation-and-nocode",
@@ -186,9 +225,9 @@
       "count": 30,
       "markdown_path": "16-automation-and-nocode/README.md",
       "data_path": "data/categories/16-automation-and-nocode.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/16-automation-and-nocode.json",
+      "raw_url": "../data/categories/16-automation-and-nocode.json",
       "bytes": 25342,
-      "sha256": "c29901755982675fa156cd0b396373005097dc3c9c61fbc4e67792f63d360f6a"
+      "sha256": "bbdfc434cd1c0b4db104b2ca96ee6a848ca03cc2c313e6edf0ef944e30d3e2de"
     },
     {
       "id": "17-data-and-analytics",
@@ -197,9 +236,9 @@
       "count": 35,
       "markdown_path": "17-data-and-analytics/README.md",
       "data_path": "data/categories/17-data-and-analytics.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/17-data-and-analytics.json",
+      "raw_url": "../data/categories/17-data-and-analytics.json",
       "bytes": 28694,
-      "sha256": "3df72c92200754187a7233eb763a233464ee60641ce247f96272f87be2cda077"
+      "sha256": "6d62bc857f2efe6fe70bd7cbc74d02e8500651e3ab9fe12ba1fe7917b4d9d5ad"
     },
     {
       "id": "18-content-and-marketing",
@@ -208,9 +247,9 @@
       "count": 30,
       "markdown_path": "18-content-and-marketing/README.md",
       "data_path": "data/categories/18-content-and-marketing.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/18-content-and-marketing.json",
+      "raw_url": "../data/categories/18-content-and-marketing.json",
       "bytes": 24869,
-      "sha256": "465957306e345c3de6f4147c93101e105b7840d2541186b9123c2761b2cba9bb"
+      "sha256": "0b9c2c3b8171bc9fe8c2e07799ac2d314524fede81059f73aa6d740414c49bd3"
     },
     {
       "id": "19-collaboration",
@@ -219,9 +258,9 @@
       "count": 30,
       "markdown_path": "19-collaboration/README.md",
       "data_path": "data/categories/19-collaboration.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/19-collaboration.json",
+      "raw_url": "../data/categories/19-collaboration.json",
       "bytes": 24122,
-      "sha256": "2d375b56ebca36a1872c048ffa8ec605c175106e2d7bc6b95a531fd86f03b4e1"
+      "sha256": "339f2cb0b77640f256225a9e66c69c0ccad95068c9f1f0f789119803e5680cc8"
     },
     {
       "id": "20-desktop-and-utilities",
@@ -230,9 +269,9 @@
       "count": 35,
       "markdown_path": "20-desktop-and-utilities/README.md",
       "data_path": "data/categories/20-desktop-and-utilities.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/20-desktop-and-utilities.json",
+      "raw_url": "../data/categories/20-desktop-and-utilities.json",
       "bytes": 27847,
-      "sha256": "b01c64875b6062efb053c028e3bcc4e4e4359c54ea291d8339bace64060207f1"
+      "sha256": "0338a8ed90e37bf4f56d02b6f7f90c10a28cc9d703d50220f34ae0d3cac1b728"
     },
     {
       "id": "21-hardware-and-iot",
@@ -241,9 +280,9 @@
       "count": 25,
       "markdown_path": "21-hardware-and-iot/README.md",
       "data_path": "data/categories/21-hardware-and-iot.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/21-hardware-and-iot.json",
+      "raw_url": "../data/categories/21-hardware-and-iot.json",
       "bytes": 20527,
-      "sha256": "e40a5c24e0629c883a0de4f8f089815f7c85825d3793464a8f0670b06ecea9f6"
+      "sha256": "c5d109e4ab255cc20a4cfeb78ce4d21f7816d8c322533a5982f6b686c92da50a"
     },
     {
       "id": "22-gaming-and-media",
@@ -252,9 +291,9 @@
       "count": 30,
       "markdown_path": "22-gaming-and-media/README.md",
       "data_path": "data/categories/22-gaming-and-media.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/22-gaming-and-media.json",
+      "raw_url": "../data/categories/22-gaming-and-media.json",
       "bytes": 23438,
-      "sha256": "dde12fc95f11ef461d89fb7d7a6eaf8f58df5829ebfec054345b5037514db8f9"
+      "sha256": "0943f803e4102c4f86c0343bb5ffa28bbcc9ab0cf932205491714dad7d7cd776"
     },
     {
       "id": "23-learning-and-research",
@@ -263,9 +302,9 @@
       "count": 50,
       "markdown_path": "23-learning-and-research/README.md",
       "data_path": "data/categories/23-learning-and-research.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/23-learning-and-research.json",
+      "raw_url": "../data/categories/23-learning-and-research.json",
       "bytes": 42548,
-      "sha256": "d0b50cd5b48703591b602e6edfc801a25b789b57405294cae9e1beb8b3fcca90"
+      "sha256": "bc6c0828dae2082cc68ca3152575a693c3aca35e2a8f98618790c4c9d35e0c69"
     },
     {
       "id": "24-awesome-collections",
@@ -274,9 +313,411 @@
       "count": 50,
       "markdown_path": "24-awesome-collections/README.md",
       "data_path": "data/categories/24-awesome-collections.json",
-      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/24-awesome-collections.json",
+      "raw_url": "../data/categories/24-awesome-collections.json",
       "bytes": 41271,
-      "sha256": "d7ca28a90947459436e598e307b060e4bfecc987ad9ba36535656637098e0764"
+      "sha256": "31d789dad7aaab50f6f286e5dfc2a906a29137cb18268907e6e436a08c645279"
+    },
+    {
+      "id": "25-communications-and-realtime",
+      "title_ru": "Связь и realtime",
+      "title_en": "Communications & realtime",
+      "count": 12,
+      "subcategories": [
+        {
+          "id": "webrtc",
+          "title_ru": "WebRTC и медиасерверы",
+          "title_en": "WebRTC & media servers",
+          "count": 4
+        },
+        {
+          "id": "conferencing",
+          "title_ru": "Веб-конференции",
+          "title_en": "Web conferencing",
+          "count": 1
+        },
+        {
+          "id": "telephony",
+          "title_ru": "Телефония и SIP",
+          "title_en": "Telephony & SIP",
+          "count": 5
+        },
+        {
+          "id": "messaging",
+          "title_ru": "Обмен сообщениями",
+          "title_en": "Messaging",
+          "count": 2
+        }
+      ],
+      "markdown_path": "25-communications-and-realtime/README.md",
+      "data_path": "data/categories/25-communications-and-realtime.json",
+      "raw_url": "../data/categories/25-communications-and-realtime.json",
+      "bytes": 13238,
+      "sha256": "b699d20045a5fabfea6d52595f7ed4dbd10e036ac7d07b4471ee29c46b50edca"
+    },
+    {
+      "id": "26-maps-and-geospatial",
+      "title_ru": "Карты и геопространственные данные",
+      "title_en": "Maps & geospatial",
+      "count": 12,
+      "subcategories": [
+        {
+          "id": "map-ui",
+          "title_ru": "Интерфейсы карт",
+          "title_en": "Map interfaces",
+          "count": 4
+        },
+        {
+          "id": "gis",
+          "title_ru": "Настольные GIS",
+          "title_en": "Desktop GIS",
+          "count": 1
+        },
+        {
+          "id": "geodata",
+          "title_ru": "Обработка геоданных",
+          "title_en": "Geodata processing",
+          "count": 3
+        },
+        {
+          "id": "tile-services",
+          "title_ru": "Публикация карт и тайлов",
+          "title_en": "Map & tile services",
+          "count": 4
+        }
+      ],
+      "markdown_path": "26-maps-and-geospatial/README.md",
+      "data_path": "data/categories/26-maps-and-geospatial.json",
+      "raw_url": "../data/categories/26-maps-and-geospatial.json",
+      "bytes": 13239,
+      "sha256": "b196b068c8772c12a03df38d2f44eb34ec6d8e9c4d9dcae837bed3b22f93557e"
+    },
+    {
+      "id": "27-logistics-and-transportation",
+      "title_ru": "Логистика и транспорт",
+      "title_en": "Logistics & transportation",
+      "count": 10,
+      "subcategories": [
+        {
+          "id": "routing",
+          "title_ru": "Построение маршрутов",
+          "title_en": "Routing",
+          "count": 4
+        },
+        {
+          "id": "optimization",
+          "title_ru": "Оптимизация",
+          "title_en": "Optimization",
+          "count": 1
+        },
+        {
+          "id": "operations",
+          "title_ru": "Логистические операции",
+          "title_en": "Logistics operations",
+          "count": 4
+        },
+        {
+          "id": "transit",
+          "title_ru": "Общественный транспорт",
+          "title_en": "Public transit",
+          "count": 1
+        }
+      ],
+      "markdown_path": "27-logistics-and-transportation/README.md",
+      "data_path": "data/categories/27-logistics-and-transportation.json",
+      "raw_url": "../data/categories/27-logistics-and-transportation.json",
+      "bytes": 11376,
+      "sha256": "f3c8515d6d367aa57c66f628c8fe73121c71d705001e7136e379f505658dee2b"
+    },
+    {
+      "id": "28-real-estate-and-property",
+      "title_ru": "Недвижимость и управление объектами",
+      "title_en": "Real estate & property",
+      "count": 4,
+      "subcategories": [
+        {
+          "id": "property-management",
+          "title_ru": "Управление объектами и арендой",
+          "title_en": "Property & lease management",
+          "count": 3
+        },
+        {
+          "id": "property-websites",
+          "title_ru": "Сайты недвижимости",
+          "title_en": "Real estate websites",
+          "count": 1
+        }
+      ],
+      "markdown_path": "28-real-estate-and-property/README.md",
+      "data_path": "data/categories/28-real-estate-and-property.json",
+      "raw_url": "../data/categories/28-real-estate-and-property.json",
+      "bytes": 5134,
+      "sha256": "5c9364b32f7ed4d087fdf5b5e0518f40306788ea50dfab0a9be67ad162161efe"
+    },
+    {
+      "id": "29-travel-and-hospitality",
+      "title_ru": "Туризм, бронирование и рестораны",
+      "title_en": "Travel & hospitality",
+      "count": 6,
+      "subcategories": [
+        {
+          "id": "hotel-pms",
+          "title_ru": "Гостиничные PMS",
+          "title_en": "Hotel PMS",
+          "count": 2
+        },
+        {
+          "id": "restaurants",
+          "title_ru": "Рестораны",
+          "title_en": "Restaurants",
+          "count": 1
+        },
+        {
+          "id": "reservations",
+          "title_ru": "Ресурсы и билеты",
+          "title_en": "Resource & ticket reservations",
+          "count": 3
+        }
+      ],
+      "markdown_path": "29-travel-and-hospitality/README.md",
+      "data_path": "data/categories/29-travel-and-hospitality.json",
+      "raw_url": "../data/categories/29-travel-and-hospitality.json",
+      "bytes": 6954,
+      "sha256": "818b6ea3cdf15100758ce9f64198471286e4a3950dbaa9ae60e1be21f9b27d88"
+    },
+    {
+      "id": "30-documents-and-legal-tech",
+      "title_ru": "Документы и legal tech",
+      "title_en": "Documents & legal tech",
+      "count": 12,
+      "subcategories": [
+        {
+          "id": "signatures",
+          "title_ru": "Подписание документов",
+          "title_en": "Document signing",
+          "count": 2
+        },
+        {
+          "id": "office",
+          "title_ru": "Офисные редакторы",
+          "title_en": "Office editors",
+          "count": 1
+        },
+        {
+          "id": "pdf-ocr",
+          "title_ru": "PDF и OCR",
+          "title_en": "PDF & OCR",
+          "count": 5
+        },
+        {
+          "id": "conversion",
+          "title_ru": "Разбор и преобразование",
+          "title_en": "Parsing & conversion",
+          "count": 4
+        }
+      ],
+      "markdown_path": "30-documents-and-legal-tech/README.md",
+      "data_path": "data/categories/30-documents-and-legal-tech.json",
+      "raw_url": "../data/categories/30-documents-and-legal-tech.json",
+      "bytes": 13323,
+      "sha256": "1b36f96cabda07a53293278610d324af1b22a890f813408c0e88790df710bcd6"
+    },
+    {
+      "id": "31-healthcare-and-medical",
+      "title_ru": "Медицина и медицинские данные",
+      "title_en": "Healthcare & medical",
+      "count": 10,
+      "subcategories": [
+        {
+          "id": "health-platforms",
+          "title_ru": "Медицинские платформы",
+          "title_en": "Healthcare platforms",
+          "count": 4
+        },
+        {
+          "id": "fhir",
+          "title_ru": "FHIR и обмен данными",
+          "title_en": "FHIR & interoperability",
+          "count": 3
+        },
+        {
+          "id": "medical-imaging",
+          "title_ru": "Медицинская визуализация",
+          "title_en": "Medical imaging",
+          "count": 3
+        }
+      ],
+      "markdown_path": "31-healthcare-and-medical/README.md",
+      "data_path": "data/categories/31-healthcare-and-medical.json",
+      "raw_url": "../data/categories/31-healthcare-and-medical.json",
+      "bytes": 11018,
+      "sha256": "493d8845070f795c66f840b516806bee04d393934f8d27dce943bef8e5865332"
+    },
+    {
+      "id": "32-education-and-lms",
+      "title_ru": "Образовательные платформы и LMS",
+      "title_en": "Education & LMS",
+      "count": 10,
+      "subcategories": [
+        {
+          "id": "lms",
+          "title_ru": "Управление обучением",
+          "title_en": "Learning management",
+          "count": 7
+        },
+        {
+          "id": "offline-learning",
+          "title_ru": "Обучение офлайн",
+          "title_en": "Offline learning",
+          "count": 1
+        },
+        {
+          "id": "interactive-learning",
+          "title_ru": "Самостоятельное и интерактивное обучение",
+          "title_en": "Independent & interactive learning",
+          "count": 2
+        }
+      ],
+      "markdown_path": "32-education-and-lms/README.md",
+      "data_path": "data/categories/32-education-and-lms.json",
+      "raw_url": "../data/categories/32-education-and-lms.json",
+      "bytes": 10992,
+      "sha256": "20a9fc79e8340343c9499af737176706fd22f51193e5002dd0048ffa1d3f9e66"
+    },
+    {
+      "id": "33-accessibility-and-localization",
+      "title_ru": "Доступность и локализация",
+      "title_en": "Accessibility & localization",
+      "count": 12,
+      "subcategories": [
+        {
+          "id": "accessibility-testing",
+          "title_ru": "Проверки доступности",
+          "title_en": "Accessibility testing",
+          "count": 4
+        },
+        {
+          "id": "localization-libraries",
+          "title_ru": "Библиотеки локализации",
+          "title_en": "Localization libraries",
+          "count": 5
+        },
+        {
+          "id": "translation-platforms",
+          "title_ru": "Управление переводами",
+          "title_en": "Translation management",
+          "count": 2
+        },
+        {
+          "id": "accessibility-learning",
+          "title_ru": "Материалы по доступности",
+          "title_en": "Accessibility learning",
+          "count": 1
+        }
+      ],
+      "markdown_path": "33-accessibility-and-localization/README.md",
+      "data_path": "data/categories/33-accessibility-and-localization.json",
+      "raw_url": "../data/categories/33-accessibility-and-localization.json",
+      "bytes": 13516,
+      "sha256": "90eb4432d08fda1dd3924ea8a40d6baa9cbd5690c912a4e780a976c90ffcd4e3"
+    },
+    {
+      "id": "34-science-and-engineering",
+      "title_ru": "Наука и инженерия",
+      "title_en": "Science & engineering",
+      "count": 12,
+      "subcategories": [
+        {
+          "id": "cad-eda",
+          "title_ru": "CAD и проектирование электроники",
+          "title_en": "CAD & electronics design",
+          "count": 5
+        },
+        {
+          "id": "simulation",
+          "title_ru": "Моделирование",
+          "title_en": "Simulation",
+          "count": 3
+        },
+        {
+          "id": "scientific-computing",
+          "title_ru": "Научные вычисления",
+          "title_en": "Scientific computing",
+          "count": 4
+        }
+      ],
+      "markdown_path": "34-science-and-engineering/README.md",
+      "data_path": "data/categories/34-science-and-engineering.json",
+      "raw_url": "../data/categories/34-science-and-engineering.json",
+      "bytes": 13190,
+      "sha256": "760766508309384484c98448116a71220bb8df60ae4a2b831d9130158aa9be6a"
+    },
+    {
+      "id": "35-open-data-and-civic-tech",
+      "title_ru": "Открытые данные и civic tech",
+      "title_en": "Open data & civic tech",
+      "count": 10,
+      "subcategories": [
+        {
+          "id": "data-portals",
+          "title_ru": "Публикация и визуализация данных",
+          "title_en": "Data publishing & visualization",
+          "count": 4
+        },
+        {
+          "id": "data-quality",
+          "title_ru": "Качество данных",
+          "title_en": "Data quality",
+          "count": 2
+        },
+        {
+          "id": "civic-platforms",
+          "title_ru": "Гражданские платформы",
+          "title_en": "Civic platforms",
+          "count": 3
+        },
+        {
+          "id": "datasets",
+          "title_ru": "Наборы данных",
+          "title_en": "Datasets",
+          "count": 1
+        }
+      ],
+      "markdown_path": "35-open-data-and-civic-tech/README.md",
+      "data_path": "data/categories/35-open-data-and-civic-tech.json",
+      "raw_url": "../data/categories/35-open-data-and-civic-tech.json",
+      "bytes": 11433,
+      "sha256": "70d915495cae8f5026db822da1933e584975aed9b6e9151e17ce46cb229ead49"
+    },
+    {
+      "id": "36-search-and-knowledge",
+      "title_ru": "Поиск и базы знаний",
+      "title_en": "Search & knowledge",
+      "count": 10,
+      "subcategories": [
+        {
+          "id": "search-engines",
+          "title_ru": "Поисковые движки",
+          "title_en": "Search engines",
+          "count": 7
+        },
+        {
+          "id": "search-libraries",
+          "title_ru": "Библиотеки поиска",
+          "title_en": "Search libraries",
+          "count": 1
+        },
+        {
+          "id": "knowledge-graphs",
+          "title_ru": "Графы знаний",
+          "title_en": "Knowledge graphs",
+          "count": 2
+        }
+      ],
+      "markdown_path": "36-search-and-knowledge/README.md",
+      "data_path": "data/categories/36-search-and-knowledge.json",
+      "raw_url": "../data/categories/36-search-and-knowledge.json",
+      "bytes": 11064,
+      "sha256": "3b1106e5a47bcd52c89af6d54586457d6a60793ed20c91b329fdeb71e879b500"
     }
   ]
 }

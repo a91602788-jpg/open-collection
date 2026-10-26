@@ -51,6 +51,26 @@ class CatalogContracts(unittest.TestCase):
         self.entry['checked_at'] = '2026-10-26'
         self.assertGreaterEqual(len(catalog_errors(self.data)), 2)
 
+    def test_detailed_type_must_use_the_declared_vocabulary(self):
+        self.data['schema_version'] = 2
+        self.entry.update(kind='reference', resource_type='specification')
+        self.assertEqual(catalog_errors(self.data), [])
+        self.entry['resource_type'] = 'production-certified'
+        self.assertTrue(entry_errors(self.entry, {'01-tools'}))
+
+    def test_subcategory_assignment_and_counts_are_required(self):
+        self.data['schema_version'] = 2
+        self.data['categories'][0]['subcategories'] = [{'id': 'first', 'count': 1}]
+        self.assertTrue(catalog_errors(self.data))
+        self.entry['subcategory'] = 'first'
+        self.assertEqual(catalog_errors(self.data), [])
+        self.data['categories'][0]['subcategories'][0]['count'] = 2
+        self.assertTrue(catalog_errors(self.data))
+
+    def test_schema_one_cannot_silently_publish_reference_types(self):
+        self.entry.update(kind='reference', resource_type='dataset')
+        self.assertTrue(any('schema 2 is required' in e for e in catalog_errors(self.data)))
+
 
 if __name__ == '__main__':
     unittest.main()
