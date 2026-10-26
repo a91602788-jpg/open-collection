@@ -12,6 +12,10 @@ A public directory of GitHub projects: SaaS starters, UI components, AI, CRM, ER
 
 Start with the [task guide](guides/start-here.md), browse a category below or use the [JSON catalog](data/catalog.json). Search within any category with `Ctrl+F` / `⌘F`.
 
+## For AI assistants
+
+Start with [llms.txt](llms.txt) or the [compact JSON index](ai/index.json), then read only the relevant category. The [repository sitemap](SITEMAP.md) maps tasks to files. Category sizes and SHA-256 hashes support selective reading and cache reuse where the agent supports them.
+
 ## Quick routes
 
 [SaaS](01-saas-and-starters/README.md) · [UI](04-web-components/README.md) · [AI / MCP](06-artificial-intelligence/README.md) · [CRM](08-crm-and-sales/README.md) · [ERP](09-erp-and-enterprise/README.md) · [E-commerce](11-ecommerce/README.md) · [Self-hosted](12-self-hosted/README.md)

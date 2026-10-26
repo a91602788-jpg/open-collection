@@ -12,6 +12,10 @@
 
 Начните с [подборки по задачам](guides/start-here.md), откройте нужный раздел ниже или скачайте [JSON-каталог](data/catalog.json). В каждом разделе можно искать через `Ctrl+F` / `⌘F`.
 
+## Для AI-ассистентов
+
+Начните с [llms.txt](llms.txt) или [компактного JSON-индекса](ai/index.json), затем читайте только нужный раздел. [Карта репозитория](SITEMAP.md) объясняет, какие файлы открывать по задаче. Размеры и SHA-256 помогают повторно использовать неизменные данные, если агент поддерживает кэширование.
+
 ## Быстрые маршруты
 
 [SaaS](01-saas-and-starters/README.md) · [UI](04-web-components/README.md) · [AI / MCP](06-artificial-intelligence/README.md) · [CRM](08-crm-and-sales/README.md) · [ERP](09-erp-and-enterprise/README.md) · [E-commerce](11-ecommerce/README.md) · [Self-hosted](12-self-hosted/README.md)

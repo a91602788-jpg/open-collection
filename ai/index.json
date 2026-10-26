@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "name": "Open Collection AI navigation",
+  "repository": "https://github.com/a91602788-jpg/open-collection",
+  "snapshot_date": "2026-10-27",
+  "total_entries": 1000,
+  "routing": "Select categories by bilingual titles; fetch only their data_path or markdown_path.",
+  "cache": "Reuse files when sha256 is unchanged. Hashes describe exact UTF-8 file bytes. On mismatch, refresh this index before retrying.",
+  "verification": "GitHub API metadata only; no installation, security audit or license legal review.",
+  "source": {
+    "path": "data/catalog.json",
+    "bytes": 1028410,
+    "sha256": "8e23e43c9ef4afb23a18fe7b4e0d10fd0cf787e51b0568c0a1cc52b0b429230f",
+    "usage": "Full export and editing source; load for exhaustive tasks only."
+  },
+  "categories": [
+    {
+      "id": "01-saas-and-starters",
+      "title_ru": "SaaS и готовые основы",
+      "title_en": "SaaS & starters",
+      "count": 60,
+      "markdown_path": "01-saas-and-starters/README.md",
+      "data_path": "data/categories/01-saas-and-starters.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/01-saas-and-starters.json",
+      "bytes": 52431,
+      "sha256": "0a611dde228e3b3e424b83a12367a640c2067a4247f67f676135c904df586c2b"
+    },
+    {
+      "id": "02-design-and-creative",
+      "title_ru": "Дизайн, иконки и шрифты",
+      "title_en": "Design & creative",
+      "count": 40,
+      "markdown_path": "02-design-and-creative/README.md",
+      "data_path": "data/categories/02-design-and-creative.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/02-design-and-creative.json",
+      "bytes": 32397,
+      "sha256": "d6ae0c516423bbd33647e68971c2ad68e4cb1ed6697ce01e25a8e963ff407b50"
+    },
+    {
+      "id": "03-web-development",
+      "title_ru": "Веб-разработка и готовые сайты",
+      "title_en": "Web development",
+      "count": 50,
+      "markdown_path": "03-web-development/README.md",
+      "data_path": "data/categories/03-web-development.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/03-web-development.json",
+      "bytes": 38267,
+      "sha256": "5ac0f00f5d4f9b16540533da403d2269f5908c78728f953b32d945f6524d7a43"
+    },
+    {
+      "id": "04-web-components",
+      "title_ru": "Компоненты веб-интерфейсов",
+      "title_en": "Web components",
+      "count": 70,
+      "markdown_path": "04-web-components/README.md",
+      "data_path": "data/categories/04-web-components.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/04-web-components.json",
+      "bytes": 55783,
+      "sha256": "473384b6732b05dc54ac340cefe90484d707b46d7a4cff58e001b9eed6219e00"
+    },
+    {
+      "id": "05-mobile-applications",
+      "title_ru": "Мобильные приложения",
+      "title_en": "Mobile applications",
+      "count": 45,
+      "markdown_path": "05-mobile-applications/README.md",
+      "data_path": "data/categories/05-mobile-applications.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/05-mobile-applications.json",
+      "bytes": 37682,
+      "sha256": "75ae529559a07286a35f979876149f172fb6308c6ec4dd4a5c444dbe2b0d78db"
+    },
+    {
+      "id": "06-artificial-intelligence",
+      "title_ru": "AI, агенты, MCP и RAG",
+      "title_en": "AI & machine learning",
+      "count": 80,
+      "markdown_path": "06-artificial-intelligence/README.md",
+      "data_path": "data/categories/06-artificial-intelligence.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/06-artificial-intelligence.json",
+      "bytes": 67544,
+      "sha256": "d9f8a22b44cad2d874760cd65ea926897d9b342a6f1f82e0a9893e5a2947379a"
+    },
+    {
+      "id": "07-databases-and-storage",
+      "title_ru": "Базы данных и хранилища",
+      "title_en": "Databases & storage",
+      "count": 50,
+      "markdown_path": "07-databases-and-storage/README.md",
+      "data_path": "data/categories/07-databases-and-storage.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/07-databases-and-storage.json",
+      "bytes": 40109,
+      "sha256": "03fdbab4dc3395f41e1a83e78f9bbf1c76389fe3ab21483cfac306bea26aaf95"
+    },
+    {
+      "id": "08-crm-and-sales",
+      "title_ru": "CRM и продажи",
+      "title_en": "CRM & sales",
+      "count": 25,
+      "markdown_path": "08-crm-and-sales/README.md",
+      "data_path": "data/categories/08-crm-and-sales.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/08-crm-and-sales.json",
+      "bytes": 20340,
+      "sha256": "5f49bc02cc6da6cbc4cece72bb69f8ce5cdf4291e8e2cbfd02dbc3c4fed2233d"
+    },
+    {
+      "id": "09-erp-and-enterprise",
+      "title_ru": "ERP и корпоративные системы",
+      "title_en": "ERP & enterprise",
+      "count": 20,
+      "markdown_path": "09-erp-and-enterprise/README.md",
+      "data_path": "data/categories/09-erp-and-enterprise.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/09-erp-and-enterprise.json",
+      "bytes": 16327,
+      "sha256": "2b54caea5170102d9f45284018c1dc06c03499c959ddbb5752e65a3f0d8864af"
+    },
+    {
+      "id": "10-finance-and-payments",
+      "title_ru": "Финансы и платежи",
+      "title_en": "Finance & payments",
+      "count": 25,
+      "markdown_path": "10-finance-and-payments/README.md",
+      "data_path": "data/categories/10-finance-and-payments.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/10-finance-and-payments.json",
+      "bytes": 20103,
+      "sha256": "b1372efd227df2516dce0924b555360bc094dc4382b5efe8df2c0542c449fbb7"
+    },
+    {
+      "id": "11-ecommerce",
+      "title_ru": "Интернет-магазины и торговля",
+      "title_en": "E-commerce",
+      "count": 35,
+      "markdown_path": "11-ecommerce/README.md",
+      "data_path": "data/categories/11-ecommerce.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/11-ecommerce.json",
+      "bytes": 28832,
+      "sha256": "b2685cf53e22cb857e10ddacda25ab8b59b85323eb9644dd84a01c859826fd5d"
+    },
+    {
+      "id": "12-self-hosted",
+      "title_ru": "Self-hosted и собственные сервисы",
+      "title_en": "Self-hosted services",
+      "count": 50,
+      "markdown_path": "12-self-hosted/README.md",
+      "data_path": "data/categories/12-self-hosted.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/12-self-hosted.json",
+      "bytes": 40248,
+      "sha256": "47e724b6894a8c42ece76cefe204966e0c1b1a8f869d2b01cea07cec79d8be8a"
+    },
+    {
+      "id": "13-devops-and-cloud",
+      "title_ru": "DevOps, облака и мониторинг",
+      "title_en": "DevOps & cloud",
+      "count": 60,
+      "markdown_path": "13-devops-and-cloud/README.md",
+      "data_path": "data/categories/13-devops-and-cloud.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/13-devops-and-cloud.json",
+      "bytes": 48842,
+      "sha256": "1449bb0e7f1521066a6c1407109030c674f7e758f6e91b7d8f015c58c2ba3b13"
+    },
+    {
+      "id": "14-cybersecurity",
+      "title_ru": "Безопасность, IAM и приватность",
+      "title_en": "Cybersecurity & identity",
+      "count": 45,
+      "markdown_path": "14-cybersecurity/README.md",
+      "data_path": "data/categories/14-cybersecurity.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/14-cybersecurity.json",
+      "bytes": 36721,
+      "sha256": "438cd5abe031dc7b79f0490f81961872042bebe50fca4701a0d4b9907dfe42ec"
+    },
+    {
+      "id": "15-apis-and-sdks",
+      "title_ru": "API, SDK и интеграции",
+      "title_en": "APIs, SDKs & integrations",
+      "count": 30,
+      "markdown_path": "15-apis-and-sdks/README.md",
+      "data_path": "data/categories/15-apis-and-sdks.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/15-apis-and-sdks.json",
+      "bytes": 23900,
+      "sha256": "275bbbf9bc594e9b91b77552570257a1652f4f9f19959583f6cf6f5bc7f7b099"
+    },
+    {
+      "id": "16-automation-and-nocode",
+      "title_ru": "Автоматизация и no-code",
+      "title_en": "Automation & no-code",
+      "count": 30,
+      "markdown_path": "16-automation-and-nocode/README.md",
+      "data_path": "data/categories/16-automation-and-nocode.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/16-automation-and-nocode.json",
+      "bytes": 25342,
+      "sha256": "c29901755982675fa156cd0b396373005097dc3c9c61fbc4e67792f63d360f6a"
+    },
+    {
+      "id": "17-data-and-analytics",
+      "title_ru": "Данные, BI и аналитика",
+      "title_en": "Data & analytics",
+      "count": 35,
+      "markdown_path": "17-data-and-analytics/README.md",
+      "data_path": "data/categories/17-data-and-analytics.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/17-data-and-analytics.json",
+      "bytes": 28694,
+      "sha256": "3df72c92200754187a7233eb763a233464ee60641ce247f96272f87be2cda077"
+    },
+    {
+      "id": "18-content-and-marketing",
+      "title_ru": "Контент, CMS и маркетинг",
+      "title_en": "Content & marketing",
+      "count": 30,
+      "markdown_path": "18-content-and-marketing/README.md",
+      "data_path": "data/categories/18-content-and-marketing.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/18-content-and-marketing.json",
+      "bytes": 24869,
+      "sha256": "465957306e345c3de6f4147c93101e105b7840d2541186b9123c2761b2cba9bb"
+    },
+    {
+      "id": "19-collaboration",
+      "title_ru": "Совместная работа и знания",
+      "title_en": "Collaboration & knowledge",
+      "count": 30,
+      "markdown_path": "19-collaboration/README.md",
+      "data_path": "data/categories/19-collaboration.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/19-collaboration.json",
+      "bytes": 24122,
+      "sha256": "2d375b56ebca36a1872c048ffa8ec605c175106e2d7bc6b95a531fd86f03b4e1"
+    },
+    {
+      "id": "20-desktop-and-utilities",
+      "title_ru": "Настольные приложения и утилиты",
+      "title_en": "Desktop & utilities",
+      "count": 35,
+      "markdown_path": "20-desktop-and-utilities/README.md",
+      "data_path": "data/categories/20-desktop-and-utilities.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/20-desktop-and-utilities.json",
+      "bytes": 27847,
+      "sha256": "b01c64875b6062efb053c028e3bcc4e4e4359c54ea291d8339bace64060207f1"
+    },
+    {
+      "id": "21-hardware-and-iot",
+      "title_ru": "Устройства, IoT и умный дом",
+      "title_en": "Hardware & IoT",
+      "count": 25,
+      "markdown_path": "21-hardware-and-iot/README.md",
+      "data_path": "data/categories/21-hardware-and-iot.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/21-hardware-and-iot.json",
+      "bytes": 20527,
+      "sha256": "e40a5c24e0629c883a0de4f8f089815f7c85825d3793464a8f0670b06ecea9f6"
+    },
+    {
+      "id": "22-gaming-and-media",
+      "title_ru": "Игры, звук и видео",
+      "title_en": "Gaming & media",
+      "count": 30,
+      "markdown_path": "22-gaming-and-media/README.md",
+      "data_path": "data/categories/22-gaming-and-media.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/22-gaming-and-media.json",
+      "bytes": 23438,
+      "sha256": "dde12fc95f11ef461d89fb7d7a6eaf8f58df5829ebfec054345b5037514db8f9"
+    },
+    {
+      "id": "23-learning-and-research",
+      "title_ru": "Обучение, практика и исследования",
+      "title_en": "Learning & research",
+      "count": 50,
+      "markdown_path": "23-learning-and-research/README.md",
+      "data_path": "data/categories/23-learning-and-research.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/23-learning-and-research.json",
+      "bytes": 42548,
+      "sha256": "d0b50cd5b48703591b602e6edfc801a25b789b57405294cae9e1beb8b3fcca90"
+    },
+    {
+      "id": "24-awesome-collections",
+      "title_ru": "Каталоги и тематические коллекции",
+      "title_en": "Awesome & collections",
+      "count": 50,
+      "markdown_path": "24-awesome-collections/README.md",
+      "data_path": "data/categories/24-awesome-collections.json",
+      "raw_url": "https://raw.githubusercontent.com/a91602788-jpg/open-collection/main/data/categories/24-awesome-collections.json",
+      "bytes": 41271,
+      "sha256": "d7ca28a90947459436e598e307b060e4bfecc987ad9ba36535656637098e0764"
+    }
+  ]
+}
