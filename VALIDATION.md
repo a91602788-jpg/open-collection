@@ -1,6 +1,15 @@
-# Launch verification / Проверка первого выпуска
+# Verification / Результаты проверок
 
 Checked on 2026-10-27 (Europe/Moscow).
+
+## v0.2 — 1,120 entries / 36 categories
+
+- [Catalog checks on the merged main](https://github.com/a91602788-jpg/open-collection/actions/runs/40414369765): counts, uniqueness, schema, Markdown, 14 tests and 39 generated AI navigation files passed.
+- [Live repository check](https://github.com/a91602788-jpg/open-collection/actions/runs/40414323930): 1,120/1,120 repositories resolved; 0 identity/archive/access changes.
+- All 120 additions have original short RU/EN summaries; older upstream-only descriptions are still identified as such.
+- The owner merged the expansion through [PR #2](https://github.com/a91602788-jpg/open-collection/pull/2).
+
+## v0.1 launch — historical evidence
 
 | Check | Observed result | Evidence |
 | --- | --- | --- |

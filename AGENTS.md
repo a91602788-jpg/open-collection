@@ -18,7 +18,7 @@ After catalog changes, regenerate derived navigation with `python3 scripts/rende
 
 For new entries and description revisions, write original factual RU/EN summaries: say what the resource does and which task it helps with. Distinguish applications, libraries, SDKs, templates, specifications and datasets. Remove promotional claims and clipped sentences. Do not infer compatibility, pricing, regulatory approval or production readiness from a repository's marketing. Confirm claims against linked primary sources; mark unknowns explicitly. Existing short upstream descriptions are legacy attributed text, not already completed editorial reviews.
 
-The v0.2 draft uses catalog schema 2; see `data/SCHEMA.md`. `kind=reference` covers specifications and datasets, `resource_type` gives the more precise class and declared subcategories must match their entry counts. Do not merge the expansion PR without the owner's approval.
+The catalog uses schema 2; see `data/SCHEMA.md`. `kind=reference` covers specifications and datasets, `resource_type` gives the more precise class and declared subcategories must match their entry counts. Merge future expansion PRs only with the owner's approval.
 
 Use metadata-only verification honestly. Pricing and deployment remain `not-reviewed` without dated primary-source evidence. GitHub’s primary language is not a complete stack; license detection is not legal clearance. Root CC0 covers only original material, scripts use MIT and upstream material retains its own terms.
 

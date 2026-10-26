@@ -12,7 +12,7 @@ A public directory of GitHub projects: SaaS starters, UI components, AI, CRM, ER
 
 Start with the [task guide](guides/start-here.md), browse a category below or use the [JSON catalog](data/catalog.json). Search within any category with `Ctrl+F` / `⌘F`.
 
-The v0.2 draft adds 120 original RU/EN descriptions and new subcategories. See the [data schema changes](data/SCHEMA.md).
+The v0.2 update adds 120 original RU/EN descriptions and new subcategories. See the [data schema changes](data/SCHEMA.md).
 
 ## For AI assistants
 

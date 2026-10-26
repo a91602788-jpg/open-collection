@@ -23,7 +23,7 @@ New entries and description revisions receive original Russian and English summa
 
 Use primary-source evidence for each substantive statement. Metadata-only checks remain metadata-only after rewriting a description. Do not repeat unsupported compliance, accuracy, performance, pricing or production-readiness claims. Note material boundaries such as source mirrors, development branches and version-dependent terms.
 
-The v0.2 draft adds 120 original bilingual summaries. Older entries without original summaries retain their clearly attributed upstream text until revised; this release does not claim that every earlier description has been edited.
+The v0.2 update adds 120 original bilingual summaries. Older entries without original summaries retain their clearly attributed upstream text until revised; this release does not claim that every earlier description has been edited.
 
 ## Data boundaries
 

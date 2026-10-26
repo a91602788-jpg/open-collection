@@ -1,13 +1,13 @@
 # Changelog
 
-## Unreleased — v0.2 draft
+## 2026-10-27 — v0.2
 
-- 120 additional GitHub repositories across 12 new domains: 1,120 entries and 36 categories in the draft.
+- 120 additional GitHub repositories across 12 new domains: 1,120 entries and 36 categories.
 - Original RU/EN summaries for all additions, precise resource classes and grouped subcategories.
 - Split the existing AI section into six subcategories.
 - Catalog schema 2 adds reference resources and detailed classification; navigation links preserve the selected branch or commit.
 - Existing upstream-only descriptions remain attributed legacy text pending individual editorial review.
-- Prepared for owner review; not merged or released.
+- Merged by the owner through [PR #2](https://github.com/a91602788-jpg/open-collection/pull/2).
 
 ## 2026-10-27 — Selective AI navigation
 

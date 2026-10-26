@@ -2,7 +2,7 @@
 
 `catalog.json` is the authoritative full export. Category JSON files are generated subsets; `ai/index.json` is a routing index and has its own schema version.
 
-## Version 2 — v0.2 draft
+## Version 2 — v0.2
 
 The existing fields remain available. This version adds the `reference` kind for specifications and datasets, detailed resource types, and declared subcategories. Consumers that enumerate kinds should handle `reference` before adopting schema 2. The validator accepts versions 1 and 2; the released v0.1 catalog uses version 1.
 
