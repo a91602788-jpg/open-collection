@@ -14,7 +14,7 @@ Start with the [task guide](guides/start-here.md), browse a category below or us
 
 The v0.2 update adds 120 original RU/EN descriptions and new subcategories. See the [data schema changes](data/SCHEMA.md).
 
-[The quality category](37-design-quality-and-engineering-standards/README.md) adds 38 resources with original RU/EN descriptions. [The first reviewed queue batch](research/review-batches/2026-10-27-batch-01.json) proposes 149 entries with original RU/EN summaries. The active discovery queue contains 1,922 uncounted candidates across 76 researched topics. The [latest sector discovery](research/review-batches/2026-10-28-sector-discovery.md) adds 26 pending resources; they are not catalog entries.
+[The quality category](37-design-quality-and-engineering-standards/README.md) adds 38 resources with original RU/EN descriptions. [The first reviewed queue batch](research/review-batches/2026-10-27-batch-01.json) added 149 entries with original RU/EN summaries, merged through [PR #5](https://github.com/a91602788-jpg/open-collection/pull/5). The active discovery queue contains 1,922 uncounted candidates across 76 researched topics. The [latest sector discovery](research/review-batches/2026-10-28-sector-discovery.md) adds 26 pending resources; they are not catalog entries.
 
 ## For AI assistants
 

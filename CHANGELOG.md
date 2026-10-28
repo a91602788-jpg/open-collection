@@ -1,12 +1,13 @@
 # Changelog
 
-## Unreleased — reviewed queue batch 01
+## 2026-10-28 — Catalog expansion and discovery follow-up
 
-- Propose 149 edited resources from the existing discovery queue: 1,307 entries across 63 populated categories in this branch.
-- Populate 26 proposed directions with actual records; seven topics remain research-only. Extend collaboration and booking-component sections.
-- Remove seven unsuitable active candidates, reclassify 42 noisy topic matches and preserve original search provenance for the remaining 1,879 candidates.
-- Refresh canonical metadata and README evidence for the 153-source shortlist; original RU/EN descriptions cover every proposed addition.
-- No runtime installation, security audit or universal license clearance is claimed.
+- Published 149 edited resources from the discovery queue: 1,307 catalog entries across 63 populated categories, with original RU/EN summaries for all additions.
+- Populated 26 catalog directions and extended collaboration and booking-component sections. Canonical metadata and README evidence were refreshed for the 153-source shortlist.
+- Removed seven unsuitable candidates and reassigned 42 noisy topic matches in the first batch while preserving discovery provenance.
+- Added 43 new pending candidates and reviewed six existing records in follow-up research. The active queue now contains 1,922 unique candidates across 76 researched topics, including six new proposed directions.
+- Updated bilingual entry points, research reports, counts, source history, hashes and AI navigation. Catalog entries remain distinct from pending candidates.
+- Merged [PR #5](https://github.com/a91602788-jpg/open-collection/pull/5) and [PR #6](https://github.com/a91602788-jpg/open-collection/pull/6) at the owner's request. No third-party runtime installation, security audit or universal license clearance is claimed.
 
 ## 2026-10-27 — quality catalog and topic discovery
 

@@ -2,7 +2,7 @@
 
 [Catalog](../README.md) · [Quality standards](../QUALITY_STANDARDS.md) · [Topic index](topics.json)
 
-**76 тем проверено поиском · 1,922 уникальных кандидатов · 1,307 записей в каталоге этой ветки.**
+**76 тем проверено поиском · 1,922 уникальных кандидатов · 1,307 записей в каталоге.**
 
 This is a discovery queue, not an extension of the curated count. Every candidate awaits editorial review, canonical-source checks and an original RU/EN description before catalog inclusion. Search metadata is not runtime testing or an endorsement. Counts reflect the current branch/commit.
 
@@ -25,7 +25,7 @@ This is a discovery queue, not an extension of the curated count. Every candidat
 
 ## Первая редакционная партия / First editorial batch
 
-[Review record](review-batches/2026-10-27-batch-01.json): 149 edited records proposed for inclusion; 7 removed from the active queue; 42 assigned to more appropriate topics. One agriculture resource remains for a later sector batch. These are proposed editorial decisions, subject to maintainer review. Remaining candidates have not all been reviewed.
+[Review record](review-batches/2026-10-27-batch-01.json): 149 edited records were published through [PR #5](https://github.com/a91602788-jpg/open-collection/pull/5), merged on 2026-10-28; 7 candidates were removed from the active queue and 42 assigned to more appropriate topics. The dated decision record preserves the original proposal. One agriculture resource remains for a later sector batch. Remaining candidates have not all been reviewed.
 
 The first shortlist refreshed metadata and README evidence for 153 sources. Three apparently available repositories were not promoted because their own READMEs announce deprecation or stopped maintenance. Four other items were excluded by editorial scope. Broad OR queries also confused state management with property management and high-resolution neural networks with HR; the batch records those corrections.
 
@@ -41,7 +41,7 @@ The first shortlist refreshed metadata and README evidence for 153 sources. Thre
 
 ## Следующие действия / Editorial next steps
 
-Prioritize thin categories such as property, hospitality and sector-specific software, then compare candidates against their upstream documentation. Describe the actual task and resource class; keep missing license, deployment and pricing evidence explicit. Submit coherent catalog batches by topic with regenerated data, Markdown and AI navigation. Maintainer approval is required for merge.
+Prioritize thin categories such as property, hospitality and sector-specific software, then compare candidates against their upstream documentation. Describe the actual task and resource class; keep missing license, deployment and pricing evidence explicit. Submit coherent catalog batches by topic with regenerated data, Markdown and AI navigation. Future catalog expansion batches require maintainer approval before merge.
 
 The [quality decision record](quality-decisions.json) documents the new quality-category additions and excluded/previously-counted resources. Their edited catalog descriptions are in [section 37](../37-design-quality-and-engineering-standards/README.md).
 
