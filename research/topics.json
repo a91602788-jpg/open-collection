@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-27",
+  "checked_at": "2026-10-28",
   "scope": "Uncounted research candidates; not editorial acceptance or runtime testing.",
   "searched_topics": 70,
-  "unique_candidates": 1879,
+  "unique_candidates": 1896,
   "catalog_entries": 1307,
   "catalog_categories": 63,
-  "method": "First 50 star-sorted GitHub search results per query; one query per topic; not exhaustive or a quality ranking.",
+  "method": "First 50 star-sorted GitHub search results per query; one query per topic; not exhaustive or a quality ranking. Follow-up 2026-10-28: 17 targeted canonical repository lookups, six existing-candidate reviews and two primary-topic corrections; the original broad-query snapshot remains dated per topic.",
   "url_resolution": "data_path is relative to the repository root at the same branch or commit.",
   "topics": [
     {
@@ -60,10 +60,10 @@
       "search_url": "https://github.com/search?q=ui+OR+components+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 31,
+      "candidate_count": 32,
       "data_path": "research/candidates/04-web-components.json",
-      "bytes": 37340,
-      "sha256": "c842ca098163013664c85e5805bac3b1eefa8bc05c9c24753ba23eef6e41aca1"
+      "bytes": 39493,
+      "sha256": "15abb8393a48f6d7ccb101d1a60e1c7409eb9034187c63d90b9a3441aa6b6c01"
     },
     {
       "id": "05-mobile-applications",
@@ -270,10 +270,10 @@
       "search_url": "https://github.com/search?q=collaboration+OR+knowledge+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 24,
+      "candidate_count": 26,
       "data_path": "research/candidates/19-collaboration.json",
-      "bytes": 25346,
-      "sha256": "789c71659c58de6e4eb0dfe416b49648c497cdd00726ebfbb876fcdefdf7710d"
+      "bytes": 29754,
+      "sha256": "f5e8776e67ce9b2ee7de1c2cbbbea6dfea6eaaf3e0a5a397ceafda571df525df"
     },
     {
       "id": "20-desktop-and-utilities",
@@ -396,10 +396,10 @@
       "search_url": "https://github.com/search?q=property+OR+management+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 0,
+      "candidate_count": 3,
       "data_path": "research/candidates/28-real-estate-and-property.json",
-      "bytes": 484,
-      "sha256": "8d3525fc8905124904b9d943ca6a2c5f6afa44b7b71a67c3325a6048a83b3464"
+      "bytes": 7068,
+      "sha256": "66003ab032f8cd05b152cae9052bdf2e4ddaf047eaf65c610e8f73ea3ad5cfa6"
     },
     {
       "id": "29-travel-and-hospitality",
@@ -410,10 +410,10 @@
       "search_url": "https://github.com/search?q=hotel+OR+booking+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 45,
+      "candidate_count": 44,
       "data_path": "research/candidates/29-travel-and-hospitality.json",
-      "bytes": 42204,
-      "sha256": "926b7ca6c77b70e492330429387645b8e3a3992c528c80ed31f6a1dbc945001e"
+      "bytes": 44252,
+      "sha256": "f84122360726ac48112ff87e06fbbf0c729ebeb5a92a22e309096bddc5c9cb01"
     },
     {
       "id": "30-documents-and-legal-tech",
@@ -538,8 +538,8 @@
       "returned_observations": 50,
       "candidate_count": 4,
       "data_path": "research/candidates/38-ai-agent-skills-and-rules.json",
-      "bytes": 4844,
-      "sha256": "ac2cd15fbef0fb93f7ead4bd47b4e1195669fcb35aedd0d28ff37a202f26b30a"
+      "bytes": 6317,
+      "sha256": "c71f7c330512950e7ae524d869686990f096f587fae47368bded3a2195d50593"
     },
     {
       "id": "39-software-architecture",
@@ -564,10 +564,10 @@
       "search_url": "https://github.com/search?q=developer+OR+tools+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 18,
+      "candidate_count": 19,
       "data_path": "research/candidates/40-developer-tools-and-dx.json",
-      "bytes": 19428,
-      "sha256": "d5d71f2bf0ff796e455c1a38b0eb62909e3c04a830602a5887934e525e98c334"
+      "bytes": 21742,
+      "sha256": "80f6b2dccec9e692204ce840ae64971bfc29dcbd964085bbd9bbc9a3872d7e9d"
     },
     {
       "id": "41-testing-and-quality-assurance",
@@ -578,10 +578,10 @@
       "search_url": "https://github.com/search?q=testing+OR+quality+OR+assurance+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 24,
+      "candidate_count": 28,
       "data_path": "research/candidates/41-testing-and-quality-assurance.json",
-      "bytes": 24061,
-      "sha256": "bfaa9c159f0a52b62d0e3ae2d18ab61d5ed4d2d1a1a70d2e6f2cb1f2beec9a4c"
+      "bytes": 35080,
+      "sha256": "8689787950223f02646f3356de345be78eba1ad63d2eaa023f1b1b28517cac79"
     },
     {
       "id": "42-documentation-and-technical-writing",
@@ -662,10 +662,10 @@
       "search_url": "https://github.com/search?q=product+OR+management+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 1,
+      "candidate_count": 4,
       "data_path": "research/candidates/47-product-management.json",
-      "bytes": 1305,
-      "sha256": "ebe74085dfeec7c6c1a4f5aa742d39ca5aca1e0974b1f70a42b5da01623f3f1c"
+      "bytes": 7377,
+      "sha256": "6a825aeb229b7a92103a236318c33aae58359ebe32207a2bddcdb5009f59ede4"
     },
     {
       "id": "48-hr-and-workforce-management",
@@ -690,10 +690,10 @@
       "search_url": "https://github.com/search?q=helpdesk+OR+customer+OR+support+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 13,
+      "candidate_count": 16,
       "data_path": "research/candidates/49-customer-support-and-helpdesk.json",
-      "bytes": 13488,
-      "sha256": "9ae034449583ae7aeefc669e960fb2aeffcfc5d2669af21bc3368aee9a76ecef"
+      "bytes": 19634,
+      "sha256": "dc439245d6c28260c445baf188d88b7f199ebd45a2d9131b2933dab2aeda8224"
     },
     {
       "id": "50-itsm-and-asset-management",
@@ -704,10 +704,10 @@
       "search_url": "https://github.com/search?q=itsm+OR+asset+OR+management+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 1,
+      "candidate_count": 3,
       "data_path": "research/candidates/50-itsm-and-asset-management.json",
-      "bytes": 1500,
-      "sha256": "cee3a191bc670514bb91338a22407cffbab2b3cbac5ad97c0fc3795b79b1e261"
+      "bytes": 5441,
+      "sha256": "7c82eebb9eab3923162a7d3e46b60d0b78d3e9cd14341a2fe3caa11c2c2afe90"
     },
     {
       "id": "51-procurement-tenders-and-auctions",
@@ -788,10 +788,10 @@
       "search_url": "https://github.com/search?q=bim+OR+ifc+stars%3A%3E50+archived%3Afalse+fork%3Afalse&type=repositories",
       "search_status": "complete",
       "returned_observations": 50,
-      "candidate_count": 44,
+      "candidate_count": 43,
       "data_path": "research/candidates/56-construction-and-bim.json",
-      "bytes": 39197,
-      "sha256": "4671e05f363bec9e821a97dcae5bd27f5aaf1561f0fecd8a07f6640eee4a4492"
+      "bytes": 38248,
+      "sha256": "e3296e19454ee113bb871a108c6d4b309104c0b3ea7810bcee8fc502170165d6"
     },
     {
       "id": "57-agriculture-and-foodtech",
@@ -990,5 +990,6 @@
       "sha256": "31ba07fda25063b5a8e751847896e2f4c6f55f3dd3ccd496d9ed030d8faf6830"
     }
   ],
-  "latest_editorial_batch": "research/review-batches/2026-10-27-batch-01.json"
+  "latest_editorial_batch": "research/review-batches/2026-10-28-follow-up.json",
+  "previous_editorial_batch": "research/review-batches/2026-10-27-batch-01.json"
 }

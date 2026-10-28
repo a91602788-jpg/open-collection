@@ -2,7 +2,7 @@
 
 [Catalog](../README.md) · [Quality standards](../QUALITY_STANDARDS.md) · [Topic index](topics.json)
 
-**70 тем проверено поиском · 1,879 уникальных кандидатов · 1,307 записей в каталоге этой ветки.**
+**70 тем проверено поиском · 1,896 уникальных кандидатов · 1,307 записей в каталоге этой ветки.**
 
 This is a discovery queue, not an extension of the curated count. Every candidate awaits editorial review, canonical-source checks and an original RU/EN description before catalog inclusion. Search metadata is not runtime testing or an endorsement. Counts reflect the current branch/commit.
 
@@ -18,7 +18,7 @@ This is a discovery queue, not an extension of the curated count. Every candidat
 ## Охват / Coverage
 
 - 63 populated catalog categories and 7 proposed directions.
-- One recorded query per topic, first 50 results sorted by stars: 3,500 observations before deduplication.
+- Initial snapshot: one query per topic, first 50 results sorted by stars, 3,500 observations before deduplication. The 2026-10-28 follow-up adds 17 targeted repository lookups; it does not rerun all 70 topic searches.
 - Already-counted IDs, forks, archives and obvious leak/piracy names are excluded from the queue. Topic fit, ownership, trustworthiness and useful descriptions still need editorial review.
 - Search terms and source URLs are retained per topic. This is an initial dated snapshot, not exhaustive discovery or a popularity-based recommendation.
 
@@ -29,6 +29,10 @@ This is a discovery queue, not an extension of the curated count. Every candidat
 The first shortlist refreshed metadata and README evidence for 153 sources. Three apparently available repositories were not promoted because their own READMEs announce deprecation or stopped maintenance. Four other items were excluded by editorial scope. Broad OR queries also confused state management with property management and high-resolution neural networks with HR; the batch records those corrections.
 
 `discovery_sources` preserves the original query, topic and source URL for every remaining candidate. `primary_topic_id` and `matched_topic_ids` may include editorial reassignment; they no longer imply that a candidate was originally found under its current file's query. Moving a candidate never creates a second ID or erases its discovery history.
+
+## Поисковая партия 2026-10-28 / Follow-up discovery
+
+[Readable report](review-batches/2026-10-28-follow-up.md) · [Review data](review-batches/2026-10-28-follow-up.json): 17 new pending candidates and six existing-candidate reviews. The active queue grows from 1,879 to 1,896; no catalog entries or categories are added by this follow-up. Two primary-topic corrections and one stale cross-topic label cleanup retain the original discovery sources. All 23 reviewed resources still await catalog acceptance. Pricing, deployment, runtime behavior and security remain unreviewed.
 
 ## Следующие действия / Editorial next steps
 
