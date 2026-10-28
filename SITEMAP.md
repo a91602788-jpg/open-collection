@@ -57,7 +57,7 @@ Both views represent the same records; select one format rather than fetching bo
 | 16 | Автоматизация и no-code / Automation & no-code | 30 | [Markdown](16-automation-and-nocode/README.md) | [JSON](data/categories/16-automation-and-nocode.json) |
 | 17 | Данные, BI и аналитика / Data & analytics | 35 | [Markdown](17-data-and-analytics/README.md) | [JSON](data/categories/17-data-and-analytics.json) |
 | 18 | Контент, CMS и маркетинг / Content & marketing | 30 | [Markdown](18-content-and-marketing/README.md) | [JSON](data/categories/18-content-and-marketing.json) |
-| 19 | Совместная работа и знания / Collaboration & knowledge | 30 | [Markdown](19-collaboration/README.md) | [JSON](data/categories/19-collaboration.json) |
+| 19 | Совместная работа и знания / Collaboration & knowledge | 31 | [Markdown](19-collaboration/README.md) | [JSON](data/categories/19-collaboration.json) |
 | 20 | Настольные приложения и утилиты / Desktop & utilities | 35 | [Markdown](20-desktop-and-utilities/README.md) | [JSON](data/categories/20-desktop-and-utilities.json) |
 | 21 | Устройства, IoT и умный дом / Hardware & IoT | 25 | [Markdown](21-hardware-and-iot/README.md) | [JSON](data/categories/21-hardware-and-iot.json) |
 | 22 | Игры, звук и видео / Gaming & media | 30 | [Markdown](22-gaming-and-media/README.md) | [JSON](data/categories/22-gaming-and-media.json) |
@@ -67,7 +67,7 @@ Both views represent the same records; select one format rather than fetching bo
 | 26 | Карты и геопространственные данные / Maps & geospatial | 12 | [Markdown](26-maps-and-geospatial/README.md) | [JSON](data/categories/26-maps-and-geospatial.json) |
 | 27 | Логистика и транспорт / Logistics & transportation | 10 | [Markdown](27-logistics-and-transportation/README.md) | [JSON](data/categories/27-logistics-and-transportation.json) |
 | 28 | Недвижимость и управление объектами / Real estate & property | 4 | [Markdown](28-real-estate-and-property/README.md) | [JSON](data/categories/28-real-estate-and-property.json) |
-| 29 | Туризм, бронирование и рестораны / Travel & hospitality | 6 | [Markdown](29-travel-and-hospitality/README.md) | [JSON](data/categories/29-travel-and-hospitality.json) |
+| 29 | Туризм, бронирование и рестораны / Travel & hospitality | 8 | [Markdown](29-travel-and-hospitality/README.md) | [JSON](data/categories/29-travel-and-hospitality.json) |
 | 30 | Документы и legal tech / Documents & legal tech | 12 | [Markdown](30-documents-and-legal-tech/README.md) | [JSON](data/categories/30-documents-and-legal-tech.json) |
 | 31 | Медицина и медицинские данные / Healthcare & medical | 10 | [Markdown](31-healthcare-and-medical/README.md) | [JSON](data/categories/31-healthcare-and-medical.json) |
 | 32 | Образовательные платформы и LMS / Education & LMS | 10 | [Markdown](32-education-and-lms/README.md) | [JSON](data/categories/32-education-and-lms.json) |
@@ -76,6 +76,32 @@ Both views represent the same records; select one format rather than fetching bo
 | 35 | Открытые данные и civic tech / Open data & civic tech | 10 | [Markdown](35-open-data-and-civic-tech/README.md) | [JSON](data/categories/35-open-data-and-civic-tech.json) |
 | 36 | Поиск и базы знаний / Search & knowledge | 10 | [Markdown](36-search-and-knowledge/README.md) | [JSON](data/categories/36-search-and-knowledge.json) |
 | 37 | Качество дизайна, anti-slop и инженерные стандарты / Design Quality, Anti-AI-Slop & Engineering Standards | 38 | [Markdown](37-design-quality-and-engineering-standards/README.md) | [JSON](data/categories/37-design-quality-and-engineering-standards.json) |
+| 38 | Навыки и правила AI-агентов / AI Agent Skills & Rules | 6 | [Markdown](38-ai-agent-skills-and-rules/README.md) | [JSON](data/categories/38-ai-agent-skills-and-rules.json) |
+| 39 | Архитектура ПО / Software Architecture | 5 | [Markdown](39-software-architecture/README.md) | [JSON](data/categories/39-software-architecture.json) |
+| 40 | Инструменты разработчика и DX / Developer Tools & DX | 4 | [Markdown](40-developer-tools-and-dx/README.md) | [JSON](data/categories/40-developer-tools-and-dx.json) |
+| 41 | Тестирование и QA / Testing & Quality Assurance | 10 | [Markdown](41-testing-and-quality-assurance/README.md) | [JSON](data/categories/41-testing-and-quality-assurance.json) |
+| 42 | Документация и технические тексты / Documentation & Technical Writing | 10 | [Markdown](42-documentation-and-technical-writing/README.md) | [JSON](data/categories/42-documentation-and-technical-writing.json) |
+| 43 | Языки и компиляторы / Programming Languages & Compilers | 19 | [Markdown](43-programming-languages-and-compilers/README.md) | [JSON](data/categories/43-programming-languages-and-compilers.json) |
+| 44 | Сети и связность / Networking & Connectivity | 9 | [Markdown](44-networking-and-connectivity/README.md) | [JSON](data/categories/44-networking-and-connectivity.json) |
+| 45 | Операционные системы и виртуализация / Operating Systems & Virtualization | 7 | [Markdown](45-operating-systems-and-virtualization/README.md) | [JSON](data/categories/45-operating-systems-and-virtualization.json) |
+| 46 | Распределённые системы и сообщения / Distributed Systems & Messaging | 9 | [Markdown](46-distributed-systems-and-messaging/README.md) | [JSON](data/categories/46-distributed-systems-and-messaging.json) |
+| 48 | HR и управление персоналом / HR & Workforce Management | 3 | [Markdown](48-hr-and-workforce-management/README.md) | [JSON](data/categories/48-hr-and-workforce-management.json) |
+| 49 | Поддержка и helpdesk / Customer Support & Helpdesk | 2 | [Markdown](49-customer-support-and-helpdesk/README.md) | [JSON](data/categories/49-customer-support-and-helpdesk.json) |
+| 50 | ITSM и управление активами / ITSM & Asset Management | 2 | [Markdown](50-itsm-and-asset-management/README.md) | [JSON](data/categories/50-itsm-and-asset-management.json) |
+| 51 | Закупки, тендеры и аукционы / Procurement, Tenders & Auctions | 4 | [Markdown](51-procurement-tenders-and-auctions/README.md) | [JSON](data/categories/51-procurement-tenders-and-auctions.json) |
+| 53 | Маркетплейсы и услуги по запросу / Marketplaces & On-Demand | 3 | [Markdown](53-marketplaces-and-on-demand/README.md) | [JSON](data/categories/53-marketplaces-and-on-demand.json) |
+| 54 | Комплаенс, риски и управление / Compliance, Risk & Governance | 5 | [Markdown](54-compliance-risk-and-governance/README.md) | [JSON](data/categories/54-compliance-risk-and-governance.json) |
+| 55 | Производство и промышленность / Manufacturing & Industry 4.0 | 3 | [Markdown](55-manufacturing-and-industry/README.md) | [JSON](data/categories/55-manufacturing-and-industry.json) |
+| 56 | Строительство и BIM / Construction & BIM | 3 | [Markdown](56-construction-and-bim/README.md) | [JSON](data/categories/56-construction-and-bim.json) |
+| 58 | Энергетика и климат / Energy & Climate | 4 | [Markdown](58-energy-and-climate/README.md) | [JSON](data/categories/58-energy-and-climate.json) |
+| 59 | Автомобили и электротранспорт / Automotive & EV | 2 | [Markdown](59-automotive-and-ev/README.md) | [JSON](data/categories/59-automotive-and-ev.json) |
+| 60 | Роботы и дроны / Robotics & Drones | 5 | [Markdown](60-robotics-and-drones/README.md) | [JSON](data/categories/60-robotics-and-drones.json) |
+| 63 | Биоинформатика и науки о жизни / Bioinformatics & Life Sciences | 4 | [Markdown](63-bioinformatics-and-life-sciences/README.md) | [JSON](data/categories/63-bioinformatics-and-life-sciences.json) |
+| 64 | Социальные платформы и сообщества / Social Platforms & Communities | 6 | [Markdown](64-social-platforms-and-communities/README.md) | [JSON](data/categories/64-social-platforms-and-communities.json) |
+| 67 | Издательские системы и цифровые архивы / Publishing & Digital Archives | 3 | [Markdown](67-publishing-and-digital-archives/README.md) | [JSON](data/categories/67-publishing-and-digital-archives.json) |
+| 68 | Блокчейн и децентрализация / Blockchain & Decentralization | 6 | [Markdown](68-blockchain-and-decentralization/README.md) | [JSON](data/categories/68-blockchain-and-decentralization.json) |
+| 69 | НКО и общественные организации / Nonprofits & Civic Organizations | 6 | [Markdown](69-nonprofits-and-civic-organizations/README.md) | [JSON](data/categories/69-nonprofits-and-civic-organizations.json) |
+| 70 | Спорт и фитнес / Sports & Fitness | 6 | [Markdown](70-sports-and-fitness/README.md) | [JSON](data/categories/70-sports-and-fitness.json) |
 
 ## Повторное чтение / Repeat visits
 

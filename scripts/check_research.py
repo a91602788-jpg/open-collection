@@ -37,6 +37,9 @@ def queue_errors(index, shards, catalog_ids):
                 errors.append('invalid matched topics: '+repo)
             if row.get('primary_topic_id')!=topic['id'] or topic['id'] not in row.get('matched_topic_ids',[]):
                 errors.append('candidate primary topic disagrees with its shard: '+repo)
+            sources=row.get('discovery_sources',[])
+            if not sources or any(s.get('topic_id') not in topic_ids or not s.get('query') or not s.get('url','').startswith('https://github.com/search?') for s in sources):
+                errors.append('missing or invalid original discovery provenance: '+repo)
     if index.get('unique_candidates')!=len(seen):errors.append('unique candidate total mismatch')
     return errors
 

@@ -3,15 +3,15 @@
   "name": "Open Collection AI navigation",
   "repository": "https://github.com/a91602788-jpg/open-collection",
   "snapshot_date": "2026-10-27",
-  "total_entries": 1158,
+  "total_entries": 1307,
   "routing": "Select categories by bilingual titles; fetch only their data_path or markdown_path.",
   "url_resolution": "Resolve raw_url relative to this index URL. data_path and markdown_path are relative to the repository root. Keep the same branch or commit.",
   "cache": "Reuse files when sha256 is unchanged. Hashes describe exact UTF-8 file bytes. On mismatch, refresh this index before retrying.",
   "verification": "GitHub API metadata only; no installation, security audit or license legal review.",
   "source": {
     "path": "data/catalog.json",
-    "bytes": 1254638,
-    "sha256": "e22d6d1f7cb62c5312a7591b85d288c0b63c7962fa4ac3f4b90607749738134f",
+    "bytes": 1500554,
+    "sha256": "35c86c785bdc3861899e8dd72c42a68858e1da80b788be0e23c5a9f8d71bc4b7",
     "usage": "Full export and editing source; load for exhaustive tasks only."
   },
   "categories": [
@@ -255,12 +255,12 @@
       "id": "19-collaboration",
       "title_ru": "Совместная работа и знания",
       "title_en": "Collaboration & knowledge",
-      "count": 30,
+      "count": 31,
       "markdown_path": "19-collaboration/README.md",
       "data_path": "data/categories/19-collaboration.json",
       "raw_url": "../data/categories/19-collaboration.json",
-      "bytes": 24122,
-      "sha256": "339f2cb0b77640f256225a9e66c69c0ccad95068c9f1f0f789119803e5680cc8"
+      "bytes": 25388,
+      "sha256": "d0f51c44a5ee76369e6be1a47c643189a60903e171f92c3c650c6075a0ba433e"
     },
     {
       "id": "20-desktop-and-utilities",
@@ -457,7 +457,7 @@
       "id": "29-travel-and-hospitality",
       "title_ru": "Туризм, бронирование и рестораны",
       "title_en": "Travel & hospitality",
-      "count": 6,
+      "count": 8,
       "subcategories": [
         {
           "id": "hotel-pms",
@@ -476,13 +476,19 @@
           "title_ru": "Ресурсы и билеты",
           "title_en": "Resource & ticket reservations",
           "count": 3
+        },
+        {
+          "id": "booking-components",
+          "title_ru": "Компоненты бронирования",
+          "title_en": "Booking components",
+          "count": 2
         }
       ],
       "markdown_path": "29-travel-and-hospitality/README.md",
       "data_path": "data/categories/29-travel-and-hospitality.json",
       "raw_url": "../data/categories/29-travel-and-hospitality.json",
-      "bytes": 6954,
-      "sha256": "818b6ea3cdf15100758ce9f64198471286e4a3950dbaa9ae60e1be21f9b27d88"
+      "bytes": 9641,
+      "sha256": "21a22f938089683b830c9fab0cff9d578375aef2e2374e1a36a0ad626b295e95"
     },
     {
       "id": "30-documents-and-legal-tech",
@@ -779,6 +785,708 @@
       "raw_url": "../data/categories/37-design-quality-and-engineering-standards.json",
       "bytes": 48518,
       "sha256": "ad795f8fd3ee568f4b983bc3891fa845213cd6fb21b7402ddf06c6c1161d4e40"
+    },
+    {
+      "id": "38-ai-agent-skills-and-rules",
+      "title_ru": "Навыки и правила AI-агентов",
+      "title_en": "AI Agent Skills & Rules",
+      "count": 6,
+      "subcategories": [
+        {
+          "id": "agent-skills",
+          "title_ru": "Навыки и форматы",
+          "title_en": "Skills & formats",
+          "count": 3
+        },
+        {
+          "id": "agent-workflows",
+          "title_ru": "Рабочие процессы агентов",
+          "title_en": "Agent workflows",
+          "count": 3
+        }
+      ],
+      "markdown_path": "38-ai-agent-skills-and-rules/README.md",
+      "data_path": "data/categories/38-ai-agent-skills-and-rules.json",
+      "raw_url": "../data/categories/38-ai-agent-skills-and-rules.json",
+      "bytes": 8445,
+      "sha256": "c2e5da84def2af01dc48f739487f4204014cc1ff6c4457df3ca6eb13e1561dac"
+    },
+    {
+      "id": "39-software-architecture",
+      "title_ru": "Архитектура ПО",
+      "title_en": "Software Architecture",
+      "count": 5,
+      "subcategories": [
+        {
+          "id": "architecture-examples",
+          "title_ru": "Архитектурные примеры",
+          "title_en": "Architecture examples",
+          "count": 2
+        },
+        {
+          "id": "service-frameworks",
+          "title_ru": "Сервисы и фреймворки",
+          "title_en": "Services & frameworks",
+          "count": 3
+        }
+      ],
+      "markdown_path": "39-software-architecture/README.md",
+      "data_path": "data/categories/39-software-architecture.json",
+      "raw_url": "../data/categories/39-software-architecture.json",
+      "bytes": 7155,
+      "sha256": "938bc688d922d7551ab9701c47a56e5bc2e5dfeefe3050fe16e758f0b1902ab9"
+    },
+    {
+      "id": "40-developer-tools-and-dx",
+      "title_ru": "Инструменты разработчика и DX",
+      "title_en": "Developer Tools & DX",
+      "count": 4,
+      "subcategories": [
+        {
+          "id": "local-development",
+          "title_ru": "Локальная разработка",
+          "title_en": "Local development",
+          "count": 1
+        },
+        {
+          "id": "code-navigation",
+          "title_ru": "Поиск и навигация по коду",
+          "title_en": "Code search & navigation",
+          "count": 2
+        },
+        {
+          "id": "version-control",
+          "title_ru": "Контроль версий",
+          "title_en": "Version control",
+          "count": 1
+        }
+      ],
+      "markdown_path": "40-developer-tools-and-dx/README.md",
+      "data_path": "data/categories/40-developer-tools-and-dx.json",
+      "raw_url": "../data/categories/40-developer-tools-and-dx.json",
+      "bytes": 5595,
+      "sha256": "d658ab788c7854dd8beb8ac4c916d70c2bcb4e4f73da62a4649bb3bee1c6408c"
+    },
+    {
+      "id": "41-testing-and-quality-assurance",
+      "title_ru": "Тестирование и QA",
+      "title_en": "Testing & Quality Assurance",
+      "count": 10,
+      "subcategories": [
+        {
+          "id": "browser-testing",
+          "title_ru": "Браузерные проверки",
+          "title_en": "Browser testing",
+          "count": 4
+        },
+        {
+          "id": "test-frameworks",
+          "title_ru": "Тестовые фреймворки",
+          "title_en": "Test frameworks",
+          "count": 3
+        },
+        {
+          "id": "load-testing",
+          "title_ru": "Нагрузочные проверки",
+          "title_en": "Load testing",
+          "count": 3
+        }
+      ],
+      "markdown_path": "41-testing-and-quality-assurance/README.md",
+      "data_path": "data/categories/41-testing-and-quality-assurance.json",
+      "raw_url": "../data/categories/41-testing-and-quality-assurance.json",
+      "bytes": 13183,
+      "sha256": "05e407b1df2bf8d4ef51f745d4dadf16a0af827f0e685537fa55e8204b74d821"
+    },
+    {
+      "id": "42-documentation-and-technical-writing",
+      "title_ru": "Документация и технические тексты",
+      "title_en": "Documentation & Technical Writing",
+      "count": 10,
+      "subcategories": [
+        {
+          "id": "documentation-sites",
+          "title_ru": "Генераторы документации",
+          "title_en": "Documentation generators",
+          "count": 4
+        },
+        {
+          "id": "command-references",
+          "title_ru": "Справочники команд",
+          "title_en": "Command references",
+          "count": 3
+        },
+        {
+          "id": "diagramming",
+          "title_ru": "Диаграммы",
+          "title_en": "Diagramming",
+          "count": 1
+        },
+        {
+          "id": "knowledge-docs",
+          "title_ru": "Wiki и базы знаний",
+          "title_en": "Wikis & knowledge bases",
+          "count": 2
+        }
+      ],
+      "markdown_path": "42-documentation-and-technical-writing/README.md",
+      "data_path": "data/categories/42-documentation-and-technical-writing.json",
+      "raw_url": "../data/categories/42-documentation-and-technical-writing.json",
+      "bytes": 13486,
+      "sha256": "60f6f9d58450bdc7ae5b4e436459b28182ce910ac97b1d97b5265c37c09011e7"
+    },
+    {
+      "id": "43-programming-languages-and-compilers",
+      "title_ru": "Языки и компиляторы",
+      "title_en": "Programming Languages & Compilers",
+      "count": 19,
+      "subcategories": [
+        {
+          "id": "compiler-toolchains",
+          "title_ru": "Компиляторы и инструменты",
+          "title_en": "Compilers & toolchains",
+          "count": 10
+        },
+        {
+          "id": "languages",
+          "title_ru": "Языки",
+          "title_en": "Languages",
+          "count": 5
+        },
+        {
+          "id": "runtimes",
+          "title_ru": "Среды выполнения",
+          "title_en": "Runtimes",
+          "count": 2
+        },
+        {
+          "id": "webassembly",
+          "title_ru": "WebAssembly",
+          "title_en": "WebAssembly",
+          "count": 2
+        }
+      ],
+      "markdown_path": "43-programming-languages-and-compilers/README.md",
+      "data_path": "data/categories/43-programming-languages-and-compilers.json",
+      "raw_url": "../data/categories/43-programming-languages-and-compilers.json",
+      "bytes": 24204,
+      "sha256": "a863bec795546ddd4e8688e57a048a0b9a6c95b9b3402e053c44a8c17499aa30"
+    },
+    {
+      "id": "44-networking-and-connectivity",
+      "title_ru": "Сети и связность",
+      "title_en": "Networking & Connectivity",
+      "count": 9,
+      "subcategories": [
+        {
+          "id": "dns-services",
+          "title_ru": "DNS-сервисы",
+          "title_en": "DNS services",
+          "count": 1
+        },
+        {
+          "id": "network-libraries",
+          "title_ru": "Сетевые библиотеки",
+          "title_en": "Network libraries",
+          "count": 5
+        },
+        {
+          "id": "overlay-networks",
+          "title_ru": "Оверлейные сети",
+          "title_en": "Overlay networks",
+          "count": 3
+        }
+      ],
+      "markdown_path": "44-networking-and-connectivity/README.md",
+      "data_path": "data/categories/44-networking-and-connectivity.json",
+      "raw_url": "../data/categories/44-networking-and-connectivity.json",
+      "bytes": 11700,
+      "sha256": "0ff3154e29144c83ae66b04320eefff9ccc71ab4571d26238f8aaaaa69263d2b"
+    },
+    {
+      "id": "45-operating-systems-and-virtualization",
+      "title_ru": "Операционные системы и виртуализация",
+      "title_en": "Operating Systems & Virtualization",
+      "count": 7,
+      "subcategories": [
+        {
+          "id": "operating-systems",
+          "title_ru": "Операционные системы",
+          "title_en": "Operating systems",
+          "count": 1
+        },
+        {
+          "id": "virtual-machines",
+          "title_ru": "Виртуальные машины и контейнеры",
+          "title_en": "Virtual machines & containers",
+          "count": 5
+        },
+        {
+          "id": "system-tools",
+          "title_ru": "Системные инструменты",
+          "title_en": "System tools",
+          "count": 1
+        }
+      ],
+      "markdown_path": "45-operating-systems-and-virtualization/README.md",
+      "data_path": "data/categories/45-operating-systems-and-virtualization.json",
+      "raw_url": "../data/categories/45-operating-systems-and-virtualization.json",
+      "bytes": 9813,
+      "sha256": "d6d237ce177d8b5ccc3806e384641939d180a8384e2ba5af438a2f1ffb1afffe"
+    },
+    {
+      "id": "46-distributed-systems-and-messaging",
+      "title_ru": "Распределённые системы и сообщения",
+      "title_en": "Distributed Systems & Messaging",
+      "count": 9,
+      "subcategories": [
+        {
+          "id": "message-brokers",
+          "title_ru": "События и сообщения",
+          "title_en": "Events & messaging",
+          "count": 5
+        },
+        {
+          "id": "distributed-tasks",
+          "title_ru": "Распределённые задачи",
+          "title_en": "Distributed tasks",
+          "count": 2
+        },
+        {
+          "id": "service-coordination",
+          "title_ru": "Координация сервисов",
+          "title_en": "Service coordination",
+          "count": 2
+        }
+      ],
+      "markdown_path": "46-distributed-systems-and-messaging/README.md",
+      "data_path": "data/categories/46-distributed-systems-and-messaging.json",
+      "raw_url": "../data/categories/46-distributed-systems-and-messaging.json",
+      "bytes": 12098,
+      "sha256": "91a082b62351e44ffb5465a7c96aff8ecbf1cbea8f86e973e31d1362e086b1e7"
+    },
+    {
+      "id": "48-hr-and-workforce-management",
+      "title_ru": "HR и управление персоналом",
+      "title_en": "HR & Workforce Management",
+      "count": 3,
+      "subcategories": [
+        {
+          "id": "hr-systems",
+          "title_ru": "Кадровые системы",
+          "title_en": "HR systems",
+          "count": 1
+        },
+        {
+          "id": "recruiting",
+          "title_ru": "Подбор персонала",
+          "title_en": "Recruiting",
+          "count": 1
+        },
+        {
+          "id": "absence-management",
+          "title_ru": "Отпуска и отсутствия",
+          "title_en": "Leave & absences",
+          "count": 1
+        }
+      ],
+      "markdown_path": "48-hr-and-workforce-management/README.md",
+      "data_path": "data/categories/48-hr-and-workforce-management.json",
+      "raw_url": "../data/categories/48-hr-and-workforce-management.json",
+      "bytes": 4386,
+      "sha256": "63eb8956fa60162fb3377ffda2df7584ffccd8aec23469256eccc93b563af424"
+    },
+    {
+      "id": "49-customer-support-and-helpdesk",
+      "title_ru": "Поддержка и helpdesk",
+      "title_en": "Customer Support & Helpdesk",
+      "count": 2,
+      "markdown_path": "49-customer-support-and-helpdesk/README.md",
+      "data_path": "data/categories/49-customer-support-and-helpdesk.json",
+      "raw_url": "../data/categories/49-customer-support-and-helpdesk.json",
+      "bytes": 2976,
+      "sha256": "1053209abf2e743f9ccd9b39c70768605a36911e6fa1bece58ea751e6c8e6ad8"
+    },
+    {
+      "id": "50-itsm-and-asset-management",
+      "title_ru": "ITSM и управление активами",
+      "title_en": "ITSM & Asset Management",
+      "count": 2,
+      "markdown_path": "50-itsm-and-asset-management/README.md",
+      "data_path": "data/categories/50-itsm-and-asset-management.json",
+      "raw_url": "../data/categories/50-itsm-and-asset-management.json",
+      "bytes": 2832,
+      "sha256": "1e0516d4cef3387b3a56e7916956db97f6eff3c666ef86fd94c5e10628a34e36"
+    },
+    {
+      "id": "51-procurement-tenders-and-auctions",
+      "title_ru": "Закупки, тендеры и аукционы",
+      "title_en": "Procurement, Tenders & Auctions",
+      "count": 4,
+      "subcategories": [
+        {
+          "id": "procurement-lending",
+          "title_ru": "Закупки и выдача оборудования",
+          "title_en": "Procurement & lending",
+          "count": 2
+        },
+        {
+          "id": "auction-platforms",
+          "title_ru": "Аукционные платформы",
+          "title_en": "Auction platforms",
+          "count": 1
+        },
+        {
+          "id": "advertising-auctions",
+          "title_ru": "Рекламные аукционы",
+          "title_en": "Advertising auctions",
+          "count": 1
+        }
+      ],
+      "markdown_path": "51-procurement-tenders-and-auctions/README.md",
+      "data_path": "data/categories/51-procurement-tenders-and-auctions.json",
+      "raw_url": "../data/categories/51-procurement-tenders-and-auctions.json",
+      "bytes": 5825,
+      "sha256": "fc3422d9e6b45bd4bcd57d20a9db1952591446b2790b84efc9f18c29e6d004b1"
+    },
+    {
+      "id": "53-marketplaces-and-on-demand",
+      "title_ru": "Маркетплейсы и услуги по запросу",
+      "title_en": "Marketplaces & On-Demand",
+      "count": 3,
+      "subcategories": [
+        {
+          "id": "marketplace-platforms",
+          "title_ru": "Торговые платформы",
+          "title_en": "Marketplace platforms",
+          "count": 2
+        },
+        {
+          "id": "marketplace-examples",
+          "title_ru": "Учебные примеры",
+          "title_en": "Learning examples",
+          "count": 1
+        }
+      ],
+      "markdown_path": "53-marketplaces-and-on-demand/README.md",
+      "data_path": "data/categories/53-marketplaces-and-on-demand.json",
+      "raw_url": "../data/categories/53-marketplaces-and-on-demand.json",
+      "bytes": 4495,
+      "sha256": "026567fab18fc7f42ad9c35c5c1c954e57355466ce1322b0901fbc71ad133e4d"
+    },
+    {
+      "id": "54-compliance-risk-and-governance",
+      "title_ru": "Комплаенс, риски и управление",
+      "title_en": "Compliance, Risk & Governance",
+      "count": 5,
+      "subcategories": [
+        {
+          "id": "policy-as-code",
+          "title_ru": "Политики как код",
+          "title_en": "Policy as code",
+          "count": 2
+        },
+        {
+          "id": "configuration-checks",
+          "title_ru": "Проверки конфигурации",
+          "title_en": "Configuration checks",
+          "count": 2
+        },
+        {
+          "id": "grc-platforms",
+          "title_ru": "GRC-платформы",
+          "title_en": "GRC platforms",
+          "count": 1
+        }
+      ],
+      "markdown_path": "54-compliance-risk-and-governance/README.md",
+      "data_path": "data/categories/54-compliance-risk-and-governance.json",
+      "raw_url": "../data/categories/54-compliance-risk-and-governance.json",
+      "bytes": 7191,
+      "sha256": "eae707633bff7396d3a054923aebfe8487a911af2d7b8ca7b38779f246a4193f"
+    },
+    {
+      "id": "55-manufacturing-and-industry",
+      "title_ru": "Производство и промышленность",
+      "title_en": "Manufacturing & Industry 4.0",
+      "count": 3,
+      "markdown_path": "55-manufacturing-and-industry/README.md",
+      "data_path": "data/categories/55-manufacturing-and-industry.json",
+      "raw_url": "../data/categories/55-manufacturing-and-industry.json",
+      "bytes": 3971,
+      "sha256": "35a4849f8dd00408bd279297d8f83d379a3e8bf9a9bc7c969c19eab2649095ef"
+    },
+    {
+      "id": "56-construction-and-bim",
+      "title_ru": "Строительство и BIM",
+      "title_en": "Construction & BIM",
+      "count": 3,
+      "markdown_path": "56-construction-and-bim/README.md",
+      "data_path": "data/categories/56-construction-and-bim.json",
+      "raw_url": "../data/categories/56-construction-and-bim.json",
+      "bytes": 3896,
+      "sha256": "0b6bfab98505d9c9ccfb404850ad9079b74bd9daa19a71de2a9f8ae0693cfee8"
+    },
+    {
+      "id": "58-energy-and-climate",
+      "title_ru": "Энергетика и климат",
+      "title_en": "Energy & Climate",
+      "count": 4,
+      "subcategories": [
+        {
+          "id": "energy-monitoring",
+          "title_ru": "Энергомониторинг",
+          "title_en": "Energy monitoring",
+          "count": 1
+        },
+        {
+          "id": "energy-management",
+          "title_ru": "Управление энергосистемами",
+          "title_en": "Energy management",
+          "count": 1
+        },
+        {
+          "id": "energy-modeling",
+          "title_ru": "Энергетическое моделирование",
+          "title_en": "Energy modeling",
+          "count": 2
+        }
+      ],
+      "markdown_path": "58-energy-and-climate/README.md",
+      "data_path": "data/categories/58-energy-and-climate.json",
+      "raw_url": "../data/categories/58-energy-and-climate.json",
+      "bytes": 5557,
+      "sha256": "e31a3c934f81b09017d40b2a946bbeaae59a159d36dcb998a9db385ea9bab69f"
+    },
+    {
+      "id": "59-automotive-and-ev",
+      "title_ru": "Автомобили и электротранспорт",
+      "title_en": "Automotive & EV",
+      "count": 2,
+      "subcategories": [
+        {
+          "id": "driving-assistance",
+          "title_ru": "Помощь водителю",
+          "title_en": "Driver assistance",
+          "count": 1
+        },
+        {
+          "id": "ev-charging",
+          "title_ru": "Зарядка электромобилей",
+          "title_en": "EV charging",
+          "count": 1
+        }
+      ],
+      "markdown_path": "59-automotive-and-ev/README.md",
+      "data_path": "data/categories/59-automotive-and-ev.json",
+      "raw_url": "../data/categories/59-automotive-and-ev.json",
+      "bytes": 3038,
+      "sha256": "dd5b9a797ae8774047e102924408b8dddde6285a1fef81e9ec3468aa1dd53c94"
+    },
+    {
+      "id": "60-robotics-and-drones",
+      "title_ru": "Роботы и дроны",
+      "title_en": "Robotics & Drones",
+      "count": 5,
+      "subcategories": [
+        {
+          "id": "robot-frameworks",
+          "title_ru": "Фреймворки робототехники",
+          "title_en": "Robotics frameworks",
+          "count": 1
+        },
+        {
+          "id": "vehicle-control",
+          "title_ru": "Управление устройствами",
+          "title_en": "Vehicle control",
+          "count": 2
+        },
+        {
+          "id": "robot-learning",
+          "title_ru": "Обучение моделей",
+          "title_en": "Robot learning",
+          "count": 2
+        }
+      ],
+      "markdown_path": "60-robotics-and-drones/README.md",
+      "data_path": "data/categories/60-robotics-and-drones.json",
+      "raw_url": "../data/categories/60-robotics-and-drones.json",
+      "bytes": 6788,
+      "sha256": "c32fb5609cfc4ad5fe5ae06bba7443d7606d2e1dfe391b9ba83da973ca0a2d6a"
+    },
+    {
+      "id": "63-bioinformatics-and-life-sciences",
+      "title_ru": "Биоинформатика и науки о жизни",
+      "title_en": "Bioinformatics & Life Sciences",
+      "count": 4,
+      "subcategories": [
+        {
+          "id": "bioinformatics",
+          "title_ru": "Биоинформатика",
+          "title_en": "Bioinformatics",
+          "count": 2
+        },
+        {
+          "id": "structure-modeling",
+          "title_ru": "Моделирование структуры",
+          "title_en": "Structure modeling",
+          "count": 1
+        },
+        {
+          "id": "research-workflows",
+          "title_ru": "Исследовательские конвейеры",
+          "title_en": "Research workflows",
+          "count": 1
+        }
+      ],
+      "markdown_path": "63-bioinformatics-and-life-sciences/README.md",
+      "data_path": "data/categories/63-bioinformatics-and-life-sciences.json",
+      "raw_url": "../data/categories/63-bioinformatics-and-life-sciences.json",
+      "bytes": 5699,
+      "sha256": "4c6c7326f654d9af604faedb6bc43dfe0c667430b88668042dcb68916854c50f"
+    },
+    {
+      "id": "64-social-platforms-and-communities",
+      "title_ru": "Социальные платформы и сообщества",
+      "title_en": "Social Platforms & Communities",
+      "count": 6,
+      "subcategories": [
+        {
+          "id": "social-platforms",
+          "title_ru": "Социальные платформы",
+          "title_en": "Social platforms",
+          "count": 3
+        },
+        {
+          "id": "community-forums",
+          "title_ru": "Форумы",
+          "title_en": "Forums",
+          "count": 2
+        },
+        {
+          "id": "social-clients",
+          "title_ru": "Клиентские приложения",
+          "title_en": "Client applications",
+          "count": 1
+        }
+      ],
+      "markdown_path": "64-social-platforms-and-communities/README.md",
+      "data_path": "data/categories/64-social-platforms-and-communities.json",
+      "raw_url": "../data/categories/64-social-platforms-and-communities.json",
+      "bytes": 7970,
+      "sha256": "a70d5f444c5a3012b2490625aa5ec8a2a1eea6a06895d11005d94eb6cd41ea06"
+    },
+    {
+      "id": "67-publishing-and-digital-archives",
+      "title_ru": "Издательские системы и цифровые архивы",
+      "title_en": "Publishing & Digital Archives",
+      "count": 3,
+      "subcategories": [
+        {
+          "id": "reading-apps",
+          "title_ru": "Чтение книг",
+          "title_en": "Reading applications",
+          "count": 2
+        },
+        {
+          "id": "media-archives",
+          "title_ru": "Медиаархивы",
+          "title_en": "Media archives",
+          "count": 1
+        }
+      ],
+      "markdown_path": "67-publishing-and-digital-archives/README.md",
+      "data_path": "data/categories/67-publishing-and-digital-archives.json",
+      "raw_url": "../data/categories/67-publishing-and-digital-archives.json",
+      "bytes": 4339,
+      "sha256": "c12a996d641a7d42eed81c50f34e410f9d48a595794d6783e4cdff50ed037dcb"
+    },
+    {
+      "id": "68-blockchain-and-decentralization",
+      "title_ru": "Блокчейн и децентрализация",
+      "title_en": "Blockchain & Decentralization",
+      "count": 6,
+      "subcategories": [
+        {
+          "id": "blockchain-nodes",
+          "title_ru": "Узлы протоколов",
+          "title_en": "Protocol nodes",
+          "count": 1
+        },
+        {
+          "id": "distributed-ledgers",
+          "title_ru": "Распределённые данные",
+          "title_en": "Distributed data",
+          "count": 2
+        },
+        {
+          "id": "smart-contract-tooling",
+          "title_ru": "Инструменты контрактов",
+          "title_en": "Contract tooling",
+          "count": 3
+        }
+      ],
+      "markdown_path": "68-blockchain-and-decentralization/README.md",
+      "data_path": "data/categories/68-blockchain-and-decentralization.json",
+      "raw_url": "../data/categories/68-blockchain-and-decentralization.json",
+      "bytes": 8132,
+      "sha256": "f33a225ec08988e382841d79bfdc433ffa8967ae4605c454a627eb5a782735c9"
+    },
+    {
+      "id": "69-nonprofits-and-civic-organizations",
+      "title_ru": "НКО и общественные организации",
+      "title_en": "Nonprofits & Civic Organizations",
+      "count": 6,
+      "subcategories": [
+        {
+          "id": "nonprofit-management",
+          "title_ru": "Управление организациями",
+          "title_en": "Organization management",
+          "count": 2
+        },
+        {
+          "id": "fundraising",
+          "title_ru": "Сбор пожертвований",
+          "title_en": "Fundraising",
+          "count": 2
+        },
+        {
+          "id": "volunteering",
+          "title_ru": "Волонтёрская работа",
+          "title_en": "Volunteering",
+          "count": 2
+        }
+      ],
+      "markdown_path": "69-nonprofits-and-civic-organizations/README.md",
+      "data_path": "data/categories/69-nonprofits-and-civic-organizations.json",
+      "raw_url": "../data/categories/69-nonprofits-and-civic-organizations.json",
+      "bytes": 8219,
+      "sha256": "e2ba08571b2f1ff95acb7a58985c75e0145f685f8c89d6d24b06f5552a55a754"
+    },
+    {
+      "id": "70-sports-and-fitness",
+      "title_ru": "Спорт и фитнес",
+      "title_en": "Sports & Fitness",
+      "count": 6,
+      "subcategories": [
+        {
+          "id": "fitness-apps",
+          "title_ru": "Тренировки и активность",
+          "title_en": "Workouts & activity",
+          "count": 5
+        },
+        {
+          "id": "fitness-clients",
+          "title_ru": "Клиентские приложения",
+          "title_en": "Client applications",
+          "count": 1
+        }
+      ],
+      "markdown_path": "70-sports-and-fitness/README.md",
+      "data_path": "data/categories/70-sports-and-fitness.json",
+      "raw_url": "../data/categories/70-sports-and-fitness.json",
+      "bytes": 7931,
+      "sha256": "73e013d78e790352e81d0b76f612b9d15bd4db35d4c78bb7f2534ac658a955db"
     }
   ]
 }

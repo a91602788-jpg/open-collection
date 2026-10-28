@@ -1,8 +1,16 @@
 # Changelog
 
-## Unreleased — quality catalog and topic discovery
+## Unreleased — reviewed queue batch 01
 
-- Add 38 edited quality resources in section 37: 1,158 counted entries and 37 populated categories in this branch.
+- Propose 149 edited resources from the existing discovery queue: 1,307 entries across 63 populated categories in this branch.
+- Populate 26 proposed directions with actual records; seven topics remain research-only. Extend collaboration and booking-component sections.
+- Remove seven unsuitable active candidates, reclassify 42 noisy topic matches and preserve original search provenance for the remaining 1,879 candidates.
+- Refresh canonical metadata and README evidence for the 153-source shortlist; original RU/EN descriptions cover every proposed addition.
+- No runtime installation, security audit or universal license clearance is claimed.
+
+## 2026-10-27 — quality catalog and topic discovery
+
+- Add 38 edited quality resources in section 37: 1,158 counted entries and 37 populated categories.
 - Cover design critique, native UI samples, fonts, accessibility, writing, architecture, code quality and security.
 - Search 70 topics and preserve 2,035 distinct uncounted candidates in per-topic files; proposed categories remain research-only.
 - Link published quality policy to contribution rules and AI navigation; validate research counts, hashes and separation from the catalog.

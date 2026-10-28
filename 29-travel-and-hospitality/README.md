@@ -1,14 +1,12 @@
 # Туризм, бронирование и рестораны / Travel & hospitality
 
-[Каталог / Catalog](../README.md) · [Русский](../README.ru.md) · [По задачам / By task](../guides/start-here.md) · [AI map](../SITEMAP.md)
+[Catalog](../README.md) · [Русский](../README.ru.md) · [AI map](../SITEMAP.md) · [Quality standards](../QUALITY_STANDARDS.md)
 
-**Записей / Entries: 6 · метаданные 2026-10-27.**
+**Записей / Entries: 8 · Metadata: 2026-10-27.**
 
-Тип обозначает класс ресурса, а не готовность к production. Лицензия распознана GitHub; тарифы, размещение и полный стек не проверены. / Types describe resources, not production readiness. License labels are GitHub detections; pricing, deployment and full stacks are not reviewed.
+Описания новых записей отредактированы RU/EN. Язык — основной по GitHub; лицензия — распознанный сигнал. [Границы проверки / Evidence limits](../EDITORIAL_POLICY.md).
 
-[Методика / Policy](../EDITORIAL_POLICY.md) · [Выбор проекта / Selection](../guides/choosing-a-project.md)
-
-[Гостиничные PMS / Hotel PMS](#hotel-pms) · [Рестораны / Restaurants](#restaurants) · [Ресурсы и билеты / Resource & ticket reservations](#reservations)
+[Гостиничные PMS / Hotel PMS](#hotel-pms) · [Рестораны / Restaurants](#restaurants) · [Ресурсы и билеты / Resource & ticket reservations](#reservations) · [Компоненты бронирования / Booking components](#booking-components)
 
 <a id="hotel-pms"></a>
 
@@ -69,4 +67,24 @@ A ticket reservation and sales system for conferences and other events.
 A ticket shop application for events, festivals and workshops.
 
 `application` · Python · [License: CHECK-LICENSE](https://github.com/pretix/pretix) · Push: 2026-10-26
+
+<a id="booking-components"></a>
+
+## Компоненты бронирования / Booking components
+
+### [benitolopez/hotel-datepicker](https://github.com/benitolopez/hotel-datepicker)
+
+Компонент выбора диапазона дат для интерфейса гостиничного бронирования.
+
+A date-range picker component for hotel booking interfaces.
+
+`library` · JavaScript · [License: MIT](https://github.com/benitolopez/hotel-datepicker) · Push: 2026-09-24
+
+### [ZestfulNation/vue-hotel-datepicker](https://github.com/ZestfulNation/vue-hotel-datepicker)
+
+Компонент Vue для выбора дат проживания и отображения числа ночей.
+
+A Vue component for selecting stay dates and displaying the number of nights.
+
+`library` · Vue · [License: MIT](https://github.com/ZestfulNation/vue-hotel-datepicker) · Push: 2026-10-21
 
