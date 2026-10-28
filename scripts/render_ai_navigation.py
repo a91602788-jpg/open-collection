@@ -83,7 +83,7 @@ Resolve relative links against the URL of this file to keep the same branch or c
 - [Editorial policy]({RAW}EDITORIAL_POLICY.md): scope, evidence limits and licensing distinctions.
 - [Contribution guide]({RAW}CONTRIBUTING.md): change and regeneration process.
 - [Quality standards]({RAW}QUALITY_STANDARDS.md): editorial gates for descriptions, design and engineering claims; not a product certification.
-- [Uncounted discovery queue]({RAW}research/topics.json): 70 searched topics, per-topic paths and pending editorial candidates; load for discovery tasks only.
+- [Uncounted discovery queue]({RAW}research/topics.json): per-topic paths, recorded searches and pending editorial candidates; load for discovery tasks only.
 - [Full catalog export]({RAW}data/catalog.json): {len(catalog_bytes):,} bytes; use for exhaustive searches, complete exports or source edits.
 '''
     output['llms.txt'] = llms.encode('utf-8')
